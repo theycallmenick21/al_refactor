@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblLegendCtrContrato" xml:space="preserve">
+    <value>Contract</value>
+  </data>
+ <data name="lblCtrCodContrato" xml:space="preserve">
+    <value>Contract Code</value>
+  </data>
+  <data name="lblCodContratoAsociado" xml:space="preserve">
+    <value>Associated Contract</value>
+  </data>
+  <data name="lblContratoSAP" xml:space="preserve">
+    <value>SAP Contract</value>
+  </data>
+  <data name="lblCtrEstadoContrato" xml:space="preserve">
+    <value>Contract Status</value>
+  </data>
+  <data name="lblCtrFecTerminado" xml:space="preserve">
+    <value>Termination Date</value>
+  </data>
+  <data name="lblCtrFecEstadoContrato" xml:space="preserve">
+    <value>Last Status Date</value>
+  </data>
+  <data name="lblCtrFecFirma1" xml:space="preserve">
+    <value>Signature Date</value>
+  </data>
+  <data name="lblEstadoPresupuesto" xml:space="preserve">
+    <value>Budget Status</value>
+  </data>
+  <data name="lblCtrFecEstadoPresupuesto" xml:space="preserve">
+    <value>Budget State Date</value>
+  </data>
+  <data name="lblImporteTotalContrato" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="lblTipoContrato" xml:space="preserve">
+    <value>Contract Type</value>
+  </data>
+  <data name="lblidioma" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="lblEstadoDocumento" xml:space="preserve">
+    <value>OTP Signature Status</value>
+  </data>
+  <data name="lblCtrFecGeneracion" xml:space="preserve">
+    <value>Generation Date</value>
+  </data>
+  <data name="lblCtrVersionDocumento" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="lblCtrCodPresupuesto" xml:space="preserve">
+    <value>Go to Budget</value>
+  </data>
+  <data name="lblRazonSocial1" xml:space="preserve">
+    <value>Business Name</value>
+  </data>
+  <data name="lblCentGest" xml:space="preserve">
+    <value>Management Center</value>
+  </data>
+  <data name="lblPersonaAlta" xml:space="preserve">
+    <value>Sales Representative</value>
+  </data>
+  <data name="lblObservaciones" xml:space="preserve">
+    <value>Incidents and Observations</value>
+  </data>
+  <data name="lblObservacionesTec" xml:space="preserve">
+    <value>Technical Service Contact and Observations</value>
+  </data>
+  <data name="lblObservacionesMed" xml:space="preserve">
+    <value>Medical Service Contact and Observations</value>
+  </data>
+  <data name="lblHorasPerfilesMedycsa" xml:space="preserve">
+    <value>Work Schedule Description / Staffing</value>
+  </data>
+  <data name="lblAltaGrupoCliente" xml:space="preserve">
+    <value>Company Group</value>
+  </data>
+  <data name="lblCeco" xml:space="preserve">
+    <value>Cost Center</value>
+  </data>
+  <data name="lblLineaNegocio" xml:space="preserve">
+    <value>Business Line</value>
+  </data>
+  <data name="lblGestor" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+  <data name="lblDesdeContrato" xml:space="preserve">
+    <value>Retrieve Data from Another Contract</value>
+  </data>
+  <data name="lblListadoContratos" xml:space="preserve">
+    <value>Select a Contract</value>
+  </data>
+  <data name="lblLegendDesdeContrato" xml:space="preserve">
+    <value>Contract Data:</value>
+  </data>
+  <data name="lblMigrarContactos" xml:space="preserve">
+    <value>Migrate Client Contacts</value>
+  </data>
+  <data name="lblMigrarFirmantesCliente" xml:space="preserve">
+    <value>Migrate Client Signatories</value>
+  </data>
+  <data name="lblMigrarFirmantesSPFM" xml:space="preserve">
+    <value>Migrate QP Signatories</value>
+  </data>
+  <data name="lblLegendDatosCliente" xml:space="preserve">
+    <value>Other Client Data</value>
+  </data>
+  <data name="lblRazonSocial" xml:space="preserve">
+    <value>Business Name</value>
+  </data>
+  <data name="lblActividad" xml:space="preserve">
+    <value>CNAE (Economic Activity Code)</value>
+  </data>
+  <data name="lblDomicilioSocial" xml:space="preserve">
+    <value>Registered Office Address</value>
+  </data>
+  <data name="lblGrabarDomiSocial" xml:space="preserve">
+    <value>Save Social Data</value>
+  </data>
+  <data name="lblAltaNombreCompletoSocial" xml:space="preserve">
+    <value>Full Business Name</value>
+  </data>
+  <data name="lblAltaNombreSocial" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="lblAltaApellido1Social" xml:space="preserve">
+    <value>First Surname</value>
+  </data>
+  <data name="lblAltaApellido2Social" xml:space="preserve">
+    <value>Second Surname</value>
+  </data>
+</root>
