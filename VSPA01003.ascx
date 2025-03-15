@@ -1262,32 +1262,22 @@
                             <div class="subelementosSeccionPrincipal">
                                 <div id="BotonesDocumentacion" class="elementosSeccionPrincipalGenerar" style="display: block">
                                     <div id="generaDocumentacion" class="elementosSeccionPrincipalCercano">
-                                        <rfn:RFNLabel ID="lblGenerarDocumentacion" runat="server" Text="Generar Documentación"
-                                            BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                            Width="155px"></rfn:RFNLabel>
+                                        <label id="lblGenerarDocumentacion" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 155px">Generar Documentación</label>
                                         <rfn:RFNCheckBox ID="chkGenerarFirmado" runat="server" Text="Generar Documento Firmado"
                                             OnClientClick="CheckFirmaEscaneada" Enabled="True"></rfn:RFNCheckBox>
 
                                     </div>
                                     <div id="generaCargoCuenta" class="elementosSeccionPrincipalCercano" style="display: none">
-                                        <rfn:RFNLabel ID="lblGenerarCargoCuenta" runat="server" Text="Doc. cargo en cuenta"
-                                            BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                            Width="155px"></rfn:RFNLabel>
+                                        <label id="lblGenerarCargoCuenta" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 155px">Doc. cargo en cuenta</label>
                                     </div>
                                     <div id="eliminarIPC" runat="server" class="elementosSeccionPrincipalCercano" style="display: none">
-                                        <rfn:RFNLabel ID="lbleliminarIPC" runat="server" Text="Eliminar IPC"
-                                            BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                            Width="100px" Enabled="false"></rfn:RFNLabel>
+                                        <label id="lbleliminarIPC" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px; pointer-events: none; opacity: 0.6">Eliminar IPC</label>
                                     </div>
                                     <div id="TerminadoVigente" runat="server" class="elementosSeccionPrincipalCercano" style="display: none">
-                                        <rfn:RFNLabel ID="lblTerminadoToVigente" runat="server" Text="Pasar a Vigente"
-                                            BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                            Width="175px" Enabled="false"></rfn:RFNLabel>
+                                        <label id="lblTerminadoToVigente" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Pasar a Vigente</label>
                                     </div>
                                     <div id="eliminarIPC2" runat="server" class="elementosSeccionPrincipalCercano" style="display: none">
-                                        <rfn:RFNLabel ID="lbleliminarIPC2" runat="server" Text="Eliminar IPC Fija"
-                                            BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                            Width="110px" Enabled="false"></rfn:RFNLabel>
+                                        <label id="lbleliminarIPC2" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 110px; pointer-events: none; opacity: 0.6">Eliminar IPC Fija</label>
                                     </div>
                                     <div style="display: none">
                                         <rfn:RFNButton ID="btnGeneraDocumento" runat="server" CausesValidation="True" ValidationGroup="vGuardaContrato"></rfn:RFNButton>
@@ -2033,15 +2023,13 @@
                                             <br />
                                             <div class="subelementosSeccionPrincipal">
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel ID="lblProvinciaDS" AssociatedControlID="cmbProvinciaDS" CssClass="lblEtiquetas"
-                                                        runat="server" Text="Provincia"></rfn:RFNLabel>
+                                                    <label id="lblProvinciaDS" runat="server" for="cmbProvinciaDS" class="lblEtiquetas">Provincia</label>
                                                     <rfn:RFNDropDownList ID="cmbProvinciaDS" runat="server" Width="192px" PermitirVacio="True"
                                                         OnClientChange="CambioProvinciaSocial" ValidationGroup="vGuardaDomiSocial" Requerido="True"
                                                         ErrorMessage="Error en Provincia" Enabled="False" />
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionDS" AssociatedControlID="ccdPoblacionDS"
-                                                        runat="server" Text="Población"></rfn:RFNLabel>
+                                                    <label id="lblPoblacionDS" runat="server" for="ccdPoblacionDS" class="lblEtiquetas">Población</label>
                                                     <rfn:RFNCodDescripcion ID="ccdPoblacionDS" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                         Width="300px" Requerido="True" ErrorMessage="Error en población" OnClientChange="CambioPoblacionSocial"
                                                         ValidationGroup="vGuardaDomiSocial" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población"
@@ -2062,8 +2050,7 @@
                                             </div>
                                             <div class="subelementosSeccionPrincipal">
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblViaDS" AssociatedControlID="cmbTipoViaDS"
-                                                        runat="server" Text="Tipo de vía"> </rfn:RFNLabel>
+                                                    <label id="lblViaDS" runat="server" for="cmbTipoViaDS" class="lblEtiquetas">Tipo de vía</label>
                                                     <rfn:RFNDropDownList ID="cmbTipoViaDS" runat="server" Width="192px" PermitirVacio="True"
                                                         ValidationGroup="vGuardaDomiSocial" Requerido="True" ErrorMessage="Error en tipo de vía"
                                                         Enabled="False" />
@@ -2075,8 +2062,7 @@
                                                         Enabled="False"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblNumeroDS" AssociatedControlID="txtNumDS"
-                                                        runat="server" Text="Número"> </rfn:RFNLabel>
+                                                    <label id="lblNumeroDS" runat="server" for="txtNumDS" class="lblEtiquetas">Número</label>
                                                     <rfn:RFNTextbox ID="txtNumDS" Width="70px" runat="server" OnClientChange="validaNumeroCaracteresDS"
                                                         MaxLength="16" ErrorMessage="Error en Número"
                                                         Enabled="False"></rfn:RFNTextbox>
@@ -2092,43 +2078,36 @@
                                             </div>
                                             <div class="subelementosSeccionPrincipal">
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblPortalDS" AssociatedControlID="txtPortalDS"
-                                                        runat="server" Text="Portal"> </rfn:RFNLabel>
+                                                    <label id="lblPortalDS" runat="server" for="txtPortalDS" class="lblEtiquetas">Portal</label>
                                                     <rfn:RFNTextbox ID="txtPortalDS" OnClientChange="validaNumeroCaracteresDS" Width="50px"
                                                         runat="server" Requerido="False" MaxLength="4" Enabled="False"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblEscaleraDS" AssociatedControlID="txtEscaleraDS"
-                                                        runat="server" Text="Escalera"> </rfn:RFNLabel>
+                                                    <label id="lblEscaleraDS" runat="server" for="txtEscaleraDS" class="lblEtiquetas">Escalera</label>
                                                     <rfn:RFNTextbox ID="txtEscaleraDS" OnClientChange="validaNumeroCaracteresDS" Width="50px"
                                                         runat="server" MaxLength="4" Enabled="False"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblPisoDS" AssociatedControlID="txtPisoDS"
-                                                        runat="server" Text="Piso"> </rfn:RFNLabel>
+                                                    <label id="lblPisoDS" runat="server" for="txtPisoDS" class="lblEtiquetas">Piso</label>
                                                     <rfn:RFNTextbox ID="txtPisoDS" OnClientChange="validaNumeroCaracteresDS" Width="50px"
                                                         runat="server" MaxLength="2" Enabled="False"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblPuertaDS" AssociatedControlID="txtPuertaDS"
-                                                        runat="server" Text="Puerta"> </rfn:RFNLabel>
+                                                    <label id="lblPuertaDS" runat="server" for="txtPuertaDS" class="lblEtiquetas">Puerta</label>
                                                     <rfn:RFNTextbox ID="txtPuertaDS" OnClientChange="validaNumeroCaracteresDS" Width="50px"
                                                         runat="server" MaxLength="2" Enabled="False"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblNumTelfDS" AssociatedControlID="txtTelefonoDS"
-                                                        runat="server" Text="Teléfono"> </rfn:RFNLabel>
+                                                    <label id="lblNumTelfDS" runat="server" for="txtTelefonoDS" class="lblEtiquetas">Teléfono</label>
                                                     <rfn:RFNTextbox ID="txtTelefonoDS" Width="70px" runat="server" MaxLength="9" TipoDato="Telefono"
                                                         Enabled="False"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblNumFaxDS" AssociatedControlID="txtNumFaxDS"
-                                                        runat="server" Text="Fax"> </rfn:RFNLabel>
+                                                    <label id="lblNumFaxDS" runat="server" for="txtNumFaxDS" class="lblEtiquetas">Fax</label>
                                                     <rfn:RFNTextbox ID="txtNumFaxDS" Width="70px" runat="server" MaxLength="9" TipoDato="Telefono"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS2">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblEmail" AssociatedControlID="txtEmailDS"
-                                                        runat="server" Text="Email"> </rfn:RFNLabel>
+                                                    <label id="lblEmail" runat="server" for="txtEmailDS" class="lblEtiquetas">Email</label>
                                                     <rfn:RFNTextbox ID="txtEmailDS" Width="250px" runat="server" TipoDato="Texto" MaxLength="70"
                                                         ValidationGroup="vGuardaContrato" Requerido="True" ErrorMessage="El Email del cliente es obligatorio."
                                                         OnClientChange="CambiarEmailDS"></rfn:RFNTextbox>
@@ -2142,29 +2121,23 @@
                                         <div class="subelementosSeccionPrincipal" id="datospersonaFilial" runat="server" style="display: none">
                                             <fieldset id="fsFilial" class="seccionesPrincipales">
                                                 <legend>
-                                                    <rfn:RFNLabel ID="datosAsociadosFilial" runat="server" Text="Datos de Contacto asociados a filial"></rfn:RFNLabel>
+                                                    <label id="lblPersonaFilial" runat="server" for="txtPersonaFilial" class="lblEtiquetas">Contacto del cliente</label>
                                                 </legend>
                                                 <table>
                                                     <tr>
                                                         <td>
-                                                            <rfn:RFNLabel runat="server" ID="lblPersonaFilial" Text="Contacto del cliente" AssociatedControlID="txtPersonaFilial"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblPersonaFilial" runat="server" for="txtPersonaFilial" class="lblEtiquetas">Contacto del cliente</label>
                                                             <rfn:RFNTextbox ID="txtPersonaFilial" runat="server" Width="300px" CausesValidation="True"
                                                                 ErrorMessage="Error Persona de contacto" ValidationGroup="vGuardaDomiSocial" MaxLength="100"></rfn:RFNTextbox>
 
                                                         </td>
                                                         <td>
-                                                            <rfn:RFNLabel runat="server" ID="lblTelefonoFilial" Text="Teléfono del cliente" AssociatedControlID="txtTelefonoFilial"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblTelefonoFilial" runat="server" for="txtTelefonoFilial" class="lblEtiquetas">Teléfono del cliente</label>
                                                             <rfn:RFNTextbox ID="txtTelefonoFilial" runat="server" Width="150px" CausesValidation="True"
                                                                 ErrorMessage="Error teléfono de contacto" ValidationGroup="vGuardaDomiSocial" MaxLength="15" TipoDato="EnteroPositivo"></rfn:RFNTextbox>
                                                         </td>
                                                         <td>
-                                                            <rfn:RFNLabel runat="server" ID="lblEmailFilial" Text="Email del cliente" AssociatedControlID="txtEmailFilial"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblEmailFilial" runat="server" for="txtEmailFilial" class="lblEtiquetas">Email del cliente</label>
                                                             <rfn:RFNTextbox ID="txtEmailFilial" runat="server" Width="300px" CausesValidation="True"
                                                                 ErrorMessage="Error en mail de contacto" OnClientChange="compruebaEmail" ValidationGroup="vGuardaDomiSocial" MaxLength="100"></rfn:RFNTextbox>
                                                         </td>
@@ -2181,8 +2154,7 @@
                                 <div class="subelementosSeccionPrincipalPadd2">
                                     <fieldset id="fsCtrContactos" class="seccionesPrincipales">
                                         <legend>
-                                            <rfn:RFNLabel ID="lblLegendCtrContactos" runat="server" Text="Contactos del Cliente">
-                                            </rfn:RFNLabel>
+                                            <label id="lblLegendCtrContactos" runat="server">Contactos del Cliente</label>
                                         </legend>
                                         <div id="gridContactos" class="subelementosSeccionPrincipal centrosPresupuestoGrid"
                                             style="overflow: auto;">
@@ -2219,40 +2191,31 @@
                                 <div class="subelementosSeccionPrincipalPadd2">
                                     <fieldset id="fsCtrFirma" class="seccionesPrincipales">
                                         <legend>
-                                            <rfn:RFNLabel ID="lblLegendCtrFirma" runat="server" Text="Firmantes">
-                                            </rfn:RFNLabel>
+                                            <label id="lblLegendCtrFirma" runat="server">Firmantes</label>
                                         </legend>
                                         <div class="subelementosSeccionPrincipalPaddMargen" style="display: none">
                                             <div id="contenedorCtrFecFirma" runat="server" class="elementosSeccionPrincipal"
                                                 style="display: none">
-                                                <rfn:RFNLabel runat="server" ID="lblCtrFecFirma" Text="Fecha de Firma" AssociatedControlID="calCtrFecFirma"
-                                                    CssClass="lblEtiquetas">
-                                                </rfn:RFNLabel>
+                                                <label id="lblCtrFecFirma" runat="server" for="calCtrFecFirma" class="lblEtiquetas">Fecha de Firma</label>
                                                 <rfn:RFNCalendar ID="calCtrFecFirma" runat="server" Enabled="True" ErrorMessage="Fecha de Firma Obligatoria"
                                                     ValidationGroup="vGuardaContrato" Width="75px" OnClientChange="cambioCtrFecFirma">
                                                 </rfn:RFNCalendar>
                                             </div>
                                             <div class="elementosSeccionPrincipal" style="display: none">
-                                                <rfn:RFNLabel runat="server" ID="lblCtrCodContratoFirma" Text="Cod. Contrato" AssociatedControlID="txtCtrCodContratoFirma"
-                                                    CssClass="lblEtiquetas">
-                                                </rfn:RFNLabel>
+                                                <label id="lblCtrCodContratoFirma" runat="server" for="txtCtrCodContratoFirma" class="lblEtiquetas">Cod. Contrato</label>
                                                 <rfn:RFNTextbox runat="server" ID="txtCtrCodContratoFirma" CausesValidation="False"
                                                     Style="text-align: right" Requerido="True" Enabled="False" CssClass="control_txt">
                                                 </rfn:RFNTextbox>
                                             </div>
                                             <div class="elementosSeccionPrincipal" style="display: none">
-                                                <rfn:RFNLabel runat="server" ID="lblCtrEstadoContratoFirma" Text="Estado Contrato"
-                                                    AssociatedControlID="ddlCtrEstadoContratoFirma" CssClass="lblEtiquetas">
-                                                </rfn:RFNLabel>
+                                                <label id="lblCtrEstadoContratoFirma" runat="server" for="ddlCtrEstadoContratoFirma" class="lblEtiquetas">Estado Contrato</label>
                                                 <rfn:RFNDropDownList runat="server" ID="ddlCtrEstadoContratoFirma" CausesValidation="True"
                                                     ErrorMessage="Error Estado Contrato" Width="150px" ValidationGroup="vGuardaContrato"
                                                     PermitirVacio="False" Requerido="True" Enabled="False" CssClass="control_ddl">
                                                 </rfn:RFNDropDownList>
                                             </div>
                                             <div class="elementosSeccionPrincipal" style="display: none">
-                                                <rfn:RFNLabel runat="server" ID="lblCtrCodPresupuestoFirma" Text="Cod. Presupuesto"
-                                                    AssociatedControlID="txtCtrCodPresupuestoFirma" CssClass="lblEtiquetas">
-                                                </rfn:RFNLabel>
+                                                <label id="lblCtrCodPresupuestoFirma" runat="server" for="txtCtrCodPresupuestoFirma" class="lblEtiquetas">Cod. Presupuesto</label>
                                                 <rfn:RFNTextbox runat="server" ID="txtCtrCodPresupuestoFirma" CausesValidation="False"
                                                     Style="text-align: right" Requerido="True" Enabled="False" CssClass="control_txt">
                                                 </rfn:RFNTextbox>
@@ -2261,14 +2224,12 @@
                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                             <fieldset id="fsCtrFirmaCliente" class="seccionesPrincipales">
                                                 <legend>
-                                                    <rfn:RFNLabel ID="lblCtrFirmaCliente" runat="server" Text="Por parte del Cliente">
-                                                    </rfn:RFNLabel>
+                                                    <label id="lblCtrFirmaCliente" runat="server">Por parte del Cliente</label>
                                                 </legend>
                                                 <div class="subelementosSeccionPrincipalPaddMargen">
                                                     <fieldset id="fsCtrFirmaClienteRepresentante1" class="seccionesPrincipales3">
                                                         <legend>
-                                                            <rfn:RFNLabel ID="lblCtrFirmaClienteRepresentante1" runat="server" Text="Primer Representante">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblCtrFirmaClienteRepresentante1" runat="server">Primer Representante</label>
                                                         </legend>
                                                         <div class="subelementosSeccionPrincipal">
                                                             <rfn:RFNCodDescripcion ID="ccdPrimerRepresentante" runat="server" Width="350px" CampoCodigo="NUM_DNI_CIF" SeleccionMultiple="False"
@@ -2290,47 +2251,41 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <div class="elementosSeccionPrincipalCercano">
-                                                                <rfn:RFNLabel ID="lblCtrApellido1Representante1" AssociatedControlID="txtCtrApellido1Representante1"
-                                                                    class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrApellido1Representante1" runat="server" for="txtCtrApellido1Representante1" class="lblEtiquetas">Primer Apellido</label>
                                                                 <rfn:RFNTextbox ID="txtCtrApellido1Representante1" runat="server" Requerido="False"
                                                                     Width="100px" ErrorMessage="El Primer Apellido del Representante es obligatorio."
                                                                     MaxLength="20" ValidationGroup="vGuardaContrato" Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalCercano">
-                                                                <rfn:RFNLabel ID="lblCtrApellido2Representante1" AssociatedControlID="txtCtrApellido2Representante1"
-                                                                    class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrApellido2Representante1" runat="server" for="txtCtrApellido2Representante1" class="lblEtiquetas">Segundo Apellido</label>
                                                                 <rfn:RFNTextbox ID="txtCtrApellido2Representante1" runat="server" Requerido="False"
                                                                     Width="100px" ErrorMessage="El Segundo Apellido del Representante es obligatorio."
                                                                     MaxLength="20" ValidationGroup="vGuardaContrato" Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrNombreRepresentante1" AssociatedControlID="txtCtrNombreRepresentante1"
-                                                                    class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrNombreRepresentante1" runat="server" for="txtCtrNombreRepresentante1" class="lblEtiquetas">Nombre</label>
                                                                 <rfn:RFNTextbox ID="txtCtrNombreRepresentante1" runat="server" MaxLength="20" Requerido="False"
                                                                     Width="100px" ErrorMessage="El Nombre del Representante es obligatorio." ValidationGroup="vGuardaContrato"
                                                                     Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrIdentificadorRepresentante1" AssociatedControlID="txtCtrIdentificadorRepresentante1"
-                                                                    class="lblEtiquetas" Text="DNI/CIF" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrIdentificadorRepresentante1" runat="server" for="txtCtrIdentificadorRepresentante1" class="lblEtiquetas">DNI/CIF</label>
                                                                 <rfn:RFNTextIdentificador ID="txtCtrIdentificadorRepresentante1" runat="server" MaxLength="10"
                                                                     ValidationGroup="vGuardaContrato" ErrorMessage="El DNI/CIF del Representante no es válido."
                                                                     Width="75px" ValidarNIF="True" ValidarCIF="True" Enabled="False">
                                                                 </rfn:RFNTextIdentificador>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrCargoRepresentante1" AssociatedControlID="txtCtrCargoRepresentante1"
-                                                                    class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrCargoRepresentante1" runat="server" for="txtCtrCargoRepresentante1" class="lblEtiquetas">Cargo</label>
                                                                 <rfn:RFNTextbox ID="txtCtrCargoRepresentante1" runat="server" ErrorMessage="El Cargo del Representante es obligatorio."
                                                                     ValidationGroup="vGuardaContrato" Enabled="False" Width="175px" CausesValidation="True">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrEmailRepresentante1" AssociatedControlID="txtCtrEmailRepresentante1"
-                                                                    class="lblEtiquetas" Text="Email" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrEmailRepresentante1" runat="server" for="txtCtrEmailRepresentante1" class="lblEtiquetas">Email</label>
                                                                 <rfn:RFNTextbox ID="txtCtrEmailRepresentante1" runat="server"
                                                                     Enabled="False" Width="300px" CausesValidation="True">
                                                                 </rfn:RFNTextbox>
@@ -2339,8 +2294,7 @@
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <fieldset id="fsCtrFirmaClienteNotario1" class="seccionesPrincipales">
                                                                 <legend>
-                                                                    <rfn:RFNLabel ID="lblCtrFirmaClienteNotario1" runat="server" Text="Notario">
-                                                                    </rfn:RFNLabel>
+                                                                    <label id="lblCtrFirmaClienteNotario1" runat="server">Notario</label>
                                                                 </legend>
                                                                 <div class="control_derecha">
                                                                     <rfn:RFNCheckBox ID="chkTextoNotario1" runat="server" Text="Texto Libre" Enabled="False"
@@ -2349,24 +2303,21 @@
                                                                 <div id="panelDatosNotario1" style="display: block">
                                                                     <div class="subelementosSeccionPrincipalPaddMargen">
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrApellido1Notario1" AssociatedControlID="txtCtrApellido1Notario1"
-                                                                                class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrApellido1Notario1" runat="server" for="txtCtrApellido1Notario1" class="lblEtiquetas">Primer Apellido</label>
                                                                             <rfn:RFNTextbox ID="txtCtrApellido1Notario1" runat="server" Requerido="False" Width="125px"
                                                                                 ErrorMessage="El Primer Apellido del Notario1 es obligatorio." MaxLength="20"
                                                                                 ValidationGroup="vGuardaContrato" Enabled="False">
                                                                             </rfn:RFNTextbox>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrApellido2Notario1" AssociatedControlID="txtCtrApellido2Notario1"
-                                                                                class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrApellido2Notario1" runat="server" for="txtCtrApellido2Notario1" class="lblEtiquetas">Segundo Apellido</label>
                                                                             <rfn:RFNTextbox ID="txtCtrApellido2Notario1" runat="server" Requerido="False" Width="125px"
                                                                                 ErrorMessage="El Segundo Apellido del Notario1 es obligatorio." MaxLength="20"
                                                                                 ValidationGroup="vGuardaContrato" Enabled="False">
                                                                             </rfn:RFNTextbox>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrNombreNotario1" AssociatedControlID="txtCtrNombreNotario1"
-                                                                                class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrNombreNotario1" runat="server" for="txtCtrNombreNotario1" class="lblEtiquetas">Nombre</label>
                                                                             <rfn:RFNTextbox ID="txtCtrNombreNotario1" runat="server" MaxLength="20" Requerido="False"
                                                                                 Width="125px" ErrorMessage="El Nombre del Notario1 es obligatorio." ValidationGroup="vGuardaContrato"
                                                                                 Enabled="False">
@@ -2375,8 +2326,7 @@
                                                                     </div>
                                                                     <div class="subelementosSeccionPrincipalPaddMargen">
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrPoblacionNotario1" AssociatedControlID="ccdCtrPoblacionNotario1"
-                                                                                class="lblEtiquetas" Text="Población" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrPoblacionNotario1" runat="server" for="ccdCtrPoblacionNotario1" class="lblEtiquetas">Población</label>
                                                                             <rfn:RFNCodDescripcion ID="ccdCtrPoblacionNotario1" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                                                 Width="260px" Requerido="False" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población"
                                                                                 Tipo="Procedimiento" MostrarCodigo="False" CampoCodigo="ID_POBLACION" CampoDescripcion="DESCRIPCION"
@@ -2388,8 +2338,7 @@
                                                                             </rfn:RFNCodDescripcion>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblProvinciaNotario1" AssociatedControlID="cmbProvinciaNotario1"
-                                                                                CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+                                                                            <label id="lblProvinciaNotario1" runat="server" for="cmbProvinciaNotario1" class="lblEtiquetas">Provincia</label>
                                                                             <rfn:RFNDropDownList ID="cmbProvinciaNotario1" runat="server" Width="150px" PermitirVacio="True"
                                                                                 Requerido="False" DataTextField="DESCRIPCION" DataValueField="ID_REGION" OnClientChange="CambioProvinciaNotario1"
                                                                                 Enabled="False" />
@@ -2397,15 +2346,13 @@
                                                                     </div>
                                                                     <div class="subelementosSeccionPrincipalPaddMargen">
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrProtocoloNotario1" AssociatedControlID="txtCtrProtocoloNotario1"
-                                                                                class="lblEtiquetas" Text="Protocolo" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrProtocoloNotario1" runat="server" for="txtCtrProtocoloNotario1" class="lblEtiquetas">Protocolo</label>
                                                                             <rfn:RFNTextbox ID="txtCtrProtocoloNotario1" class="control_derecha" runat="server"
                                                                                 MaxLength="27" Width="60px" Enabled="False" TipoDato="EnteroPositivo">
                                                                             </rfn:RFNTextbox>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel runat="server" ID="lblFecPoderNotario1" Text="Fecha Poder" AssociatedControlID="calFecPoderNotario1"
-                                                                                CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                            <label id="lblFecPoderNotario1" runat="server" for="calFecPoderNotario1" class="lblEtiquetas">Fecha Poder</label>
                                                                             <rfn:RFNCalendar ID="calFecPoderNotario1" runat="server" Enabled="False" Width="75px"></rfn:RFNCalendar>
                                                                         </div>
                                                                     </div>
@@ -2427,8 +2374,7 @@
                                                 <div id="mostrarRepresentante2" style="display: none" class="subelementosSeccionPrincipalPaddMargen">
                                                     <fieldset id="fsCtrFirmaClienteRepresentante2" class="seccionesPrincipales3">
                                                         <legend>
-                                                            <rfn:RFNLabel ID="lblCtrFirmaClienteRepresentante2" runat="server" Text="Segundo Representante">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblCtrFirmaClienteRepresentante2" runat="server">Segundo Representante</label>
                                                         </legend>
                                                         <div class="subelementosSeccionPrincipal">
                                                             <rfn:RFNCodDescripcion ID="ccdSegundoRepresentante" runat="server" Width="350px" CampoCodigo="NUM_DNI_CIF" SeleccionMultiple="False"
@@ -2450,47 +2396,41 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <div class="elementosSeccionPrincipalCercano">
-                                                                <rfn:RFNLabel ID="lblCtrApellido1Representante2" AssociatedControlID="txtCtrApellido1Representante2"
-                                                                    class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrApellido1Representante2" runat="server" for="txtCtrApellido1Representante2" class="lblEtiquetas">Primer Apellido</label>
                                                                 <rfn:RFNTextbox ID="txtCtrApellido1Representante2" runat="server" Requerido="False"
                                                                     Width="100px" ErrorMessage="El Primer Apellido del Representante es obligatorio."
                                                                     MaxLength="20" ValidationGroup="vGuardaContrato" Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalCercano">
-                                                                <rfn:RFNLabel ID="lblCtrApellido2Representante2" AssociatedControlID="txtCtrApellido2Representante2"
-                                                                    class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrApellido2Representante2" runat="server" for="txtCtrApellido2Representante2" class="lblEtiquetas">Segundo Apellido</label>
                                                                 <rfn:RFNTextbox ID="txtCtrApellido2Representante2" runat="server" Requerido="False"
                                                                     Width="100px" ErrorMessage="El Segundo Apellido del Representante es obligatorio."
                                                                     MaxLength="20" ValidationGroup="vGuardaContrato" Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrNombreRepresentante2" AssociatedControlID="txtCtrNombreRepresentante2"
-                                                                    class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrNombreRepresentante2" runat="server" for="txtCtrNombreRepresentante2" class="lblEtiquetas">Nombre</label>
                                                                 <rfn:RFNTextbox ID="txtCtrNombreRepresentante2" runat="server" MaxLength="20" Requerido="False"
                                                                     Width="100px" ErrorMessage="El Nombre del Representante es obligatorio." ValidationGroup="vGuardaContrato"
                                                                     Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrIdentificadorRepresentante2" AssociatedControlID="txtCtrIdentificadorRepresentante2"
-                                                                    class="lblEtiquetas" Text="DNI/CIF" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrIdentificadorRepresentante2" runat="server" for="txtCtrIdentificadorRepresentante2" class="lblEtiquetas">DNI/CIF</label>
                                                                 <rfn:RFNTextIdentificador ID="txtCtrIdentificadorRepresentante2" runat="server" MaxLength="10"
                                                                     ErrorMessage="El DNI/CIF del Representante no es válido." Width="75px" ValidarCIF="True"
                                                                     ValidarNIF="True" Enabled="False">
                                                                 </rfn:RFNTextIdentificador>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrCargoRepresentante2" AssociatedControlID="txtCtrCargoRepresentante2"
-                                                                    class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrCargoRepresentante2" runat="server" for="txtCtrCargoRepresentante2" class="lblEtiquetas">Cargo</label>
                                                                 <rfn:RFNTextbox ID="txtCtrCargoRepresentante2" runat="server" MaxLength="27" Width="100px"
                                                                     Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrEmailRepresentante2" AssociatedControlID="txtCtrEmailRepresentante2"
-                                                                    class="lblEtiquetas" Text="Email" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrEmailRepresentante2" runat="server" for="txtCtrEmailRepresentante2" class="lblEtiquetas">Email</label>
                                                                 <rfn:RFNTextbox ID="txtCtrEmailRepresentante2" runat="server"
                                                                     Enabled="False" Width="300px" CausesValidation="True">
                                                                 </rfn:RFNTextbox>
@@ -2499,8 +2439,7 @@
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <fieldset id="fsCtrFirmaClienteNotario2" class="seccionesPrincipales">
                                                                 <legend>
-                                                                    <rfn:RFNLabel ID="lblCtrFirmaClienteNotario2" runat="server" Text="Notario">
-                                                                    </rfn:RFNLabel>
+                                                                    <label id="lblCtrFirmaClienteNotario2" runat="server">Notario</label>
                                                                 </legend>
                                                                 <div class="control_derecha">
                                                                     <rfn:RFNCheckBox ID="chkTextoNotario2" runat="server" Text="Texto Libre" Enabled="False"
@@ -2509,24 +2448,21 @@
                                                                 <div id="panelDatosNotario2" style="display: block">
                                                                     <div class="subelementosSeccionPrincipalPaddMargen">
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrApellido1Notario2" AssociatedControlID="txtCtrApellido1Notario2"
-                                                                                class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrApellido1Notario2" runat="server" for="txtCtrApellido1Notario2" class="lblEtiquetas">Primer Apellido</label>
                                                                             <rfn:RFNTextbox ID="txtCtrApellido1Notario2" runat="server" Requerido="False" Width="125px"
                                                                                 ErrorMessage="El Primer Apellido del Notario2 es obligatorio." MaxLength="20"
                                                                                 ValidationGroup="vGuardaContrato" Enabled="False">
                                                                             </rfn:RFNTextbox>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrApellido2Notario2" AssociatedControlID="txtCtrApellido2Notario2"
-                                                                                class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrApellido2Notario2" runat="server" for="txtCtrApellido2Notario2" class="lblEtiquetas">Segundo Apellido</label>
                                                                             <rfn:RFNTextbox ID="txtCtrApellido2Notario2" runat="server" Requerido="False" Width="125px"
                                                                                 ErrorMessage="El Segundo Apellido del Notario2 es obligatorio." MaxLength="20"
                                                                                 ValidationGroup="vGuardaContrato" Enabled="False">
                                                                             </rfn:RFNTextbox>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrNombreNotario2" AssociatedControlID="txtCtrNombreNotario2"
-                                                                                class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrNombreNotario2" runat="server" for="txtCtrNombreNotario2" class="lblEtiquetas">Nombre</label>
                                                                             <rfn:RFNTextbox ID="txtCtrNombreNotario2" runat="server" MaxLength="20" Requerido="False"
                                                                                 Width="125px" ErrorMessage="El Nombre del Notario2 es obligatorio." ValidationGroup="vGuardaContrato"
                                                                                 Enabled="False">
@@ -2535,8 +2471,7 @@
                                                                     </div>
                                                                     <div class="subelementosSeccionPrincipalPaddMargen">
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrPoblacionNotario2" AssociatedControlID="ccdCtrPoblacionNotario2"
-                                                                                class="lblEtiquetas" Text="Población" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrPoblacionNotario2" runat="server" for="ccdCtrPoblacionNotario2" class="lblEtiquetas">Población</label>
                                                                             <rfn:RFNCodDescripcion ID="ccdCtrPoblacionNotario2" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                                                 Width="300px" Requerido="False" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población"
                                                                                 Tipo="Procedimiento" MostrarCodigo="False" CampoCodigo="ID_POBLACION" CampoDescripcion="DESCRIPCION"
@@ -2548,8 +2483,7 @@
                                                                             </rfn:RFNCodDescripcion>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblProvinciaNotario2" AssociatedControlID="cmbProvinciaNotario2"
-                                                                                CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+                                                                            <label id="lblProvinciaNotario2" runat="server" for="cmbProvinciaNotario2" class="lblEtiquetas">Provincia</label>
                                                                             <rfn:RFNDropDownList ID="cmbProvinciaNotario2" runat="server" Width="150px" PermitirVacio="True"
                                                                                 Requerido="False" DataTextField="DESCRIPCION" DataValueField="ID_REGION" OnClientChange="CambioProvinciaNotario2"
                                                                                 Enabled="False" />
@@ -2557,15 +2491,13 @@
                                                                     </div>
                                                                     <div class="subelementosSeccionPrincipalPaddMargen">
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblCtrProtocoloNotario2" AssociatedControlID="txtCtrProtocoloNotario2"
-                                                                                class="lblEtiquetas" Text="Protocolo" runat="server"></rfn:RFNLabel>
+                                                                            <label id="lblCtrProtocoloNotario2" runat="server" for="txtCtrProtocoloNotario2" class="lblEtiquetas">Protocolo</label>
                                                                             <rfn:RFNTextbox ID="txtCtrProtocoloNotario2" class="control_derecha" runat="server"
                                                                                 MaxLength="27" Width="60px" Enabled="False" TipoDato="EnteroPositivo">
                                                                             </rfn:RFNTextbox>
                                                                         </div>
                                                                         <div class="elementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel runat="server" ID="lblFecPoderNotario2" Text="Fecha Poder" AssociatedControlID="calFecPoderNotario2"
-                                                                                CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                            <label id="lblFecPoderNotario2" runat="server" for="calFecPoderNotario2" class="lblEtiquetas">Fecha Poder</label>
                                                                             <rfn:RFNCalendar ID="calFecPoderNotario2" runat="server" Enabled="False" Width="75px"></rfn:RFNCalendar>
                                                                         </div>
                                                                     </div>
@@ -2585,19 +2517,16 @@
                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                             <fieldset id="fsCtrFirmaSPFM" class="seccionesPrincipales">
                                                 <legend>
-                                                    <rfn:RFNLabel ID="lblCtrFirmaSPFM" runat="server" Text="Por parte de Quirón Prevención">
-                                                    </rfn:RFNLabel>
+                                                    <label id="lblCtrFirmaSPFM" runat="server">Por parte de Quirón Prevención</label>
                                                 </legend>
                                                 <div class="subelementosSeccionPrincipalPaddMargen">
                                                     <fieldset id="fsCtrFirmaSPFMDirectivo1" class="seccionesPrincipales">
                                                         <legend>
-                                                            <rfn:RFNLabel ID="lblCtrFirmaSPFMDirectivo1" runat="server" Text="Primer Directivo">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblCtrFirmaSPFMDirectivo1" runat="server">Primer Directivo</label>
                                                         </legend>
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrDirectivo1" AssociatedControlID="ccdCtrDirectivo1" class="lblEtiquetas"
-                                                                    Text="Directivo" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrDirectivo1" runat="server" for="ccdCtrDirectivo1" class="lblEtiquetas">Directivo</label>
                                                                 <rfn:RFNCodDescripcion ID="ccdCtrDirectivo1" runat="server" Width="350px" CampoCodigo="COD_EMPLEADO"
                                                                     CampoDescripcion="NOM_EMPLEADO" FuenteDatos="SPA.SDirectivosQP_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                                     Titulo="Directivo" WidthCod="40px" ErrorMessage="El Firmante por parte de QP es obligatorio a causa del importe total del Contrato."
@@ -2628,22 +2557,18 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <div class="elementosSeccionPrincipalPadd">
-                                                                <rfn:RFNLabel ID="lblCtrCargoDirectivo1" AssociatedControlID="txtCtrCargoDirectivo1"
-                                                                    class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrCargoDirectivo1" runat="server" for="txtCtrCargoDirectivo1" class="lblEtiquetas">Cargo</label>
                                                                 <rfn:RFNTextbox ID="txtCtrCargoDirectivo1" runat="server" Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalPadd">
-                                                                <rfn:RFNLabel ID="lblCtrPoderDirectivo1" AssociatedControlID="txtCtrPoderDirectivo1"
-                                                                    class="lblEtiquetas" Text="Poder" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrPoderDirectivo1" runat="server" for="txtCtrPoderDirectivo1" class="lblEtiquetas">Poder</label>
                                                                 <rfn:RFNTextbox ID="txtCtrPoderDirectivo1" runat="server" MaxLength="27" Width="75px"
                                                                     Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div id="contenedorCtrFecPoderDirectivo1" runat="server" class="elementosSeccionPrincipalPadd">
-                                                                <rfn:RFNLabel runat="server" ID="lblCtrFecPoderDirectivo1" Text="Fecha Poder" AssociatedControlID="calCtrFecPoderDirectivo1"
-                                                                    CssClass="lblEtiquetas">
-                                                                </rfn:RFNLabel>
+                                                                <label id="lblCtrFecPoderDirectivo1" runat="server" for="calCtrFecPoderDirectivo1" class="lblEtiquetas">Fecha Poder</label>
                                                                 <rfn:RFNCalendar ID="calCtrFecPoderDirectivo1" runat="server" Enabled="False" ErrorMessage="Fecha Poder Directivo Obligatoria"
                                                                     ValidationGroup="vGuardaContrato" Width="75px">
                                                                 </rfn:RFNCalendar>
@@ -2658,13 +2583,11 @@
                                                 <div id="mostrarDirectivo2" style="display: none" class="subelementosSeccionPrincipalPaddMargen">
                                                     <fieldset id="fsCtrFirmaSPFMDirectivo2" class="seccionesPrincipales">
                                                         <legend>
-                                                            <rfn:RFNLabel ID="lblCtrFirmaSPFMDirectivo2" runat="server" Text="Segundo Directivo">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblCtrFirmaSPFMDirectivo2" runat="server">Segundo Directivo</label>
                                                         </legend>
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <div class="elementosSeccionPrincipal">
-                                                                <rfn:RFNLabel ID="lblCtrDirectivo2" AssociatedControlID="ccdCtrDirectivo2" class="lblEtiquetas"
-                                                                    Text="Directivo" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrDirectivo2" runat="server" for="ccdCtrDirectivo2" class="lblEtiquetas">Directivo</label>
                                                                 <rfn:RFNCodDescripcion ID="ccdCtrDirectivo2" runat="server" Width="350px" CampoCodigo="COD_EMPLEADO"
                                                                     CampoDescripcion="NOM_EMPLEADO" FuenteDatos="SPA.SDirectivosQP_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                                     Titulo="Directivo" WidthCod="40px" ErrorMessage="El Firmante por parte de QP es obligatorio a causa del importe total del Contrato."
@@ -2695,22 +2618,18 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddMargen">
                                                             <div class="elementosSeccionPrincipalPadd">
-                                                                <rfn:RFNLabel ID="lblCtrCargoDirectivo2" AssociatedControlID="txtCtrCargoDirectivo2"
-                                                                    class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrCargoDirectivo2" runat="server" for="txtCtrCargoDirectivo2" class="lblEtiquetas">Cargo</label>
                                                                 <rfn:RFNTextbox ID="txtCtrCargoDirectivo2" runat="server" Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalPadd">
-                                                                <rfn:RFNLabel ID="lblCtrPoderDirectivo2" AssociatedControlID="txtCtrPoderDirectivo2"
-                                                                    class="lblEtiquetas" Text="Poder" runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCtrPoderDirectivo2" runat="server" for="txtCtrPoderDirectivo2" class="lblEtiquetas">Poder</label>
                                                                 <rfn:RFNTextbox ID="txtCtrPoderDirectivo2" runat="server" MaxLength="27" Width="75px"
                                                                     Enabled="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div id="contenedorCtrFecPoderDirectivo2" runat="server" class="elementosSeccionPrincipalPadd">
-                                                                <rfn:RFNLabel runat="server" ID="lblCtrFecPoderDirectivo2" Text="Fecha Poder" AssociatedControlID="calCtrFecPoderDirectivo2"
-                                                                    CssClass="lblEtiquetas">
-                                                                </rfn:RFNLabel>
+                                                                <label id="lblCtrFecPoderDirectivo2" runat="server" for="calCtrFecPoderDirectivo2" class="lblEtiquetas">Fecha Poder</label>
                                                                 <rfn:RFNCalendar ID="calCtrFecPoderDirectivo2" runat="server" Enabled="False" ErrorMessage="Fecha Poder Directivo Obligatoria"
                                                                     ValidationGroup="vGuardaContrato" Width="75px">
                                                                 </rfn:RFNCalendar>
@@ -2727,8 +2646,7 @@
                                 Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                 <fieldset id="fsCtrColaborador" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="lblLegendCtrColaborador" runat="server" Text="Colaborador">
-                                        </rfn:RFNLabel>
+                                        <label id="lblLegendCtrColaborador" runat="server">Colaborador</label>
                                     </legend>
                                     <div class="subelementosSeccionPrincipalPadd">
 
@@ -2737,9 +2655,7 @@
                                         </div>
 
                                         <div class="elementosSeccionPrincipal">
-                                            <rfn:RFNLabel runat="server" ID="lblCtrColaborador" Text="Colaborador" AssociatedControlID="ccdCtrColaborador"
-                                                CssClass="lblEtiquetas">
-                                            </rfn:RFNLabel>
+                                            <label id="lblCtrColaborador" runat="server" for="ccdCtrColaborador" class="lblEtiquetas">Colaborador</label>
                                             <rfn:RFNCodDescripcion ID="ccdCtrColaborador" runat="server" Width="500px" CampoCodigo="COD_COLABORADOR"
                                                 OnClientChange="cambioccdCtrColaborador" CampoDescripcion="NOM_COLABORADOR" FuenteDatos="SPA.SColaboradores_Read"
                                                 BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Colaborador" WidthCod="80px" TipoCodigo="Numerico"
@@ -2748,30 +2664,25 @@
                                             </rfn:RFNCodDescripcion>
                                         </div>
                                         <div class="elementosSeccionPrincipal">
-                                            <rfn:RFNLabel ID="lblHistColab" runat="server" Text="Histórico de Colaboradores"
-                                                BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White"></rfn:RFNLabel>
+                                            <label id="lblHistColab" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White">Histórico de Colaboradores</label>
                                         </div>
                                     </div>
                                     <div class="subelementosSeccionPrincipalPadd2">
                                         <div id="contenedorCtrFecColabDesde" runat="server" class="elementosSeccionPrincipal">
-                                            <rfn:RFNLabel runat="server" ID="lblCtrFecColabDesde" Text="Fecha Desde" AssociatedControlID="calCtrFecColabDesde"
-                                                CssClass="lblEtiquetas">
-                                            </rfn:RFNLabel>
+                                            <label id="lblCtrFecColabDesde" runat="server" for="calCtrFecColabDesde" class="lblEtiquetas">Fecha Desde</label>
                                             <rfn:RFNCalendar ID="calCtrFecColabDesde" runat="server" Enabled="False" ErrorMessage="Fecha desde Colaborador Obligatoria"
                                                 ValidationGroup="vGuardaContrato" OnClientChange="cambioFecColabDesde" Width="75px">
                                             </rfn:RFNCalendar>
                                         </div>
                                         <div class="elementosSeccionPrincipal">
-                                            <rfn:RFNLabel ID="lblCtrPorcentajeColab" AssociatedControlID="txtCtrPorcentajeColab"
-                                                CssClass="lblEtiquetas" runat="server" Text="%"> </rfn:RFNLabel>
+                                            <label id="lblCtrPorcentajeColab" runat="server" for="txtCtrPorcentajeColab" class="lblEtiquetas">%</label>
                                             <rfn:RFNTextbox ID="txtCtrPorcentajeColab" Width="40px" runat="server" TipoDato="DecimalPositivo"
                                                 MaxLength="6" Enabled="False" Requerido="True" ErrorMessage="Porcentaje de Colaborador Obligatorio"
                                                 ValidationGroup="vGuardaContrato">
                                             </rfn:RFNTextbox>
                                         </div>
                                         <div class="elementosSeccionPrincipal">
-                                            <rfn:RFNLabel ID="lblCtrTrimestreColab" AssociatedControlID="txtCtrTrimestreColab_1"
-                                                runat="server" CssClass="lblEtiquetas" Text="Desde Trimestre"> </rfn:RFNLabel>
+                                            <label id="lblCtrTrimestreColab" runat="server" for="txtCtrTrimestreColab_1" class="lblEtiquetas">Desde Trimestre</label>
                                             <rfn:RFNTextbox ID="txtCtrTrimestreColab_1" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                 MaxLength="6" Enabled="False" ErrorMessage="Trimestre de Colaborador Obligatorio"
                                                 ValidationGroup="vGuardaContrato" MaxValue="4">
@@ -2790,8 +2701,7 @@
                                             <div id="datosHistColab" class="subelementosSeccionPrincipalHistColab">
                                                 <fieldset id="fsDatosHistColab" class="seccionesPrincipalesHistColab">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendHistColab" runat="server" Text="Datos de los Colaboradores">
-                                                        </rfn:RFNLabel>
+                                                        <label id="lblLegendHistColab" runat="server">Datos de los Colaboradores</label>
                                                     </legend>
                                                     <div class="subelementosSeccionPrincipalPadd2">
                                                         <asp:UpdatePanel ID="UpGridHistColab" runat="Server" UpdateMode="Conditional" ChildrenAsTriggers="true">
@@ -2833,8 +2743,7 @@
                                 </fieldset>
                                 <fieldset id="fsCtrRespCap" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="lblLegendCtrRespCap" runat="server" Text="Captación/Renovación del Contrato">
-                                        </rfn:RFNLabel>
+                                        <label id="lblLegendCtrRespCap" runat="server">Captación/Renovación del Contrato</label>
                                     </legend>
                                     <div class="elementoFila99Por">
                                         <div class="elementoColumna">
@@ -2857,9 +2766,7 @@
                                         </div>
                                         <div class="elementoColumna margenIzquierdo20">
                                             <br />
-                                            <rfn:RFNLabel runat="server" ID="lblCtrRespRenovacion" Text="Persona QP de Contacto"
-                                                AssociatedControlID="ccdCtrRespRenovacion" CssClass="lblEtiquetas">
-                                            </rfn:RFNLabel>
+                                            <label id="lblCtrRespRenovacion" runat="server" for="ccdCtrRespRenovacion" class="lblEtiquetas">Persona QP de Contacto</label>
                                             <rfn:RFNCodDescripcion ID="ccdCtrRespRenovacion" runat="server" Width="380px" CampoCodigo="COD_PERSONA"
                                                 CampoDescripcion="NOM_PERSONA" FuenteDatos="SPA.Spersonas_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                 Titulo="Responsable de Renovación" WidthCod="80px" TipoCodigo="Numerico" Proxy="wsControlesContratacion"
@@ -2879,8 +2786,7 @@
                                             Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                             <fieldset id="fsCentrosTrabajo" class="seccionesPrincipales">
                                                 <legend>
-                                                    <rfn:RFNLabel ID="lblLegendCentrosTrabajo" runat="server" Text="Centros de Trabajo">
-                                                    </rfn:RFNLabel>
+                                                    <label id="lblLegendCentrosTrabajo" runat="server">Centros de Trabajo</label>
                                                 </legend>
                                                 <div class="subelementosSeccionPrincipal">
 
@@ -2895,8 +2801,7 @@
                                                         <div id="divDescargarExcel" runat="server">
                                                             <div id="div4" runat="server">
                                                                 <br />
-                                                                <rfn:RFNLabel ID="RFNLabel6" AssociatedControlID="btnDescargarExcel" CssClass="lblEtiquetas"
-                                                                    runat="server" Text="Descargar Centros de Trabajo"></rfn:RFNLabel>
+                                                                <label id="RFNLabel6" runat="server" for="btnDescargarExcel" class="lblEtiquetas">Descargar Centros de Trabajo</label>
                                                                 <br />
                                                             </div>
                                                             <div>
@@ -2916,8 +2821,7 @@
                                                     </div>
                                                     <fieldset id="fsCentTotal" class="seccionesPrincipales">
                                                         <legend>
-                                                            <rfn:RFNLabel ID="lblLegendCentrosTotal" runat="server" Text="Número de centros">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblLegendCentrosTotal" runat="server">Número de centros</label>
                                                         </legend>
                                                         <div class="elementosSeccionPrincipal">
                                                             <rfn:RFNTextbox ID="txtcenttotal" Width="40px" runat="server" TipoDato="EnteroPositivo"
@@ -2929,36 +2833,30 @@
                                                     </fieldset>
                                                     <fieldset id="fsTrabTotal" class="seccionesPrincipales">
                                                         <legend>
-                                                            <rfn:RFNLabel ID="lblLegendTrabTotal" runat="server" Text="Trabajadores Totales">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblLegendTrabTotal" runat="server">Trabajadores Totales</label>
                                                         </legend>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabOficina" AssociatedControlID="txtTrabOficina"
-                                                                runat="server" Text="Oficina" ToolTip="Bajo Riesgo"> </rfn:RFNLabel>
+                                                            <label id="lblTrabOficina" runat="server" for="txtTrabOficina" class="lblEtiquetas" title="Bajo Riesgo">Oficina</label>
                                                             <rfn:RFNTextbox ID="txtTrabOficina" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                                 MaxLength="6" Enabled="False" ToolTip="Bajo Riesgo"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabIndustria" AssociatedControlID="txtTrabIndustria"
-                                                                runat="server" Text="Industria"> </rfn:RFNLabel>
+                                                            <label id="lblTrabIndustria" runat="server" for="txtTrabIndustria" class="lblEtiquetas">Industria</label>
                                                             <rfn:RFNTextbox ID="txtTrabIndustria" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                                 MaxLength="6" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabConstruccion" AssociatedControlID="txtTrabConstruccion"
-                                                                runat="server" Text="Construcción"> </rfn:RFNLabel>
+                                                            <label id="lblTrabConstruccion" runat="server" for="txtTrabConstruccion" class="lblEtiquetas">Construcción</label>
                                                             <rfn:RFNTextbox ID="txtTrabConstruccion" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                                 MaxLength="6" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabAnexo" AssociatedControlID="txtTrabAnexo"
-                                                                runat="server" Text="Anexo" ToolTip="Alto Riesgo"> </rfn:RFNLabel>
+                                                            <label id="lblTrabAnexo" runat="server" for="txtTrabAnexo" class="lblEtiquetas" title="Alto Riesgo">Anexo</label>
                                                             <rfn:RFNTextbox ID="txtTrabAnexo" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                                 MaxLength="6" Enabled="False" ToolTip="Alto Riesgo"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabTotal" AssociatedControlID="txtTrabTotal"
-                                                                runat="server" Text="Total"> </rfn:RFNLabel>
+                                                            <label id="lblTrabTotal" runat="server" for="txtTrabTotal" class="lblEtiquetas">Total</label>
                                                             <rfn:RFNTextbox ID="txtTrabTotal" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                                 MaxLength="6" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
@@ -2970,7 +2868,7 @@
 
                                                 <fieldset id="fsFiltrosCursos" class="seccionesFieldSetN5" runat="server" style="display: block">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblfiltrosCT" runat="server" Text="Filtros de búsqueda"></rfn:RFNLabel>
+                                                        <label id="lblfiltro3" runat="server" for="filtro3" class="lblEtiquetas" style="width: 100px">Referencia</label>
                                                     </legend>
                                                     <div>
                                                         <table>
@@ -3000,23 +2898,20 @@
                                                             </tr>
                                                             <tr>
                                                                 <td>
-                                                                    <rfn:RFNLabel runat="server" ID="lblfiltro3" Text="Referencia"
-                                                                        AssociatedControlID="filtro3" class="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblfiltro3" runat="server" for="filtro3" class="lblEtiquetas">Referencia</label>
 
                                                                     <rfn:RFNTextbox runat="server" ID="filtro3" Width="300px"></rfn:RFNTextbox>
 
 
                                                                 </td>
                                                                 <td>
-                                                                    <rfn:RFNLabel runat="server" ID="lblfiltro2" Text="Código Centro Ventas"
-                                                                        AssociatedControlID="txtfiltroCodigo" class="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblfiltro2" runat="server" for="txtfiltroCodigo" class="lblEtiquetas">Código Centro Ventas</label>
 
                                                                     <rfn:RFNTextbox runat="server" ID="txtfiltroCodigo" Width="100px"></rfn:RFNTextbox>
                                                                 </td>
 
                                                                 <td>
-                                                                    <rfn:RFNLabel runat="server" ID="lblfiltro4" Text="Código Centro Prestación"
-                                                                        AssociatedControlID="txtfiltroCodigo" class="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblfiltro4" runat="server" for="txtfiltroCodigo" class="lblEtiquetas">Código Centro Prestación</label>
 
                                                                     <rfn:RFNTextbox runat="server" ID="txtfiltroCodigoP" Width="100px"></rfn:RFNTextbox>
                                                                 </td>
@@ -3030,16 +2925,12 @@
 
                                                             <tr>
                                                                 <td>
-                                                                    <rfn:RFNLabel ID="lblfltroCT" runat="server" Text="Buscar"
-                                                                        BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                                                        Width="175px" Enabled="false"></rfn:RFNLabel>
+                                                                    <label id="lblfltroCT" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Buscar</label>
 
                                                                 </td>
 
                                                                 <td>
-                                                                    <rfn:RFNLabel ID="lbllimpiarfiltroct" runat="server" Text="Limpiar campos"
-                                                                        BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                                                        Width="175px" Enabled="false"></rfn:RFNLabel>
+                                                                    <label id="lbllimpiarfiltroct" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Limpiar campos</label>
 
                                                                 </td>
 
@@ -3106,12 +2997,7 @@
                                     <asp:Panel ID="PanelPopDomicilio" runat="server" Style="display: none">
                                         <fieldset id="fsCentro" class="elementosFsSeccionPrincipal">
                                             <legend>
-                                                <rfn:RFNLabel runat="server" ID="lblCentros" Text="Datos Centro de Trabajo" />
-                                            </legend>
-                                            <div class="subelementosSeccionPrincipalPadd">
-                                                <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblReferenciaDomi" AssociatedControlID="txtReferenciaDomi"
-                                                        runat="server" Text="Referencia"> </rfn:RFNLabel>
+                                                <label id="lblReferenciaDomi" runat="server" for="txtReferenciaDomi" class="lblEtiquetas">Referencia</label>
                                                     <rfn:RFNTextbox ID="txtReferenciaDomi" Width="300px" runat="server" Enabled="True"
                                                         Requerido="False">
                                                     </rfn:RFNTextbox>
@@ -3122,8 +3008,7 @@
                                             </div>
                                             <div class="subelementosSeccionPrincipalPadd">
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel ID="lblActividadCentro" AssociatedControlID="ccdActividadCentro" CssClass="lblEtiquetas"
-                                                        runat="server" Text="CNAE"></rfn:RFNLabel>
+                                                    <label id="lblActividadCentro" runat="server" for="ccdActividadCentro" class="lblEtiquetas">CNAE</label>
                                                     <rfn:RFNCodDescripcion ID="ccdActividadCentro" runat="server" CampoCodigo="COD_ACTIVIDAD"
                                                         CampoDescripcion="DES_ACTIVIDAD" FuenteDatos="SPA.Sactividades_Read" Width="500px"
                                                         BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Actividad económica" Proxy="wsControlesContratacion" NumElementos="50"
@@ -3204,8 +3089,7 @@
 
                                             <%--david--%>
                                             <div id="divgrcentro" runat="server" class="elementosSeccionPrincipal" clientidmode="Inherit" style="display: none">
-                                                <rfn:RFNLabel ID="lblgrabarcentro" runat="server" Text="Grabar" BorderWidth="1"
-                                                    BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+                                                <label id="lblgrabarcentro" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Grabar</label>
                                             </div>
                                             <div id="factparti" runat="server" class="elementosSeccionPrincipal" clientidmode="Inherit" style="display: none">
                                                 <rfn:RFNCheckBox ID="rfncheckFactparti" runat="server" Text="Particularizar datos de envío de facturas al Centro de Trabajo" Display="block" Enabled="true" OnClientClick="mostrarDireccionParti"></rfn:RFNCheckBox>
@@ -3224,16 +3108,14 @@
                                                         </legend>--%>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel ID="lblProvinciaEnvFactP" AssociatedControlID="cmbProvinciaEnvFactP"
-                                                                CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+                                                            <label id="lblProvinciaEnvFactP" runat="server" for="cmbProvinciaEnvFactP" class="lblEtiquetas">Provincia</label>
                                                             <rfn:RFNDropDownList ID="cmbProvinciaEnvFactP" runat="server" Width="192px" PermitirVacio="True"
                                                                 ErrorMessage="Error en Provincia de la Dirección de envío de facturas" ValidationGroup="GuardaCentroTrabajoP"
                                                                 Requerido="False" DataTextField="DESCRIPCION" DataValueField="ID_REGION" Enabled="False"
                                                                 OnClientChange="cambioRegionCentroEnvFactP" />
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionEnvFactP" AssociatedControlID="ccdPoblacionEnvFactP"
-                                                                runat="server" Text="Población"></rfn:RFNLabel>
+                                                            <label id="lblPoblacionEnvFactP" runat="server" for="ccdPoblacionEnvFactP" class="lblEtiquetas">Población</label>
                                                             <rfn:RFNCodDescripcion ID="ccdPoblacionEnvFactP" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                                 Width="300px" Requerido="False" ErrorMessage="Error en Población de la Dirección de envío de facturas"
                                                                 ValidationGroup="GuardaCentroTrabajoP" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población"
@@ -3251,8 +3133,7 @@
                                                     </div>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblViaEnvFactP" AssociatedControlID="cmbTipoViaEnvFactP"
-                                                                runat="server" Text="Tipo de vía"> </rfn:RFNLabel>
+                                                            <label id="lblViaEnvFactP" runat="server" for="cmbTipoViaEnvFactP" class="lblEtiquetas">Tipo de vía</label>
                                                             <rfn:RFNDropDownList ID="cmbTipoViaEnvFactP" runat="server" Width="192px" PermitirVacio="True"
                                                                 Requerido="False" ErrorMessage="Error en Tipo de Vía de la Dirección de envío de facturas"
                                                                 ValidationGroup="GuardaCentroTrabajoP" DataTextField="DES_TIPO_VIA" DataValueField="COD_TIPO_VIA"
@@ -3265,8 +3146,7 @@
                                                                 ValidationGroup="GuardaCentroTrabajoP" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblNumeroEnvFactP" AssociatedControlID="txtNumEnvFactP"
-                                                                runat="server" Text="Número"> </rfn:RFNLabel>
+                                                            <label id="lblNumeroEnvFactP" runat="server" for="txtNumEnvFactP" class="lblEtiquetas">Número</label>
                                                             <rfn:RFNTextbox ID="txtNumEnvFactP" Width="70px" runat="server" Requerido="False"
                                                                 MaxLength="4" ErrorMessage="Error en Número de Calle de la Dirección de envío de facturas"
                                                                 ValidationGroup="GuardaCentroTrabajoP" Enabled="False"></rfn:RFNTextbox>
@@ -3274,36 +3154,30 @@
                                                     </div>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblPortalEnvFactP" AssociatedControlID="txtPortalEnvFactP"
-                                                                runat="server" Text="Portal"> </rfn:RFNLabel>
+                                                            <label id="lblPortalEnvFactP" runat="server" for="txtPortalEnvFactP" class="lblEtiquetas">Portal</label>
                                                             <rfn:RFNTextbox ID="txtPortalEnvFactP" Width="50px" runat="server" Requerido="False"
                                                                 MaxLength="4" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblEscaleraEnvFactP" AssociatedControlID="txtEscaleraEnvFactP"
-                                                                runat="server" Text="Escalera"> </rfn:RFNLabel>
+                                                            <label id="lblEscaleraEnvFactP" runat="server" for="txtEscaleraEnvFactP" class="lblEtiquetas">Escalera</label>
                                                             <rfn:RFNTextbox ID="txtEscaleraEnvFactP" Width="50px" runat="server" MaxLength="4"
                                                                 Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblPisoEnvFactP" AssociatedControlID="txtPisoEnvFactP"
-                                                                runat="server" Text="Piso"> </rfn:RFNLabel>
+                                                            <label id="lblPisoEnvFactP" runat="server" for="txtPisoEnvFactP" class="lblEtiquetas">Piso</label>
                                                             <rfn:RFNTextbox ID="txtPisoEnvFactP" Width="50px" runat="server" MaxLength="2" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblPuertaEnvFactP" AssociatedControlID="txtPuertaEnvFactP"
-                                                                runat="server" Text="Puerta"> </rfn:RFNLabel>
+                                                            <label id="lblPuertaEnvFactP" runat="server" for="txtPuertaEnvFactP" class="lblEtiquetas">Puerta</label>
                                                             <rfn:RFNTextbox ID="txtPuertaEnvFactP" Width="70px" runat="server" MaxLength="2" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblNumTelfEnvFactP" AssociatedControlID="txtTelefonoEnvFactP"
-                                                                runat="server" Text="Teléfono"> </rfn:RFNLabel>
+                                                            <label id="lblNumTelfEnvFactP" runat="server" for="txtTelefonoEnvFactP" class="lblEtiquetas">Teléfono</label>
                                                             <rfn:RFNTextbox ID="txtTelefonoEnvFactP" Width="70px" runat="server" MaxLength="9"
                                                                 TipoDato="Telefono" Enabled="False"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblNumFaxEnvFactP" AssociatedControlID="txtNumFaxEnvFactP"
-                                                                runat="server" Text="Fax"> </rfn:RFNLabel>
+                                                            <label id="lblNumFaxEnvFactP" runat="server" for="txtNumFaxEnvFactP" class="lblEtiquetas">Fax</label>
                                                             <rfn:RFNTextbox ID="txtNumFaxEnvFactP" Width="70px" runat="server" MaxLength="9" TipoDato="Telefono"
                                                                 Enabled="False"></rfn:RFNTextbox>
                                                         </div>
@@ -3316,8 +3190,7 @@
                                                                 Enabled="False" MaxLength="70"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblEmailEnvFactP" AssociatedControlID="txtEmailEnvFactP"
-                                                                runat="server" Text="Dirección Email"> </rfn:RFNLabel>
+                                                            <label id="lblEmailEnvFactP" runat="server" for="txtEmailEnvFactP" class="lblEtiquetas">Dirección Email</label>
                                                             <rfn:RFNTextbox ID="txtEmailEnvFactP" Width="300px" runat="server" TipoDato="Texto" OnClientChange="compruebaEmail"
                                                                 CausesValidation="True" ValidationGroup="GuardaCentroTrabajoP" ErrorMessage="Error en Email de la Dirección de envío de facturas"
                                                                 Enabled="False" MaxLength="70">
@@ -3354,15 +3227,13 @@
                                             <ContentTemplate>
                                                 <fieldset id="fsTarificacionModalidades" class="seccionesPrincipales5">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendTarificacionModalidades" runat="server" Text="Modalidades">
-                                                        </rfn:RFNLabel>
+                                                        <label id="lblLegendTarificacionModalidades" runat="server">Modalidades</label>
                                                     </legend>
                                                     <table style="border-collapse: collapse; width: 100%;">
                                                         <tr style="border-collapse: collapse; width: 100%;">
                                                             <td style="border-collapse: collapse;">
                                                                 <div id="tarifaModalidad" class="subelementosSeccionPrincipalPadd">
-                                                                    <rfn:RFNLabel runat="server" ID="lblccdTarifaModalidad" Text="Tarifa" AssociatedControlID="ccdTarifaModalidad"
-                                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblccdTarifaModalidad" runat="server" for="ccdTarifaModalidad" class="lblEtiquetas">Tarifa</label>
                                                                     <rfn:RFNCodDescripcion ID="ccdTarifaModalidad" runat="server" Width="600px" CampoCodigo="COD_TIP_TAR"
                                                                         CampoDescripcion="DES_TIP_TAR" FuenteDatos="SPA.Starifas_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                                         Titulo="Tarifas Modalidades" WidthCod="75px" Tipo="Procedimiento" NumElementos="50"
@@ -3440,8 +3311,7 @@
                                                         </tr>
                                                     </table>
                                                     <div class="elementosSeccionPrincipal">
-                                                        <rfn:RFNLabel ID="lblhistTarifa" runat="server" Text="Histórico de Tarifas"
-                                                            BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White"></rfn:RFNLabel>
+                                                        <label id="lblhistTarifa" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White">Histórico de Tarifas</label>
 
 
 
@@ -3453,8 +3323,7 @@
                                                                 <div id="datosHistTarifa">
                                                                     <fieldset id="fsDatosHistTarifa">
                                                                         <legend>
-                                                                            <rfn:RFNLabel ID="lblLegendHistTarifa" runat="server" Text="Datos">
-                                                                            </rfn:RFNLabel>
+                                                                            <label id="lblLegendHistTarifa" runat="server">Datos</label>
                                                                         </legend>
                                                                         <div class="subelementosSeccionPrincipalPadd2">
                                                                             <asp:UpdatePanel ID="UpGridHistTarifa" runat="Server" UpdateMode="Conditional" ChildrenAsTriggers="true">
@@ -3498,7 +3367,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse;">
-                                                                        <rfn:RFNLabel ID="lblDescTec" AssociatedControlID="txtDescTec" runat="server" Text="%Desc. Téc."> </rfn:RFNLabel>
+                                                                        <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras" style="width: 110px; pointer-events: none; opacity: 0.6; border-collapse: collapse;">%Desc. Téc. Horas</label>
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="border-collapse: collapse;">
@@ -3509,8 +3378,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse;">
-                                                                        <rfn:RFNLabel ID="lblDescTecHoras" AssociatedControlID="txtDescTecHoras" runat="server"
-                                                                            Text="%Desc. Téc. Horas" Width="110px">  </rfn:RFNLabel>
+                                                                        <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras" style="width: 110px">%Desc. Téc. Horas</label>
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="border-collapse: collapse;">
@@ -3521,7 +3389,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse;">
-                                                                        <rfn:RFNLabel ID="lblDescMed" AssociatedControlID="txtDescMed" runat="server" Text="%Desc. Méd."> </rfn:RFNLabel>
+                                                                        <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas" style="border-collapse: collapse;">Motivo de Descuento</label>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -3529,8 +3397,7 @@
                                                                 <tr style="border-collapse: collapse;">
                                                                     <td style="border-collapse: collapse;">
                                                                         <div class="elementosSeccionPrincipalPadd">
-                                                                            <rfn:RFNLabel ID="lblMotivoDescuento" class="lblEtiquetas" AssociatedControlID="txtMotivoDescuento"
-                                                                                runat="server" Text="Motivo de Descuento" Visible="False"> </rfn:RFNLabel>
+                                                                            <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas">Motivo de Descuento</label>
                                                                             <rfn:RFNTextbox ID="txtMotivoDescuento" Width="150px" runat="server" Enabled="False"
                                                                                 Visible="False">
                                                                             </rfn:RFNTextbox>
@@ -3546,23 +3413,21 @@
                                                             <div class="elementoDescuento">
                                                                 <rfn:RFNTextbox ID="txtDescTec" Width="80px" runat="server" TipoDato="DecimalPositivo"
                                                                     MaxLength="10" Enabled="False" ViewStateMode="Enabled" MaxValue="100"></rfn:RFNTextbox>
-                                                                <rfn:RFNLabel ID="lblDescTec" AssociatedControlID="txtDescTec" runat="server" Text="%Desc. Téc."> </rfn:RFNLabel>
+                                                                <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras" class="elementoDescuento" style="width: 80px; pointer-events: none; opacity: 0.6">%Desc. Téc. Horas</label>
                                                             </div>
                                                             <div class="elementoDescuento">
                                                                 <rfn:RFNTextbox ID="txtDescTecHoras" Width="80px" runat="server" TipoDato="DecimalPositivo"
                                                                     MaxLength="10" Enabled="False" ViewStateMode="Enabled" MaxValue="100"></rfn:RFNTextbox>
-                                                                <rfn:RFNLabel ID="lblDescTecHoras" AssociatedControlID="txtDescTecHoras" runat="server"
-                                                                    Text="%Desc. Téc. Horas"> </rfn:RFNLabel>
+                                                                <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras">%Desc. Téc. Horas</label>
                                                             </div>
                                                             <div class="elementoDescuento">
                                                                 <rfn:RFNTextbox ID="txtDescMed" Width="80px" runat="server" TipoDato="DecimalPositivo"
                                                                     MaxLength="10" Enabled="False" MaxValue="100"></rfn:RFNTextbox>
-                                                                <rfn:RFNLabel ID="lblDescMed" AssociatedControlID="txtDescMed" runat="server" Text="%Desc. Méd."> </rfn:RFNLabel>
+                                                                <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas">Motivo de Descuento</label>
                                                             </div>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalPadd">
-                                                            <rfn:RFNLabel ID="lblMotivoDescuento" class="lblEtiquetas" AssociatedControlID="txtMotivoDescuento"
-                                                                runat="server" Text="Motivo de Descuento" Visible="False"> </rfn:RFNLabel>
+                                                            <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas">Motivo de Descuento</label>
                                                             <rfn:RFNTextbox ID="txtMotivoDescuento" Width="150px" runat="server" Enabled="False"
                                                                 Visible="False">
                                                             </rfn:RFNTextbox>
@@ -3573,7 +3438,7 @@
                                                             <%--<div class="elementosSeccionPrincipalPadd3">--%>
                                                             <fieldset id="fsModalidades" class="seccionPrincipalModalidad">
                                                                 <legend>
-                                                                    <rfn:RFNLabel ID="lblModalidades" runat="server" Text="Precios/Horas"></rfn:RFNLabel>
+                                                                    <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd" style="border-collapse: collapse">Total</label>
                                                                 </legend>
                                                                 <%--<div class="subelementosSeccionPrincipal">--%>
                                                                 <table style="border-collapse: collapse;">
@@ -3601,20 +3466,17 @@
                                                                         <td>&nbsp;
                                                                         </td>
                                                                         <td style="border-collapse: collapse">
-                                                                            <rfn:RFNLabel ID="lblModTot" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTot"
-                                                                                runat="server" Text="Total"> </rfn:RFNLabel>
+                                                                            <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd">Total</label>
                                                                         </td>
                                                                         <td>&nbsp;
                                                                         </td>
                                                                         <td style="border-collapse: collapse">
-                                                                            <rfn:RFNLabel ID="lblModHorTec" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorTecDescuento"
-                                                                                runat="server" Text="Horas Téc"> </rfn:RFNLabel>
+                                                                            <label id="lblModHorTec" runat="server" for="txtModHorTecDescuento" class="lblEtiquetasPadd">Horas Téc</label>
                                                                         </td>
                                                                         <td>&nbsp;
                                                                         </td>
                                                                         <td style="border-collapse: collapse">
-                                                                            <rfn:RFNLabel ID="lblModHorMed" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorMedDescuento"
-                                                                                runat="server" Text="Horas Méd"> </rfn:RFNLabel>
+                                                                            <label id="lblModHorMed" runat="server" for="txtModHorMedDescuento" class="lblEtiquetasPadd">Horas Méd</label>
                                                                         </td>
                                                                         <td>&nbsp;
                                                                         </td>
@@ -3622,7 +3484,7 @@
                                                                     <tr style="border-collapse: collapse; width: 100%; display: none">
                                                                         <%--Fila de las cajas de texto--%>
                                                                         <td style="border-collapse: collapse;">
-                                                                            <rfn:RFNLabel ID="lblImporteTarifa" runat="server" Text="Importe según Tarifa: "></rfn:RFNLabel>
+                                                                            <label id="lblImporteTarifaDescuento" runat="server" style="width: 110px; pointer-events: none; opacity: 0.6; border-collapse: collapse;">Importe aplicado:</label>
                                                                         </td>
                                                                         <td style="border-collapse: collapse">
                                                                             <rfn:RFNTextbox ID="txtModST" Width="70px" runat="server" TipoDato="Moneda" Enabled="False">        </rfn:RFNTextbox>
@@ -3664,8 +3526,7 @@
                                                                     <tr style="border-collapse: collapse; width: 100%;">
                                                                         <%--Fila de las cajas de texto--%>
                                                                         <td style="border-collapse: collapse;">
-                                                                            <rfn:RFNLabel ID="lblImporteTarifaDescuento" runat="server" Text="Importe aplicado: "
-                                                                                Width="110px"></rfn:RFNLabel>
+                                                                            <label id="lblImporteTarifaDescuento" runat="server" style="width: 110px">Importe aplicado:</label>
                                                                         </td>
                                                                         <td style="border-collapse: collapse">
                                                                             <rfn:RFNTextbox ID="txtModSTDescuento" Width="70px" runat="server" TipoDato="Moneda"
@@ -3715,7 +3576,7 @@
                                                                     <%--<tr style="border-collapse: collapse; width: 100%;">--%>
                                                                     <tr>
                                                                         <td style="border-collapse: collapse">
-                                                                            <rfn:RFNLabel ID="lblimporteqshd" runat="server" Width="110px" Text="Importe Hospital Digital: "></rfn:RFNLabel>
+                                                                            <label id="lblImporteTarifa" runat="server" class="subelementosSeccionPrincipal" style="width: 70px; pointer-events: none; opacity: 0.6; display: none">Importe según Tarifa:</label>
                                                                         </td>
 
                                                                         <td style="border-collapse: collapse">
@@ -3728,10 +3589,10 @@
                                                                 <div class="subelementosSeccionPrincipal">
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipal" style="display: none">
-                                                                    <rfn:RFNLabel ID="lblImporteTarifa" runat="server" Text="Importe según Tarifa: "></rfn:RFNLabel>
+                                                                    <label id="lblImporteTarifa" runat="server">Importe según Tarifa:</label>
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipal">
-                                                                    <rfn:RFNLabel ID="lblImporteTarifaDescuento" runat="server" Text="Importe aplicado: "></rfn:RFNLabel>
+                                                                    <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd" style="width: 70px; pointer-events: none; opacity: 0.6; display: none">Total</label>
                                                                 </div>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalCercano">
@@ -3792,8 +3653,7 @@
                                                             </div>
                                                             <div class="elementosSeccionPrincipalCercano">
                                                                 <div class="subelementosSeccionPrincipal">
-                                                                    <rfn:RFNLabel ID="lblModTot" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTot"
-                                                                        runat="server" Text="Total"> </rfn:RFNLabel>
+                                                                    <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd">Total</label>
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipal" style="display: none">
                                                                     <rfn:RFNTextbox ID="txtModTot" Width="70px" runat="server" TipoDato="Moneda" Enabled="False"></rfn:RFNTextbox>
@@ -3805,8 +3665,7 @@
                                                             </div>
                                                             <div class="elementosSeccionPrincipalCercano">
                                                                 <div class="subelementosSeccionPrincipal">
-                                                                    <rfn:RFNLabel ID="lblModHorTec" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorTecDescuento"
-                                                                        runat="server" Text="Horas Téc"> </rfn:RFNLabel>
+                                                                    <label id="lblModHorTec" runat="server" for="txtModHorTecDescuento" class="lblEtiquetasPadd">Horas Téc</label>
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipal" style="display: none">
                                                                     <rfn:RFNTextbox ID="txtModHorTec" Width="50px" runat="server" TipoDato="Moneda" Enabled="False"></rfn:RFNTextbox>
@@ -3818,8 +3677,7 @@
                                                             </div>
                                                             <div class="elementosSeccionPrincipalCercano">
                                                                 <div class="subelementosSeccionPrincipal">
-                                                                    <rfn:RFNLabel ID="lblModHorMed" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorMedDescuento"
-                                                                        runat="server" Text="Horas Méd"> </rfn:RFNLabel>
+                                                                    <label id="lblModHorMed" runat="server" for="txtModHorMedDescuento" class="lblEtiquetasPadd">Horas Méd</label>
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipal" style="display: none">
                                                                     <rfn:RFNTextbox ID="txtModHorMed" Width="50px" runat="server" TipoDato="Moneda" Enabled="False"></rfn:RFNTextbox>
@@ -3834,35 +3692,11 @@
                                                             <div id="divLeyendaColore2" class="subelementosSeccionPrincipalPadd2">
                                                                 <div class="elementosSeccionPrincipalCercano">
                                                                     <br />
-                                                                    <rfn:RFNLabel ID="RFNLabel9" runat="server" Text="_." BackColor="Red" ForeColor="Red"
-                                                                        Font-Bold="True" />
-                                                                    <rfn:RFNLabel ID="RFNLabel10" runat="server" Text="&nbspEl precio de la MT es el sumatorio de la Subscripción a Hospital Digital y la vigilancia de la salud colectiva"
-                                                                        ForeColor="Red" Font-Bold="True" />
-                                                                </div>
-                                                            </div>
-                                                            <%--</div>--%>
-                                                            <%--     </div>--%>
-                                                        </div>
-                                                    </div>
-                                                </fieldset>
-                                            </ContentTemplate>
-                                        </asp:UpdatePanel>
-                                    </rfn:RFNPanel>
-                                </div>
-                                <div id="divOcultarapProductos" runat="server" style="display: none;">
-                                    <rfn:RFNPanel ID="apProductos" runat="server" EstiloContenedor="False" Titulo="Productos"
-                                        Visualizacion="Seccion" Collapsable="False" Collapsed="False" Width="100%" Display="table">
-                                        <asp:UpdatePanel ID="upProductos" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="False">
-                                            <ContentTemplate>
-                                                <fieldset id="fsTarificacionProductos" class="seccionesPrincipales3">
-                                                    <legend>
-                                                        <rfn:RFNLabel ID="lblLegendTarificacionProductos" runat="server" Text="Productos">
-                                                        </rfn:RFNLabel>
+                                                                    <label id="lblLegendTarificacionProductos" runat="server" class="seccionesPrincipales3" style="background-color: Red; color: Red; font-weight: bold; width: 100%; display: table; display: none;">Productos</label>
                                                     </legend>
 
                                                     <div runat="server" id="dvlineaproducto">
-                                                        <rfn:RFNLabel runat="server" ID="lbllineaproducto" Text="Linea Producto"
-                                                            AssociatedControlID="ddllineaproducto" class="lblEtiquetas"></rfn:RFNLabel>
+                                                        <label id="lbllineaproducto" runat="server" for="ddllineaproducto" class="lblEtiquetas">Linea Producto</label>
                                                         <rfn:RFNDropDownList runat="server" ID="ddllineaproducto" ValidationGroup="vGuardaContrato"
                                                             ErrorMessage="Debe informar la linea de producto" OnClientChange="ComprobarLP"
                                                             CausesValidation="False" DataValueField="COD_VALOR"
@@ -3872,8 +3706,7 @@
                                                     </div>
 
                                                     <div id="tarifaProductos" class="subelementosSeccionPrincipalPadd">
-                                                        <rfn:RFNLabel runat="server" ID="lblccdTarifaProductos" Text="Tarifa" AssociatedControlID="ccdTarifaProductos"
-                                                            CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                        <label id="lblccdTarifaProductos" runat="server" for="ccdTarifaProductos" class="lblEtiquetas">Tarifa</label>
                                                         <rfn:RFNCodDescripcion ID="ccdTarifaProductos" runat="server" Width="600px" CampoCodigo="COD_TIP_TAR"
                                                             CampoDescripcion="DES_TIP_TAR" FuenteDatos="SPA.Starifas_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                             Titulo="Tarifas Productos" WidthCod="75px" Tipo="Procedimiento" NumElementos="50"
@@ -3906,24 +3739,23 @@
                                                             <div class="elementosSeccionPrincipal">
                                                                 <div class="subelementosSeccionPrincipalPaddProducto">
                                                                     <div class="elementosSeccionPrincipalProducto">
-                                                                        <rfn:RFNLabel ID="lblVacio" runat="server" Text="lblVacio" CssClass="lblEtiquetas"
-                                                                            ForeColor="White"></rfn:RFNLabel>
-                                                                        <rfn:RFNLabel ID="lblPrecioTecnicoProducto" runat="server" Text="Técnico" Width="50px"></rfn:RFNLabel>
+                                                                        <label id="lblVacio" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
+                                                                        <label id="lblPrecioProducto" runat="server" class="lblEtiquetas" style="width: 50px">Precio</label>
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalProducto">
-                                                                        <rfn:RFNLabel ID="lblPrecioProducto" runat="server" Text="Precio" CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                        <label id="lblPrecioProducto" runat="server" class="lblEtiquetas">Precio</label>
                                                                         <rfn:RFNTextbox ID="txtPrecioTecnicoProducto" runat="server" TipoDato="DecimalPositivo"
                                                                             Width="75px" Enabled="False" Text="0" />
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalProducto">
-                                                                        <rfn:RFNLabel ID="lblHorasProducto" runat="server" Text="Horas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                        <label id="lblPrecioMedicoProducto" runat="server" class="lblEtiquetas" style="width: 50px; pointer-events: none; opacity: 0.6">Médico</label>
                                                                         <rfn:RFNTextbox ID="txtHorasTecnicoProducto" runat="server" TipoDato="DecimalPositivo"
                                                                             Width="75px" Enabled="False" Text="0" />
                                                                     </div>
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipalPaddProducto">
                                                                     <div class="elementosSeccionPrincipalProducto">
-                                                                        <rfn:RFNLabel ID="lblPrecioMedicoProducto" runat="server" Text="Médico" Width="50px"></rfn:RFNLabel>
+                                                                        <label id="lblPrecioMedicoProducto" runat="server" style="width: 50px">Médico</label>
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalProducto">
                                                                         <rfn:RFNTextbox ID="txtPrecioMedicoProducto" runat="server" TipoDato="DecimalPositivo"
@@ -3936,8 +3768,7 @@
                                                                 </div>
                                                                 <div class="subelementosSeccionPrincipalPaddProducto">
                                                                     <div class="elementosSeccionPrincipalProducto">
-                                                                        <rfn:RFNLabel ID="lblPrecioTotalProducto" runat="server" Text="Total" Width="50px"
-                                                                            Font-Bold="True"></rfn:RFNLabel>
+                                                                        <label id="lblPrecioTotalProducto" runat="server" style="font-weight: bold; width: 50px">Total</label>
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalProducto">
                                                                         <rfn:RFNTextbox ID="txtPrecioTotalProducto" runat="server" TipoDato="DecimalPositivo"
@@ -3986,12 +3817,10 @@
                                             <ContentTemplate>
                                                 <fieldset id="fsTarificacionAutonomos" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendTarificacionAutonomos" runat="server" Text="Autónomos">
-                                                        </rfn:RFNLabel>
+                                                        <label id="lblLegendTarificacionAutonomos" runat="server">Autónomos</label>
                                                     </legend>
                                                     <div id="tarifaAutonomos" class="subelementosSeccionPrincipalPadd">
-                                                        <rfn:RFNLabel runat="server" ID="lblccdTarifaAutonomos" Text="Tarifa" AssociatedControlID="ccdTarifaAutonomos"
-                                                            CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                        <label id="lblccdTarifaAutonomos" runat="server" for="ccdTarifaAutonomos" class="lblEtiquetas">Tarifa</label>
                                                         <rfn:RFNCodDescripcion ID="ccdTarifaAutonomos" runat="server" Width="600px" CampoCodigo="COD_TIP_TAR"
                                                             CampoDescripcion="DES_TIP_TAR" FuenteDatos="SPA.Starifas_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                             Titulo="Tarifas Autónomos" WidthCod="75px" Tipo="Procedimiento" NumElementos="50"
@@ -4015,25 +3844,23 @@
                                                     <div class="subelementosSeccionPrincipalPadd">
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblVacioAutonomo" runat="server" Text="lblVacio" CssClass="lblEtiquetas"
-                                                                    ForeColor="White"></rfn:RFNLabel>
-                                                                <rfn:RFNLabel ID="lblPrecioTecnicoProductoAutonomo" runat="server" Text="Técnico"
-                                                                    Width="50px"></rfn:RFNLabel>
+                                                                <label id="lblVacioAutonomo" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
+                                                                <label id="lblPrecioTecnicoProductoAutonomo" runat="server" style="width: 50px">Técnico</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblPrecioProductoAutonomo" runat="server" Text="Precio" CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblHorasProductoAutonomo" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6">Horas</label>
                                                                 <rfn:RFNTextbox ID="txtPrecioTecnicoProductoAutonomo" runat="server" TipoDato="DecimalPositivo"
                                                                     Width="75px" Enabled="False" Text="0" />
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblHorasProductoAutonomo" runat="server" Text="Horas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblHorasProductoAutonomo" runat="server" class="lblEtiquetas">Horas</label>
                                                                 <rfn:RFNTextbox ID="txtHorasTecnicoProductoAutonomo" runat="server" TipoDato="DecimalPositivo"
                                                                     Width="75px" Enabled="False" Text="0" />
                                                             </div>
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblPrecioMedicoProductoAutonomo" runat="server" Text="Médico" Width="50px"></rfn:RFNLabel>
+                                                                <label id="lblPrecioTotalProductoAutonomo" runat="server" class="elementosSeccionPrincipalProducto" style="font-weight: bold; width: 50px; pointer-events: none; opacity: 0.6">Total</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
                                                                 <rfn:RFNTextbox ID="txtPrecioMedicoProductoAutonomo" runat="server" TipoDato="DecimalPositivo"
@@ -4046,8 +3873,7 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblPrecioTotalProductoAutonomo" runat="server" Text="Total" Width="50px"
-                                                                    Font-Bold="True"></rfn:RFNLabel>
+                                                                <label id="lblPrecioTotalProductoAutonomo" runat="server" style="font-weight: bold; width: 50px">Total</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
                                                                 <rfn:RFNTextbox ID="txtPrecioTotalProductoAutonomo" runat="server" TipoDato="DecimalPositivo"
@@ -4092,12 +3918,10 @@
                                             <ContentTemplate>
                                                 <fieldset id="fsTarificacionBolsaHoras" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendTarificacionBolsaHoras" runat="server" Text="Bolsa de Horas">
-                                                        </rfn:RFNLabel>
+                                                        <label id="lblLegendTarificacionBolsaHoras" runat="server">Bolsa de Horas</label>
                                                     </legend>
                                                     <div id="tarifaBolsaHoras" class="subelementosSeccionPrincipalPadd">
-                                                        <rfn:RFNLabel runat="server" ID="lblccdTarifaBolsaHoras" Text="Tarifa" AssociatedControlID="ccdTarifaBolsaHoras"
-                                                            CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                        <label id="lblccdTarifaBolsaHoras" runat="server" for="ccdTarifaBolsaHoras" class="lblEtiquetas">Tarifa</label>
                                                         <rfn:RFNCodDescripcion ID="ccdTarifaBolsaHoras" runat="server" Width="600px" CampoCodigo="COD_TIP_TAR"
                                                             CampoDescripcion="DES_TIP_TAR" FuenteDatos="SPA.Starifas_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                             Titulo="Tarifas Bolsa de Horas" WidthCod="75px" Tipo="Procedimiento" NumElementos="50"
@@ -4121,26 +3945,23 @@
                                                     <div class="subelementosSeccionPrincipalPadd">
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblVacioBolsaHoras" runat="server" Text="lblVacio" CssClass="lblEtiquetas"
-                                                                    ForeColor="White"></rfn:RFNLabel>
-                                                                <rfn:RFNLabel ID="lblPrecioTecnicoProductoBolsaHoras" runat="server" Text="Técnico"
-                                                                    Width="50px"></rfn:RFNLabel>
+                                                                <label id="lblVacioBolsaHoras" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
+                                                                <label id="lblPrecioTecnicoProductoBolsaHoras" runat="server" style="width: 50px">Técnico</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblPrecioProductoBolsaHoras" runat="server" Text="Precio" CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblHorasProductoBolsaHoras" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6">Horas</label>
                                                                 <rfn:RFNTextbox ID="txtPrecioTecnicoProductoBolsaHoras" runat="server" TipoDato="DecimalPositivo"
                                                                     Width="75px" Enabled="False" Text="0" />
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblHorasProductoBolsaHoras" runat="server" Text="Horas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblHorasProductoBolsaHoras" runat="server" class="lblEtiquetas">Horas</label>
                                                                 <rfn:RFNTextbox ID="txtHorasTecnicoProductoBolsaHoras" runat="server" TipoDato="DecimalPositivo"
                                                                     Width="75px" Enabled="False" Text="0" />
                                                             </div>
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblPrecioMedicoProductoBolsaHoras" runat="server" Text="Médico"
-                                                                    Width="50px"></rfn:RFNLabel>
+                                                                <label id="lblPrecioMedicoProductoBolsaHoras" runat="server" style="width: 50px">Médico</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
                                                                 <rfn:RFNTextbox ID="txtPrecioMedicoProductoBolsaHoras" runat="server" TipoDato="DecimalPositivo"
@@ -4153,8 +3974,7 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <rfn:RFNLabel ID="lblPrecioTotalProductoBolsaHoras" runat="server" Text="Total" Width="50px"
-                                                                    Font-Bold="True"></rfn:RFNLabel>
+                                                                <label id="lblPrecioTotalProductoBolsaHoras" runat="server" style="font-weight: bold; width: 50px">Total</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
                                                                 <rfn:RFNTextbox ID="txtPrecioTotalProductoBolsaHoras" runat="server" TipoDato="DecimalPositivo"
@@ -4200,21 +4020,20 @@
                                 <div id="divOcultarFactRecos" runat="server" style="display: block;">
                                     <fieldset id="fsFactRecos" class="seccionesPrincipales4">
                                         <legend>
-                                            <rfn:RFNLabel ID="lblFieldSetFactRecos" runat="server" Text="Facturación de Reconocimientos"></rfn:RFNLabel>
+                                            <label id="lblFieldSetFactRecos" runat="server">Facturación de Reconocimientos</label>
                                         </legend>
                                         <div class="subelementosSeccionPrincipal">
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <div class="subelementosSeccionPrincipal" style="display: none">
-                                                    <rfn:RFNLabel ID="lblImporteTarifaReco" runat="server" Text="Importe según Tarifa: "></rfn:RFNLabel>
+                                                    <label id="lblImporteTarifaRecoDescuento" runat="server" class="subelementosSeccionPrincipal">Importe aplicado:</label>
                                                 </div>
                                                 <div class="subelementosSeccionPrincipal">
-                                                    <rfn:RFNLabel ID="lblImporteTarifaRecoDescuento" runat="server" Text="Importe aplicado: "></rfn:RFNLabel>
+                                                    <label id="lblImporteTarifaRecoDescuento" runat="server">Importe aplicado:</label>
                                                 </div>
                                             </div>
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <div class="subelementosSeccionPrincipal">
-                                                    <rfn:RFNLabel ID="lblBajaPeligrosidad" class="lblEtiquetas" AssociatedControlID="txtBajaPeligrosidad"
-                                                        runat="server" Text="Bajo Riesgo"> </rfn:RFNLabel>
+                                                    <label id="lblBajaPeligrosidad" runat="server" for="txtBajaPeligrosidad" class="lblEtiquetas">Bajo Riesgo</label>
                                                 </div>
                                                 <div class="subelementosSeccionPrincipal" style="display: none">
                                                     <rfn:RFNTextbox ID="txtAntBajaPeligrosidad" Width="100px" runat="server" TipoDato="Moneda"
@@ -4227,8 +4046,7 @@
                                             </div>
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <div class="subelementosSeccionPrincipal">
-                                                    <rfn:RFNLabel ID="lblAltaPeligrosidad" class="lblEtiquetas" AssociatedControlID="txtAltaPeligrosidad"
-                                                        runat="server" Text="Alto Riesgo"> </rfn:RFNLabel>
+                                                    <label id="lblAltaPeligrosidad" runat="server" for="txtAltaPeligrosidad" class="lblEtiquetas">Alto Riesgo</label>
                                                 </div>
                                                 <div class="subelementosSeccionPrincipal" style="display: none">
                                                     <rfn:RFNTextbox ID="txtAntAltaPeligrosidad" Width="100px" runat="server" TipoDato="Moneda"
@@ -4241,8 +4059,7 @@
                                             </div>
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <div class="subelementosSeccionPrincipal">
-                                                    <rfn:RFNLabel ID="lblIncluyeRecos" class="lblEtiquetas" AssociatedControlID="txtIncluyeRecos"
-                                                        runat="server" Text="Incluye"> </rfn:RFNLabel>
+                                                    <label id="lblIncluyeRecos" runat="server" for="txtIncluyeRecos" class="lblEtiquetas">Incluye</label>
                                                 </div>
                                                 <div class="subelementosSeccionPrincipal" style="display: none">
                                                     <rfn:RFNTextbox ID="txtAntIncluyeRecos" Width="40px" runat="server" TipoDato="EnteroPositivo"
@@ -4264,8 +4081,7 @@
                                             <div class="elementosSeccionPrincipalCercano" id="reconocimientosPreFacturados">
                                                 <div class="subelementosSeccionPrincipal">
                                                     <rfn:RFNCheckBox ID="chkModRPF" runat="server" Text="RPF" Style="display: none"></rfn:RFNCheckBox>
-                                                    <rfn:RFNLabel ID="lblReconocimientosPrefacturados" class="lblEtiquetas" AssociatedControlID="txtModRPF"
-                                                        runat="server" Text="Importe Reconocimientos Prefact."> </rfn:RFNLabel>
+                                                    <label id="lblReconocimientosPrefacturados" runat="server" for="txtModRPF" class="lblEtiquetas">Importe Reconocimientos Prefact.</label>
                                                 </div>
                                                 <div class="subelementosSeccionPrincipal">
                                                     <rfn:RFNTextbox ID="txtModRPF" Width="80px" runat="server" TipoDato="Moneda" Enabled="False"></rfn:RFNTextbox>
@@ -4278,14 +4094,12 @@
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <rfn:RFNTextbox ID="txtDescRecoBaja" Width="40px" runat="server" TipoDato="DecimalPositivo"
                                                     MaxLength="6" Enabled="False" ViewStateMode="Enabled" MaxValue="100"></rfn:RFNTextbox>
-                                                <rfn:RFNLabel ID="lblDescRecoBaja" AssociatedControlID="txtDescRecoBaja" runat="server"
-                                                    Text="%Desc.Reco.Bajo Riesgo"> </rfn:RFNLabel>
+                                                <label id="lblDescRecoBaja" runat="server" for="txtDescRecoBaja">%Desc.Reco.Bajo Riesgo</label>
                                             </div>
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <rfn:RFNTextbox ID="txtDescRecoAlta" Width="40px" runat="server" TipoDato="DecimalPositivo"
                                                     MaxLength="6" Enabled="False" ViewStateMode="Enabled" MaxValue="100"></rfn:RFNTextbox>
-                                                <rfn:RFNLabel ID="lblDescRecoAlta" AssociatedControlID="txtDescRecoAlta" runat="server"
-                                                    Text="%Desc.Reco.Alto Riesgo"> </rfn:RFNLabel>
+                                                <label id="lblDescRecoAlta" runat="server" for="txtDescRecoAlta">%Desc.Reco.Alto Riesgo</label>
                                             </div>
                                         </div>
                                     </fieldset>
@@ -4297,15 +4111,14 @@
                                 Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                 <fieldset id="fsFacturacion" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="lblLegendFacturacion" runat="server" Text="Facturación">
-                                        </rfn:RFNLabel>
+                                        <label id="lblLegendFacturacion" runat="server">Facturación</label>
                                     </legend>
                                     <asp:UpdatePanel ID="upfacturacion" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="False">
                                         <ContentTemplate>
                                             <div class="subelementosSeccionPrincipalPadd2">
                                                 <fieldset id="fsCtrIndicadores" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendCtrIndicadores" runat="server" Text="Indicadores"></rfn:RFNLabel>
+                                                        <label id="lblRefFact" runat="server" for="txtRefFact" class="lblEtiquetas" style="font-weight: False; width: 75px; pointer-events: none; opacity: 0.6: True; display: none">Ref. Factura</label>
                                                     </legend>
                                                     <div class="subelementosSeccionPrincipalPadd">
                                                         <div class="elementosSeccionPrincipalCercano">
@@ -4331,21 +4144,18 @@
                                                                 ValidationGroup="vGuardaContrato" ErrorMessage="Error en Fecha Inicio Facturación de Cartera Negociada"></rfn:RFNCalendar>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal" style="display: none">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblRefFact" AssociatedControlID="txtRefFact"
-                                                                runat="server" Text="Ref. Factura"> </rfn:RFNLabel>
+                                                            <label id="lblRefFact" runat="server" for="txtRefFact" class="lblEtiquetas">Ref. Factura</label>
                                                             <rfn:RFNTextbox ID="txtRefFact" Width="150px" runat="server" MaxLength="20" TipoDato="Texto" OnClientChange="COPIADATO1"></rfn:RFNTextbox>
                                                         </div>
 
                                                         <div class="elementosSeccionPrincipalCercano" style="display: block">
-                                                            <rfn:RFNLabel ID="lblNumpedidoF" AssociatedControlID="txtNumPedidoF" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Nº Pedido Fijo"></rfn:RFNLabel>
+                                                            <label id="lblNumpedidoF" runat="server" for="txtNumPedidoF" class="lblEtiquetas">Nº Pedido Fijo</label>
                                                             <rfn:RFNTextbox ID="txtNumPedidoF" Width="150px" runat="server" MaxLength="20" TipoDato="Texto" OnClientChange="COPIADATO1"></rfn:RFNTextbox>
 
                                                         </div>
 
                                                         <div class="elementosSeccionPrincipalCercano" style="display: block">
-                                                            <rfn:RFNLabel ID="lblNumpedidoV" AssociatedControlID="txtNumPedidoV" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Nº Pedido Variable"></rfn:RFNLabel>
+                                                            <label id="lblNumpedidoV" runat="server" for="txtNumPedidoV" class="lblEtiquetas">Nº Pedido Variable</label>
                                                             <rfn:RFNTextbox ID="txtNumPedidoV" Width="150px" runat="server" MaxLength="20" TipoDato="Texto" OnClientChange="COPIADATO3"></rfn:RFNTextbox>
 
                                                         </div>
@@ -4509,15 +4319,13 @@
                                                     <%--  //dia de pago y cif pagador ocultos numero de pedido F y V--%>
                                                     <div class="subelementosSeccionPrincipal" style="display: block">
                                                         <div class="elementosSeccionPrincipalCercano">
-                                                            <rfn:RFNLabel ID="lbldiapago" AssociatedControlID="txtdiapago" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Día de Pago"></rfn:RFNLabel>
+                                                            <label id="lbldiapago" runat="server" for="txtdiapago" class="lblEtiquetas">Día de Pago</label>
                                                             <rfn:RFNTextbox ID="txtdiapago" Width="150px" runat="server" MaxLength="2" TipoDato="EnteroPositivo" OnClientChange="RevisarDia"></rfn:RFNTextbox>
 
                                                         </div>
 
                                                         <div runat="server" id="divActivarCifPagador" class="elementosSeccionPrincipalCercano" style="display: block">
-                                                            <rfn:RFNLabel ID="lblcifpagador" AssociatedControlID="ccdCifPagador" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Otro Pagador"></rfn:RFNLabel>
+                                                            <label id="lblcifpagador" runat="server" for="ccdCifPagador" class="lblEtiquetas">Otro Pagador</label>
                                                             <rfn:RFNCodDescripcion ID="ccdCifPagador" runat="server" Width="400px" CampoCodigo="COD_IDENTIFICADOR"
                                                                 CampoDescripcion="DES_RAZON_SOCIAL" FuenteDatos="SPA.S_CLIENTES" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                                 Titulo="Razón Social" WidthCod="75px" TipoCodigo="Alfanumerico" ValidationGroup="" OnClientChange="ComprobarCif"
@@ -4559,15 +4367,13 @@
                                                         </div>
 
                                                         <%--  <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel ID="lblNumpedidoF" AssociatedControlID="txtNumPedidoF" CssClass="lblEtiquetas"
-                                                        runat="server" Text="Nº Pedido Fijo"></rfn:RFNLabel>
+                                                    <label id="lblNumpedidoF" runat="server" for="txtNumPedidoF" class="lblEtiquetas">Nº Pedido Fijo</label>
                                                     <rfn:RFNTextbox ID="txtNumPedidoF" Width="150px" runat="server"  TipoDato="EnteroPositivo"></rfn:RFNTextbox>
 
                                                 </div>
 
                                                    <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel ID="lblNumpedidoV" AssociatedControlID="txtNumPedidoV" CssClass="lblEtiquetas"
-                                                        runat="server" Text="Nº Pedido Variable"></rfn:RFNLabel>
+                                                    <label id="lblNumpedidoV" runat="server" for="txtNumPedidoV" class="lblEtiquetas">Nº Pedido Variable</label>
                                                     <rfn:RFNTextbox ID="txtNumPedidoV" Width="150px" runat="server"  TipoDato="EnteroPositivo"></rfn:RFNTextbox>
 
                                                 </div>--%>
@@ -4577,8 +4383,7 @@
 
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalCercano">
-                                                            <rfn:RFNLabel ID="lblFormaPago" AssociatedControlID="rblTipoPago" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Forma de Pago"></rfn:RFNLabel>
+                                                            <label id="lblFormaPago" runat="server" for="rblTipoPago" class="lblEtiquetas">Forma de Pago</label>
                                                             <rfn:RFNRadioButtonList ID="rblTipoPago" runat="server" ErrorMessage="Forma de Pago Obligatoria"
                                                                 ValidationGroup="vGuardaContrato" BorderWidth="1" BorderStyle="Solid" BorderColor="Black"
                                                                 OnClientChange="cambioFormaPago" Width="300px" Requerido="True" CausesValidation="True">
@@ -4587,8 +4392,7 @@
                                                             </rfn:RFNRadioButtonList>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel ID="lblPeriPago" AssociatedControlID="rblPeriPago" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Periodo de Facturación"></rfn:RFNLabel>
+                                                            <label id="lblPeriPago" runat="server" for="rblPeriPago" class="lblEtiquetas">Periodo de Facturación</label>
                                                             <rfn:RFNRadioButtonList ID="rblPeriPago" runat="server" ErrorMessage="Periodo de Facturación Obligatorio"
                                                                 ValidationGroup="vGuardaContrato" BorderWidth="1" BorderStyle="Solid" BorderColor="Black"
                                                                 Width="300px" Requerido="True" CausesValidation="True" OnClientChange="cambioPeriPago">
@@ -4599,8 +4403,7 @@
                                                             </rfn:RFNRadioButtonList>
                                                         </div>
                                                         <div class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel ID="lblPlazoPago" AssociatedControlID="cmbPlazoPago" CssClass="lblEtiquetas"
-                                                                runat="server" Text="Plazo de Pago"></rfn:RFNLabel>
+                                                            <label id="lblPlazoPago" runat="server" for="cmbPlazoPago" class="lblEtiquetas">Plazo de Pago</label>
                                                             <rfn:RFNDropDownList ID="cmbPlazoPago" runat="server" DataValueField="COD_VALOR"
                                                                 DataTextField="DES_VALOR" PermitirVacio="True" Width="80px">
                                                             </rfn:RFNDropDownList>
@@ -4611,20 +4414,18 @@
                                             <div class="subelementosSeccionPrincipalPadd2">
                                                 <fieldset id="fsCtrDirEnvFact" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendCtrDirEnvFact" runat="server" Text="Dirección de envío de facturas"></rfn:RFNLabel>
+                                                        <label id="lblProvinciaEnvFact" runat="server" for="cmbProvinciaEnvFact" class="lblEtiquetas">Provincia</label>
                                                     </legend>
                                                     <div id="dirEnvFact" class="mostrarControl">
                                                         <div class="subelementosSeccionPrincipal">
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel ID="lblProvinciaEnvFact" AssociatedControlID="cmbProvinciaEnvFact"
-                                                                    CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+                                                                <label id="lblProvinciaEnvFact" runat="server" for="cmbProvinciaEnvFact" class="lblEtiquetas">Provincia</label>
                                                                 <rfn:RFNDropDownList ID="cmbProvinciaEnvFact" runat="server" Width="192px" PermitirVacio="True"
                                                                     ErrorMessage="Error en Provincia de la Dirección de envío de facturas" ValidationGroup="vGuardaContrato" Requerido="False"
                                                                     DataTextField="DESCRIPCION" DataValueField="ID_REGION" OnClientChange="CambioProvinciaClienteEnvFact" />
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionEnvFact" AssociatedControlID="ccdPoblacionEnvFact"
-                                                                    runat="server" Text="Población"></rfn:RFNLabel>
+                                                                <label id="lblPoblacionEnvFact" runat="server" for="ccdPoblacionEnvFact" class="lblEtiquetas">Población</label>
                                                                 <rfn:RFNCodDescripcion ID="ccdPoblacionEnvFact" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                                     Width="300px" Requerido="False" ErrorMessage="Error en Población de la Dirección de envío de facturas" ValidationGroup="vGuardaContrato"
                                                                     BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población" Tipo="Procedimiento" MostrarCodigo="False"
@@ -4642,8 +4443,7 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipal">
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblViaEnvFact" AssociatedControlID="cmbTipoViaEnvFact"
-                                                                    runat="server" Text="Tipo de vía"> </rfn:RFNLabel>
+                                                                <label id="lblViaEnvFact" runat="server" for="cmbTipoViaEnvFact" class="lblEtiquetas">Tipo de vía</label>
                                                                 <rfn:RFNDropDownList ID="cmbTipoViaEnvFact" runat="server" Width="192px" PermitirVacio="True"
                                                                     Requerido="False" ErrorMessage="Error en Tipo de Vía de la Dirección de envío de facturas" ValidationGroup="vGuardaContrato"
                                                                     DataTextField="DES_TIPO_VIA" DataValueField="COD_TIPO_VIA" />
@@ -4654,8 +4454,7 @@
                                                                     Requerido="False" MaxLength="49" ErrorMessage="Error en Calle de la Dirección de envío de facturas" ValidationGroup="vGuardaContrato"></rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblNumeroEnvFact" AssociatedControlID="txtNumEnvFact"
-                                                                    runat="server" Text="Número"> </rfn:RFNLabel>
+                                                                <label id="lblNumeroEnvFact" runat="server" for="txtNumEnvFact" class="lblEtiquetas">Número</label>
                                                                 <rfn:RFNTextbox ID="txtNumEnvFact" Width="70px" runat="server" OnClientChange="validaNumeroCaracteresEnvFact"
                                                                     Requerido="False" MaxLength="16"></rfn:RFNTextbox>
                                                                 <rfn:RFNTextbox ID="txtControlCaracteresConCalleEnvFact" runat="server" Width="0px"
@@ -4670,38 +4469,32 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipal">
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblPortalEnvFact" AssociatedControlID="txtPortalEnvFact"
-                                                                    runat="server" Text="Portal"> </rfn:RFNLabel>
+                                                                <label id="lblPortalEnvFact" runat="server" for="txtPortalEnvFact" class="lblEtiquetas">Portal</label>
                                                                 <rfn:RFNTextbox ID="txtPortalEnvFact" OnClientChange="validaNumeroCaracteresEnvFact"
                                                                     Width="50px" runat="server" Requerido="False" MaxLength="4"></rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblEscaleraEnvFact" AssociatedControlID="txtEscaleraEnvFact"
-                                                                    runat="server" Text="Escalera"> </rfn:RFNLabel>
+                                                                <label id="lblEscaleraEnvFact" runat="server" for="txtEscaleraEnvFact" class="lblEtiquetas">Escalera</label>
                                                                 <rfn:RFNTextbox ID="txtEscaleraEnvFact" OnClientChange="validaNumeroCaracteresEnvFact"
                                                                     Width="50px" runat="server" MaxLength="4"></rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblPisoEnvFact" AssociatedControlID="txtPisoEnvFact"
-                                                                    runat="server" Text="Piso"> </rfn:RFNLabel>
+                                                                <label id="lblPisoEnvFact" runat="server" for="txtPisoEnvFact" class="lblEtiquetas">Piso</label>
                                                                 <rfn:RFNTextbox ID="txtPisoEnvFact" OnClientChange="validaNumeroCaracteresEnvFact"
                                                                     Width="50px" runat="server" MaxLength="2"></rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblPuertaEnvFact" AssociatedControlID="txtPuertaEnvFact"
-                                                                    runat="server" Text="Puerta"> </rfn:RFNLabel>
+                                                                <label id="lblPuertaEnvFact" runat="server" for="txtPuertaEnvFact" class="lblEtiquetas">Puerta</label>
                                                                 <rfn:RFNTextbox ID="txtPuertaEnvFact" OnClientChange="validaNumeroCaracteresEnvFact"
                                                                     Width="70px" runat="server" MaxLength="2"></rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblNumTelfEnvFact" AssociatedControlID="txtTelefonoEnvFact"
-                                                                    runat="server" Text="Teléfono"> </rfn:RFNLabel>
+                                                                <label id="lblNumTelfEnvFact" runat="server" for="txtTelefonoEnvFact" class="lblEtiquetas">Teléfono</label>
                                                                 <rfn:RFNTextbox ID="txtTelefonoEnvFact" Width="70px" runat="server" MaxLength="9"
                                                                     TipoDato="Telefono"></rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblNumFaxEnvFact" AssociatedControlID="txtNumFaxEnvFact"
-                                                                    runat="server" Text="Fax"> </rfn:RFNLabel>
+                                                                <label id="lblNumFaxEnvFact" runat="server" for="txtNumFaxEnvFact" class="lblEtiquetas">Fax</label>
                                                                 <rfn:RFNTextbox ID="txtNumFaxEnvFact" Width="70px" runat="server" MaxLength="9" TipoDato="Telefono"></rfn:RFNTextbox>
                                                             </div>
                                                         </div>
@@ -4711,22 +4504,19 @@
                                                     <div id="dirEnvFactFilial" class=" ocultarControl">
                                                         <div class="subelementosSeccionPrincipal">
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel ID="lblProvinciaFilial" AssociatedControlID="txtProvinciaFilial" CssClass="lblEtiquetas"
-                                                                    runat="server"></rfn:RFNLabel>
+                                                                <label id="lblProvinciaFilial" runat="server" for="txtProvinciaFilial" class="lblEtiquetas"></label>
                                                                 <rfn:RFNTextbox ID="txtProvinciaFilial" Width="192px" runat="server" TipoDato="Texto"
                                                                     ErrorMessage="Error en Provincia" ValidationGroup="vGuardaContrato" Requerido="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionFilial" AssociatedControlID="txtPoblacionFilial"
-                                                                    runat="server"></rfn:RFNLabel>
+                                                                <label id="lblPoblacionFilial" runat="server" for="txtPoblacionFilial" class="lblEtiquetas"></label>
                                                                 <rfn:RFNTextbox ID="txtPoblacionFilial" Width="300px" runat="server" TipoDato="Texto"
                                                                     ErrorMessage="Error en población" ValidationGroup="vGuardaContrato" Requerido="False">
                                                                 </rfn:RFNTextbox>
                                                             </div>
                                                             <div id="cpFilial" class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblCPFilial" AssociatedControlID="txtCPFilial"
-                                                                    runat="server"></rfn:RFNLabel>
+                                                                <label id="lblCPFilial" runat="server" for="txtCPFilial" class="lblEtiquetas"></label>
                                                                 <rfn:RFNTextbox ID="txtCPFilial" Width="70px" runat="server" TipoDato="Texto"
                                                                     ErrorMessage="Error en Código Postal" ValidationGroup="vGuardaContrato" Requerido="False">
                                                                 </rfn:RFNTextbox>
@@ -4734,8 +4524,7 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipal">
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblDomicilioFacturacionFilial" AssociatedControlID="txtDomicilioFacturacionFilial"
-                                                                    runat="server"> </rfn:RFNLabel>
+                                                                <label id="lblDomicilioFacturacionFilial" runat="server" for="txtDomicilioFacturacionFilial" class="lblEtiquetas"></label>
                                                                 <rfn:RFNTextbox ID="txtDomicilioFacturacionFilial" Width="700px" runat="server" TipoDato="Texto"
                                                                     ErrorMessage="Error en Domicilio de facturación" ValidationGroup="vGuardaContrato" Requerido="False"
                                                                     MaxLength="100">
@@ -4753,8 +4542,7 @@
                                                                 MaxLength="70" OnClientChange="CompruebaCaracteres"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblEmailEnvFact" AssociatedControlID="txtEmailEnvFact"
-                                                                runat="server" Text="Dirección Email"> </rfn:RFNLabel>
+                                                            <label id="lblEmailEnvFact" runat="server" for="txtEmailEnvFact" class="lblEtiquetas">Dirección Email</label>
                                                             <rfn:RFNTextbox ID="txtEmailEnvFact" Width="300px" runat="server" TipoDato="Texto"
                                                                 CausesValidation="True" ValidationGroup="vGuardaContrato" ErrorMessage="Error en Email de Dirección de envío de facturas"
                                                                 MaxLength="255" OnClientChange="compruebaEmail" ToolTip="Si desea introducir varias direcciones de Email, éstas han de separarse con Puntos y coma">
@@ -4766,44 +4554,35 @@
                                             <div class="subelementosSeccionPrincipalPadd2">
                                                 <fieldset id="fsCtDomiBanc" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendCtrDomiBanc" runat="server" Text="Domiciliación Bancaria"></rfn:RFNLabel>
+                                                        <label id="lblNombreCompleto" runat="server" for="txtNombre" class="lblEtiquetas">Razón Social</label>
                                                     </legend>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div id="nomColectivo" class="elementosSeccionPrincipal">
-                                                            <rfn:RFNLabel runat="server" ID="lblNombreCompleto" Text="Razón Social" AssociatedControlID="txtNombre"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblNombreCompleto" runat="server" for="txtNombre" class="lblEtiquetas">Razón Social</label>
                                                             <rfn:RFNTextbox ID="txtNombreCompleto" runat="server" Enabled="False" Width="400px"
                                                                 Style="text-transform: uppercase" CausesValidation="True" ErrorMessage="Error en Nombre de Cliente (Domiciliación Bancaria)"
                                                                 ValidationGroup="vGuardaContrato" MaxLength="40"></rfn:RFNTextbox>
                                                         </div>
                                                         <div id="nomIndividual" class="elementosSeccionPrincipal" style="display: none">
-                                                            <rfn:RFNLabel runat="server" ID="lblNombre" Text="Nombre" AssociatedControlID="txtNombre"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblNombre" runat="server" for="txtNombre" class="lblEtiquetas">Nombre</label>
                                                             <rfn:RFNTextbox ID="txtNombre" runat="server" Enabled="False" Width="100px" Style="text-transform: uppercase"
                                                                 CausesValidation="True" ErrorMessage="Error en Nombre de Cliente (Domiciliación Bancaria)"
                                                                 ValidationGroup="vGuardaContrato" MaxLength="15"></rfn:RFNTextbox>
                                                         </div>
                                                         <div id="ape1Individual" class="elementosSeccionPrincipal" style="display: none">
-                                                            <rfn:RFNLabel runat="server" ID="lblApellido1" Text="Primer Apellido" AssociatedControlID="txtApellido1"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblApellido1" runat="server" for="txtApellido1" class="lblEtiquetas">Primer Apellido</label>
                                                             <rfn:RFNTextbox ID="txtApellido1" runat="server" Enabled="False" Width="100px" Style="text-transform: uppercase"
                                                                 CausesValidation="True" ErrorMessage="Error en Apellido 1 del Cliente (Domiciliación Bancaria)"
                                                                 ValidationGroup="vGuardaContrato" MaxLength="15"></rfn:RFNTextbox>
                                                         </div>
                                                         <div id="ape2Individual" class="elementosSeccionPrincipal" style="display: none">
-                                                            <rfn:RFNLabel runat="server" ID="lblApellido2" Text="Segundo Apellido" AssociatedControlID="txtApellido2"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblApellido2" runat="server" for="txtApellido2" class="lblEtiquetas">Segundo Apellido</label>
                                                             <rfn:RFNTextbox ID="txtApellido2" runat="server" Enabled="False" Width="100px" Style="text-transform: uppercase"
                                                                 CausesValidation="True" ErrorMessage="Error en Apellido 2 del Cliente (Domiciliación Bancaria)"
                                                                 ValidationGroup="vGuardaContrato" MaxLength="10"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel runat="server" ID="lblTipDocu" Text="Tipo" AssociatedControlID="rblColInd"
-                                                                CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                            <label id="lblTipDocu" runat="server" for="rblColInd" class="lblEtiquetas">Tipo</label>
                                                             <rfn:RFNRadioButtonList ID="rblColInd" runat="server" Enabled="False" CellPadding="0"
                                                                 CellSpacing="0" RepeatDirection="Horizontal" Requerido="True" OnClientChange="cambioColInd">
                                                                 <asp:ListItem Selected="True" Value="COLECTIVO">Colectivo</asp:ListItem>
@@ -4815,15 +4594,12 @@
                                                     </div>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel runat="server" ID="lblNomBanco" Text="Banco" AssociatedControlID="txtNomBanco"
-                                                                CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                            <label id="lblNomBanco" runat="server" for="txtNomBanco" class="lblEtiquetas">Banco</label>
                                                             <rfn:RFNTextbox ID="txtNomBanco" runat="server" Enabled="False" Width="350px" Style="text-transform: uppercase"
                                                                 CausesValidation="True" ErrorMessage="Error en Nombre de Banco" ValidationGroup="vGuardaContrato"></rfn:RFNTextbox>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel runat="server" ID="lblIdentificador" Text="CIF" AssociatedControlID="txtIdentificador"
-                                                                CssClass="lblEtiquetas">
-                                                            </rfn:RFNLabel>
+                                                            <label id="lblIdentificador" runat="server" for="txtIdentificador" class="lblEtiquetas">CIF</label>
                                                             <rfn:RFNTextIdentificador ID="txtIdentificador" runat="server" Enabled="False" Style="text-transform: uppercase"
                                                                 ErrorMessage="Error en CIF" ValidarCIF="True" ValidarNIE="True" ValidarNIF="True"
                                                                 ValidationGroup="vGuardaContrato" Requerido="False" MaxLength="10">
@@ -4835,23 +4611,21 @@
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
                                                             <div>
-                                                                <rfn:RFNLabel runat="server" ID="lblIban" Text="IBAN" AssociatedControlID="txtIban"
-                                                                    CssClass="lblEtiquetasPadd2"></rfn:RFNLabel>
-                                                                <rfn:RFNLabel runat="server" ID="lblDc" Text="DC" AssociatedControlID="txtIban" CssClass="lblEtiquetasPadd3"></rfn:RFNLabel>
-                                                                <rfn:RFNLabel runat="server" ID="lblCCC" Text="CCC" AssociatedControlID="txtIban"></rfn:RFNLabel>
+                                                                <label id="lblIban" runat="server" for="txtIban" class="lblEtiquetasPadd2">IBAN</label>
+                                                                <label id="lblDc" runat="server" for="txtIban" class="lblEtiquetasPadd3">DC</label>
+                                                                <label id="lblCCC" runat="server" for="txtIban">CCC</label>
                                                             </div>
                                                             <rfn:RFNIban ID="txtIban" runat="server" ValidationGroup="vGuardaContrato" ErrorMessage="Error en Iban"
                                                                 Requerido="False" OnClientChange="cambioIban" />
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS" style="display: none">
-                                                            <rfn:RFNLabel runat="server" ID="lblNumCuenta" Text="Cuenta" AssociatedControlID="txtNumCuenta"
-                                                                CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                            <label id="lblNumCuenta" runat="server" for="txtNumCuenta" class="lblEtiquetas">Cuenta</label>
                                                             <rfn:RFNCuentaBancaria ID="txtNumCuenta" runat="server" Enabled="True" CausesValidation="True"
                                                                 ErrorMessage="Error en Cuenta Bancaria" Width="350px" ValidationGroup="vGuardaContrato"
                                                                 OnClientChange="cambioCuenta"></rfn:RFNCuentaBancaria>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel ID="lblfact" ForeColor="Red" runat="server" Style="display: none" Text="Según los permisos que usted tiene no puede introducir la cuenta bancaria del contrato."></rfn:RFNLabel>
+                                                            <label id="lblFsAnalPerfil" runat="server" class="seccionesPrincipales" style="color: Red; width: 100%; display: table; pointer-events: none; opacity: 0.6; display: none;">Perfiles</label>
                                                         </div>
                                                     </div>
                                                 </fieldset>
@@ -4900,13 +4674,11 @@
                                         Collapsed="True" Width="100%" Display="table">
                                         <fieldset id="fsAnalPerfil" class="seccionesPrincipales">
                                             <legend>
-                                                <rfn:RFNLabel ID="lblFsAnalPerfil" runat="server" Text="Perfiles">
-                                                </rfn:RFNLabel>
+                                                <label id="lblFsAnalPerfil" runat="server">Perfiles</label>
                                             </legend>
                                             <div id="mostrarAltaAnaliticaPerfil" class="subelementosSeccionPrincipalPadd2" style="display: block">
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel runat="server" ID="lblTipoAnaliticaPerfil" Text="Perfil" AssociatedControlID="ccdTipoAnaliticaPerfil"
-                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                    <label id="lblTipoAnaliticaPerfil" runat="server" for="ccdTipoAnaliticaPerfil" class="lblEtiquetas">Perfil</label>
                                                     <rfn:RFNCodDescripcion ID="ccdTipoAnaliticaPerfil" runat="server" Width="400px" CampoCodigo="A.COD_ANALITICA"
                                                         CampoDescripcion="B.LITERAL" WidthCod="75px" FuenteDatos="SPA.SAnaliticasPerfiles_Read"
                                                         BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Analíticas Perfiles" Proxy="wsControlesContratacion" NumElementos="50"
@@ -4942,14 +4714,12 @@
                                         Collapsed="True" Width="100%" Display="table">
                                         <fieldset id="fsAnalCompuesta" class="seccionesPrincipales">
                                             <legend>
-                                                <rfn:RFNLabel ID="lblFsAnalCompuesta" runat="server" Text="Analíticas Compuestas">
-                                                </rfn:RFNLabel>
+                                                <label id="lblFsAnalCompuesta" runat="server">Analíticas Compuestas</label>
                                             </legend>
                                             <div id="mostrarAltaAnaliticaCompuesta" class="subelementosSeccionPrincipalPadd2"
                                                 style="display: none">
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel runat="server" ID="lblTipoAnaliticaCompuesta" Text="Analitica" AssociatedControlID="ccdTipoAnaliticaCompuesta"
-                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                    <label id="lblTipoAnaliticaCompuesta" runat="server" for="ccdTipoAnaliticaCompuesta" class="lblEtiquetas">Analitica</label>
                                                     <rfn:RFNCodDescripcion ID="ccdTipoAnaliticaCompuesta" runat="server" Width="400px"
                                                         CampoCodigo="A.COD_ANALITICA" CampoDescripcion="B.LITERAL" WidthCod="75px" FuenteDatos="SPA.SAnaliticasCompuestas_Read"
                                                         BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Analíticas Compuestas" NumElementos="50" Tipo="Procedimiento"
@@ -4986,13 +4756,11 @@
                                         Titulo="Particularización de Analíticas Simples">
                                         <fieldset id="fsAnalSimple" class="seccionesPrincipales">
                                             <legend>
-                                                <rfn:RFNLabel ID="lblFsAnalSimple" runat="server" Text="Analíticas Simples">
-                                                </rfn:RFNLabel>
+                                                <label id="lblFsAnalSimple" runat="server">Analíticas Simples</label>
                                             </legend>
                                             <div id="mostrarAltaAnaliticaSimple" class="subelementosSeccionPrincipalPadd2" style="display: none">
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel runat="server" ID="lblTipoAnaliticaSimple" Text="Analitica" AssociatedControlID="ccdTipoAnaliticaSimple"
-                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                    <label id="lblTipoAnaliticaSimple" runat="server" for="ccdTipoAnaliticaSimple" class="lblEtiquetas">Analitica</label>
                                                     <rfn:RFNCodDescripcion ID="ccdTipoAnaliticaSimple" runat="server" Width="400px" CampoCodigo="A.COD_ANALITICA"
                                                         CampoDescripcion="B.LITERAL" WidthCod="75px" FuenteDatos="SPA.SAnaliticasSimples_Read"
                                                         BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Analíticas Simples" NumElementos="50" Tipo="Procedimiento"
@@ -5033,7 +4801,7 @@
                                     Width="1010px">
                                     <div id="totalPruebas" class="control_derecha" style="margin: 20px 20px 20px 0px; display: none;">
                                         <div class="elementoColumna">
-                                            <rfn:RFNLabel ID="lblImpPruebasVSI" runat="server" Text="IMPORTE TOTAL VSI PREFACTURADA " CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                            <label id="lblImpPruebasVSI" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6; display: none;">IMPORTE TOTAL VSI PREFACTURADA </label>
                                         </div>
                                         <div class="elementoColumna">
                                             <rfn:RFNTextbox ID="txtImpPruebasVSI" runat="server" TipoDato="Moneda" Width="75px" Enabled="False" Text="0"></rfn:RFNTextbox>
@@ -5042,7 +4810,7 @@
                                     <div id="mostrarfsRecosVSI" class="subelementosSeccionPrincipal" style="display: none;">
                                         <fieldset id="fsRecosVSI" class="seccionesFieldSetN5">
                                             <legend>
-                                                <rfn:RFNLabel ID="lblRecosVSI" runat="server" Text="Reconocimientos"></rfn:RFNLabel>
+                                                <label id="lblRecosVSI" runat="server">Reconocimientos</label>
                                             </legend>
                                             <!--Rconocimientos-->
                                             <div class="subelementosSeccionPrincipal">
@@ -5066,7 +4834,7 @@
                                                             </td>
                                                             <td>
                                                                 <legend>
-                                                                    <rfn:RFNLabel ID="lblTramos" runat="server" Text="Tramos :" Class="tituloPanelColapsable"></rfn:RFNLabel>
+                                                                    <label id="lblTramos" runat="server" class="tituloPanelColapsable">Tramos</label>
                                                                 </legend>
                                                             </td>
                                                             <td>&nbsp
@@ -5119,67 +4887,64 @@
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblTarifa" class="lblEtiquetas" runat="server" Text="Tarifa"> </rfn:RFNLabel>
+                                                                <label id="lblTarifa" runat="server" class="lblEtiquetas">Tarifa</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblDesde1" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+                                                                <label id="lblDesde1" runat="server" class="lblEtiquetas">Desde</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblPrecio1" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+                                                                <label id="lblPrecio1" runat="server" class="lblEtiquetas">Precio</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblDesde2" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+                                                                <label id="lblDesde2" runat="server" class="lblEtiquetas">Desde</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblPrecio2" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+                                                                <label id="lblPrecio2" runat="server" class="lblEtiquetas">Precio</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblDesde3" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+                                                                <label id="lblDesde3" runat="server" class="lblEtiquetas">Desde</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblPrecio3" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+                                                                <label id="lblPrecio3" runat="server" class="lblEtiquetas">Precio</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblDesde4" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+                                                                <label id="lblDesde4" runat="server" class="lblEtiquetas">Desde</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblPrecio4" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+                                                                <label id="lblPrecio4" runat="server" class="lblEtiquetas">Precio</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                <rfn:RFNLabel runat="server" ID="lblNIncluidos" Text="Nº Incluidos" AssociatedControlID="txtNIncluidos"
-                                                                    CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblNIncluidos" runat="server" for="txtNIncluidos" class="lblEtiquetas">Nº Incluidos</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel runat="server" ID="lblImpUndIncl" Text="€/Und Incl." AssociatedControlID="txtImpUndIncl"
-                                                                    CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblImpUndIncl" runat="server" for="txtImpUndIncl" class="lblEtiquetas">€/Und Incl.</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel runat="server" ID="lblImpRPF" Text="IMP. Reco.P.F" AssociatedControlID="txtImpRPF"
-                                                                    CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                <label id="lblImpRPF" runat="server" for="txtImpRPF" class="lblEtiquetas">IMP. Reco.P.F</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
@@ -5190,7 +4955,7 @@
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblImporteBRTarifa" Width="70px" runat="server" Text="Bajo Riesgo: "></rfn:RFNLabel>
+                                                                <label id="lblImporteBRTarifa" runat="server" class="control_txt" style="width: 70px; pointer-events: none; opacity: 0.6">Bajo Riesgo:</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
@@ -5274,7 +5039,7 @@
                                                             <td>&nbsp
                                                             </td>
                                                             <td>
-                                                                <rfn:RFNLabel ID="lblImporteARTarifa" Width="70px" runat="server" Text="Alto Riesgo: "></rfn:RFNLabel>
+                                                                <label id="lblImporteARTarifa" runat="server" style="width: 70px">Alto Riesgo:</label>
                                                             </td>
                                                             <td>&nbsp
                                                             </td>
@@ -5345,7 +5110,7 @@
 
                                     <fieldset id="fsPruebasExternas" class="seccionesFieldSetN5">
                                         <legend>
-                                            <rfn:RFNLabel ID="lblOtrasPruebasExternas" runat="server" Text="Resto de pruebas VSI"></rfn:RFNLabel>
+                                            <label id="RFNLabel5" runat="server" class="seccionesPrincipales">Número total de Pruebas VSI en el contrato</label>
                                         </legend>
 
 
@@ -5356,18 +5121,14 @@
                                                     <td>
                                                         <fieldset id="fsVSITotal" class="seccionesPrincipales">
                                                             <legend>
-                                                                <rfn:RFNLabel ID="RFNLabel5" runat="server" Text="Número total de Pruebas VSI en el contrato">
-                                                                </rfn:RFNLabel>
+                                                                <label id="RFNLabel5" runat="server">Número total de Pruebas VSI en el contrato</label>
                                                             </legend>
                                                             <div class="elementosSeccionPrincipal">
                                                                 <rfn:RFNTextbox ID="txtvsitotal" Width="40px" runat="server" TipoDato="EnteroPositivo"
                                                                     MaxLength="6" Enabled="False" ToolTip="VSI"></rfn:RFNTextbox>
 
                                                                 <div style="display: none">
-                                                                    <rfn:RFNLabel ID="btnrecargar" runat="server" Visible="True" Text="Filtrar lista" Style="margin: 0px 0px 0px 30px;"
-                                                                        BackColor="#009900" Font-Bold="True" BorderWidth="1" BorderColor="Black"
-                                                                        CssClass="lblEtiquetaBoton" Tipo="Texto"
-                                                                        ForeColor="White" Width="80px" display="none"></rfn:RFNLabel>
+                                                                    <label id="btnrecargar" runat="server" class="lblEtiquetaBoton" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; font-weight: bold; width: 80px; display: none; margin: 0px 0px 0px 30px;">Filtrar lista</label>
                                                                 </div>
                                                             </div>
 
@@ -5434,8 +5195,7 @@
 
                                         <!--Combo_Elegir_Pruebas-->
                                         <div id="divCcdPruebasExternas" class="elementoColumna" style="display: none">
-                                            <rfn:RFNLabel ID="lblccdPruebasExternas" runat="server" Text="Prueba" AssociatedControlID="ccdPruebasExternas"
-                                                CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                            <label id="lblccdPruebasExternas" runat="server" for="ccdPruebasExternas" class="lblEtiquetas">Prueba</label>
                                             <rfn:RFNCodDescripcion ID="ccdPruebasExternas" runat="server" Width="450px" CampoCodigo="PRUEBA"
                                                 CampoDescripcion="DES_PRUEBA" FuenteDatos="SPA.SPruebasVSI_Read" BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5"
                                                 Titulo="Pruebas VSI" WidthCod="75px" Tipo="Procedimiento" NumElementos="50"
@@ -5446,10 +5206,7 @@
                                             </rfn:RFNCodDescripcion>
                                         </div>
                                         <%--<div id="divBtnInsertarPrueba" class="elementoColumna ocultarControl">
-                                    <rfn:RFNLabel ID="btninsertarPrueba" runat="server" Visible="True" Text="Añadir Prueba" Style="margin: 15px 0px 0px 30px;"
-                                        BackColor="#009900" Font-Bold="True" BorderWidth="1" BorderColor="Black"  
-                                        CssClass="lblEtiquetaBoton" Tipo="Texto"
-                                        ForeColor="White" Width="110px"></rfn:RFNLabel>
+                                    <label id="btninsertarPrueba" runat="server" class="lblEtiquetaBoton" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; font-weight: bold; width: 110px; margin: 15px 0px 0px 30px;">Añadir Prueba</label>
                                 </div>--%>
                                         <!--Combo_Elegir_Pruebas-->
 
@@ -5514,7 +5271,7 @@
                                             </div>
                                             <div class="elementoFila99Por">
                                                 <div class="elementoColumna">
-                                                    <rfn:RFNLabel ID="lbCosteTotalPruebasVSI" runat="server" Text="Coste Total Pruebas VSI incluidas: " Font-Bold="True"></rfn:RFNLabel>
+                                                    <label id="lbCosteTotalPruebasVSI" runat="server" style="font-weight: bold">Coste Total Pruebas VSI incluidas:</label>
                                                 </div>
                                                 <div class="elementoColumna">
                                                     <rfn:RFNTextbox ID="txtCosteTotalPruebasVSI" runat="server" TipoDato="Moneda"
@@ -5536,13 +5293,11 @@
                             <rfn:RFNPanel ID="grupoAnexo" runat="server" EstiloContenedor="False" Titulo="Anexos"
                                 Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                 <div id="crearAnexo" runat="server" class="subelementosSeccionPrincipalAnexo" clientidmode="Inherit">
-                                    <rfn:RFNLabel ID="lblCrearAnexo" runat="server" Text="Nuevo Anexo" BorderWidth="1"
-                                        BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+                                    <label id="lblCrearAnexo" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo</label>
                                 </div>
 
                                 <div id="crearAnexoAAEE" style="display: none" runat="server" class="subelementosSeccionPrincipalAnexo" clientidmode="Inherit">
-                                    <rfn:RFNLabel ID="lblCrearAnexoAAEE" runat="server" Text="Nuevo Anexo AAEE" BorderWidth="1"
-                                        BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+                                    <label id="lblCrearAnexoAAEE" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo AAEE</label>
                                 </div>
 
 
@@ -5550,13 +5305,11 @@
                                 <div class="subelementosSeccionPrincipalAnexo">
 
                                     <div id="crearAnexoAnaliticas" runat="server" class="elementosSeccionPrincipal" clientidmode="Inherit" style="display: none">
-                                        <rfn:RFNLabel ID="lblCrearAnexoAnalitica" runat="server" Text="Nuevo Anexo Analiticas" BorderWidth="1"
-                                            BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+                                        <label id="lblCrearAnexoAnalitica" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo Analiticas</label>
                                     </div>
 
                                     <div id="crearAnexoRenovacion" runat="server" class="elementosSeccionPrincipal" clientidmode="Inherit" style="display: none">
-                                        <rfn:RFNLabel ID="lblCrearAnexoRenovacion" runat="server" Text="Nuevo Anexo Renovacion" BorderWidth="1"
-                                            BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+                                        <label id="lblCrearAnexoRenovacion" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo Renovacion</label>
                                     </div>
 
                                     <div class="elementosSeccionPrincipal">
@@ -5568,44 +5321,39 @@
                                             <div class="elementoFila99Por">
                                                 <fieldset id="fsDatosAnexoRenovacion" class="elementoFila99Por" style="margin: 0px 20px 20px 10px; width: 96%;">
                                                     <legend>
-                                                        <rfn:RFNLabel ID="lblLegendHistDocumento" runat="server" Text="Anexo Renovación"></rfn:RFNLabel>
+                                                        <label id="RFNLabel2" runat="server" class="seccionesPrincipales_prueba" style="width: 94%;">Datos Contrato</label>
                                                     </legend>
                                                     <div class="elementoColumna">
                                                         <fieldset id="fsDatosContrato" class="seccionesPrincipales_prueba" style="width: 94%;">
                                                             <legend>
-                                                                <rfn:RFNLabel ID="RFNLabel2" runat="server" Text="Datos Contrato"></rfn:RFNLabel>
+                                                                <label id="RFNLabel2" runat="server">Datos Contrato</label>
                                                             </legend>
                                                             <div class="subelementosSeccionPrincipal">
                                                                 <div class="elementosSeccionPrincipalCercano">
-                                                                    <rfn:RFNLabel runat="server" ID="lblCodContrato" Text="Cod. Contrato" AssociatedControlID="txtCodContrato"
-                                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblCodContrato" runat="server" for="txtCodContrato" class="lblEtiquetas">Cod. Contrato</label>
                                                                     <rfn:RFNTextbox runat="server" ID="txtCodContrato" CausesValidation="False" Style="text-align: right"
                                                                         Requerido="True" Enabled="False" CssClass="control_txt" Width="75px">
                                                                     </rfn:RFNTextbox>
                                                                 </div>
                                                                 <div class="elementosSeccionPrincipalCercano">
-                                                                    <rfn:RFNLabel runat="server" ID="lblCtrtSAP" Text="Contrato SAP" AssociatedControlID="txtCtrtSAP"
-                                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblCtrtSAP" runat="server" for="txtCtrtSAP" class="lblEtiquetas">Contrato SAP</label>
                                                                     <rfn:RFNTextbox runat="server" ID="txtCtrtSAP" CausesValidation="False" Style="text-align: right"
                                                                         Requerido="True" Enabled="False" CssClass="control_txt" Width="95px">
                                                                     </rfn:RFNTextbox>
                                                                 </div>
                                                                 <div class="elementosSeccionPrincipalCercano">
-                                                                    <rfn:RFNLabel runat="server" ID="lblCodAnexo" Text="Anexo" AssociatedControlID="txtCodAnexo"
-                                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblCodAnexo" runat="server" for="txtCodAnexo" class="lblEtiquetas">Anexo</label>
                                                                     <rfn:RFNTextbox runat="server" ID="txtCodAnexo" CausesValidation="False" Style="text-align: right"
                                                                         Requerido="True" Enabled="False" CssClass="control_txt" Width="95px">
                                                                     </rfn:RFNTextbox>
                                                                 </div>
                                                                 <div class="elementosSeccionPrincipalCercano">
-                                                                    <rfn:RFNLabel runat="server" ID="lblFecAnexoRenovacion" Text="Fecha anexo"
-                                                                        class="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblFecAnexoRenovacion" runat="server" class="lblEtiquetas">Fecha anexo</label>
                                                                     <rfn:RFNCalendar ID="calFechaAnexoRenovacion" runat="server" Enabled="False"
                                                                         Requerido="True" Width="75px"></rfn:RFNCalendar>
                                                                 </div>
                                                                 <div class="elementosSeccionPrincipalCercano">
-                                                                    <rfn:RFNLabel runat="server" ID="lblRazonSocialAnexoRenovacion" Text="Razón Social" AssociatedControlID="txtCodRazonSocialAnexoRenovacion"
-                                                                        CssClass="lblEtiquetas"></rfn:RFNLabel>
+                                                                    <label id="lblRazonSocialAnexoRenovacion" runat="server" for="txtCodRazonSocialAnexoRenovacion" class="lblEtiquetas">Razón Social</label>
                                                                     <rfn:RFNTextbox runat="server" ID="txtCodRazonSocialAnexoRenovacion" Requerido="true" Enabled="false" Style="text-align: left" CssClass="control_txt" Width="75px"> 
                                                                     </rfn:RFNTextbox>
                                                                     <rfn:RFNTextbox runat="server" ID="txtDesRazonSocialAnexoRenovacion" Requerido="true" Enabled="false" Style="text-align: left" CssClass="control_txt" Width="325px">
@@ -5615,7 +5363,7 @@
                                                         </fieldset>
                                                         <fieldset id="fsModalidadesContrato" class="seccionesPrincipales_prueba" style="width: 94%;">
                                                             <legend>
-                                                                <rfn:RFNLabel ID="lblImpContrato" runat="server" Text="Modalidades contrato"></rfn:RFNLabel>
+                                                                <label id="lblImpContrato" runat="server" class="lblEtiquetasPadd" style="pointer-events: none; opacity: 0.6; border-collapse: collapse">Modalidades contrato</label>
                                                             </legend>
                                                             <table style="border-collapse: collapse;">
                                                                 <tr style="border-collapse: collapse;">
@@ -5636,8 +5384,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModSheCtrt" runat="server" Text="SHE" CssClass="lblEtiquetasPadd"
-                                                                            AssociatedControlID="txtModSheCtrt"></rfn:RFNLabel>
+                                                                        <label id="lblModSheCtrt" runat="server" for="txtModSheCtrt" class="lblEtiquetasPadd">SHE</label>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
@@ -5647,8 +5394,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModTotCtrt" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTotCtrt"
-                                                                            runat="server" Text="Total"> </rfn:RFNLabel>
+                                                                        <label id="lblModTotCtrt" runat="server" for="txtModTotCtrt" class="lblEtiquetasPadd">Total</label>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
@@ -5693,7 +5439,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblHDCtrt" runat="server" Width="110px" Text="Importe Hospital Digital"></rfn:RFNLabel>
+                                                                        <label id="lblHDCtrt" runat="server" class="seccionesPrincipales_prueba" style="width: 70px; pointer-events: none; opacity: 0.6; width: 92%;">Importe Hospital Digital</label>
 
                                                                     </td>
                                                                     <td>&nbsp;
@@ -5710,13 +5456,12 @@
                                                             <%--RECOS--%>
                                                             <fieldset id="fsReconocimientosContrato" class="seccionesPrincipales_prueba" style="width: 92%;">
                                                                 <legend>
-                                                                    <rfn:RFNLabel ID="lblRPFCtrato" runat="server" Text="Reconocimientos"></rfn:RFNLabel>
+                                                                    <label id="lblRPFCtrato" runat="server">Reconocimientos</label>
                                                                 </legend>
                                                                 <div class="subelementosSeccionPrincipal">
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblRBPCtrt" class="lblEtiquetas" AssociatedControlID="txtRBPCtrt"
-                                                                                runat="server" Text="Bajo Riesgo"> </rfn:RFNLabel>
+                                                                            <label id="lblRBPCtrt" runat="server" for="txtRBPCtrt" class="lblEtiquetas">Bajo Riesgo</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtRBPCtrt" Width="100px" runat="server" TipoDato="Moneda"
@@ -5725,8 +5470,7 @@
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblRAPCtrt" class="lblEtiquetas" AssociatedControlID="txtRAPCtrt"
-                                                                                runat="server" Text="Alto Riesgo"> </rfn:RFNLabel>
+                                                                            <label id="lblRAPCtrt" runat="server" for="txtRAPCtrt" class="lblEtiquetas">Alto Riesgo</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtRAPCtrt" Width="100px" runat="server" TipoDato="Moneda"
@@ -5735,8 +5479,7 @@
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblRPFIncluidosCtrt" class="lblEtiquetas" AssociatedControlID="txtRPFIncluidosCtrt"
-                                                                                runat="server" Text="Incluye"> </rfn:RFNLabel>
+                                                                            <label id="lblRPFIncluidosCtrt" runat="server" for="txtRPFIncluidosCtrt" class="lblEtiquetas">Incluye</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtRPFIncluidosCtrt" Width="40px" runat="server" TipoDato="EnteroPositivo"
@@ -5749,8 +5492,7 @@
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblModRPFCtrt" class="lblEtiquetas" AssociatedControlID="txtModRPFCtrt"
-                                                                                runat="server" Text="Importe RPF"> </rfn:RFNLabel>
+                                                                            <label id="lblModRPFCtrt" runat="server" for="txtModRPFCtrt" class="lblEtiquetas">Importe RPF</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtModRPFCtrt" Width="80px" runat="server" TipoDato="Moneda" Enabled="False"></rfn:RFNTextbox>
@@ -5761,48 +5503,42 @@
                                                         </fieldset>
                                                         <fieldset id="fsModalidadesAnexo" class="seccionesPrincipales_prueba" style="width: 94%;">
                                                             <legend>
-                                                                <rfn:RFNLabel ID="lblImpAnexo" runat="server" Text="Modalidades antes de Bayes"></rfn:RFNLabel>
+                                                                <label id="lblImpAnexo" runat="server" class="lblEtiquetasPadd" style="border-collapse: collapse">Modalidades antes de Bayes</label>
                                                             </legend>
                                                             <table style="border-collapse: collapse;">
                                                                 <tr style="border-collapse: collapse;">
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModSTAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModSTAnx"
-                                                                            runat="server" Text="ST"> </rfn:RFNLabel>
+                                                                        <label id="lblModSTAnx" runat="server" for="txtModSTAnx" class="lblEtiquetasPadd">ST</label>
                                                                         <rfn:RFNTextbox ID="txtModSTAnx" Width="70px" runat="server" TipoDato="Moneda" OnClientChange="cambioModSTAnexo" Enabled="False"></rfn:RFNTextbox>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModHIAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHIAnx"
-                                                                            runat="server" Text="HI"> </rfn:RFNLabel>
+                                                                        <label id="lblModHIAnx" runat="server" for="txtModHIAnx" class="lblEtiquetasPadd">HI</label>
                                                                         <rfn:RFNTextbox ID="txtModHIAnx" Width="70px" runat="server" TipoDato="Moneda" OnClientChange="cambioModHIAnexo" Enabled="False"></rfn:RFNTextbox>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModEPAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModEPAnx"
-                                                                            runat="server" Text="EP"> </rfn:RFNLabel>
+                                                                        <label id="lblModEPAnx" runat="server" for="txtModEPAnx" class="lblEtiquetasPadd">EP</label>
                                                                         <rfn:RFNTextbox ID="txtModEPAnx" Width="70px" runat="server" TipoDato="Moneda" OnClientChange="cambioModEPAnexo" Enabled="False"></rfn:RFNTextbox>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModSheAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModSheAnx"
-                                                                            runat="server" Text="SHE"> </rfn:RFNLabel>
+                                                                        <label id="lblModSheAnx" runat="server" for="txtModSheAnx" class="lblEtiquetasPadd">SHE</label>
                                                                         <rfn:RFNTextbox ID="txtModSheAnx" Width="70px" runat="server" TipoDato="Moneda" OnClientChange="cambioModSHEAnexo"></rfn:RFNTextbox>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModMTAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModMTAnx"
-                                                                            runat="server" Text="MT"> </rfn:RFNLabel>
+                                                                        <label id="lblModMTAnx" runat="server" for="txtModMTAnx" class="lblEtiquetasPadd">MT</label>
                                                                         <rfn:RFNTextbox ID="txtModMTAnx" Width="70px" runat="server" TipoDato="Moneda" OnClientChange="cambioModMTAnexo"></rfn:RFNTextbox>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblModTOTALAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTotAnx"
-                                                                            runat="server" Text="TOTAL"> </rfn:RFNLabel>
+                                                                        <label id="lblModTOTALAnx" runat="server" for="txtModTotAnx" class="lblEtiquetasPadd">TOTAL</label>
                                                                         <rfn:RFNTextbox ID="txtModTotAnx" Width="70px" runat="server" TipoDato="Moneda" Enabled="False"></rfn:RFNTextbox>
                                                                     </td>
                                                                     <td>&nbsp;
@@ -5815,7 +5551,7 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td style="border-collapse: collapse">
-                                                                        <rfn:RFNLabel ID="lblHDAnx" runat="server" Width="110px" Text="Importe Hospital Digital"></rfn:RFNLabel>
+                                                                        <label id="lblHDAnx" runat="server" class="seccionesPrincipales_prueba" style="width: 70px; pointer-events: none; opacity: 0.6; width: 92%;">Importe Hospital Digital</label>
                                                                     </td>
                                                                     <td>&nbsp;
                                                                     </td>
@@ -5834,13 +5570,12 @@
                                                             <%--RECOS ANEXO RENOVACION--%>
                                                             <fieldset id="fsReconocimientosAnexo" class="seccionesPrincipales_prueba" style="width: 92%;">
                                                                 <legend>
-                                                                    <rfn:RFNLabel ID="lblRPFAnexo" runat="server" Text="Reconocimientos"></rfn:RFNLabel>
+                                                                    <label id="lblRPFAnexo" runat="server">Reconocimientos</label>
                                                                 </legend>
                                                                 <div class="subelementosSeccionPrincipal">
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblRBPAnexo" class="lblEtiquetas" AssociatedControlID="txtRBPAnexo"
-                                                                                runat="server" Text="Bajo Riesgo"> </rfn:RFNLabel>
+                                                                            <label id="lblRBPAnexo" runat="server" for="txtRBPAnexo" class="lblEtiquetas">Bajo Riesgo</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtRBPAnexo" Width="100px" runat="server" TipoDato="Moneda"></rfn:RFNTextbox>
@@ -5848,8 +5583,7 @@
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblRAPAnexo" class="lblEtiquetas" AssociatedControlID="txtRAPAnexo"
-                                                                                runat="server" Text="Alto Riesgo"> </rfn:RFNLabel>
+                                                                            <label id="lblRAPAnexo" runat="server" for="txtRAPAnexo" class="lblEtiquetas">Alto Riesgo</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtRAPAnexo" Width="100px" runat="server" TipoDato="Moneda"></rfn:RFNTextbox>
@@ -5857,8 +5591,7 @@
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalCercano">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblRPFIncluidosAnexo" class="lblEtiquetas" AssociatedControlID="txtRPFIncluidosAnexo"
-                                                                                runat="server" Text="Incluye"> </rfn:RFNLabel>
+                                                                            <label id="lblRPFIncluidosAnexo" runat="server" for="txtRPFIncluidosAnexo" class="lblEtiquetas">Incluye</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtRPFIncluidosAnexo" Width="40px" runat="server" TipoDato="EnteroPositivo" MaxLength="6"></rfn:RFNTextbox>
@@ -5870,8 +5603,7 @@
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalCercano" id="RPFAnexoRenovacion">
                                                                         <div class="subelementosSeccionPrincipal">
-                                                                            <rfn:RFNLabel ID="lblModRPFAnexo" class="lblEtiquetas" AssociatedControlID="txtModRPFAnexo"
-                                                                                runat="server" Text="Importe RPF"> </rfn:RFNLabel>
+                                                                            <label id="lblModRPFAnexo" runat="server" for="txtModRPFAnexo" class="lblEtiquetas">Importe RPF</label>
                                                                         </div>
                                                                         <div class="subelementosSeccionPrincipal">
                                                                             <rfn:RFNTextbox ID="txtModRPFAnexo" Width="80px" runat="server" TipoDato="Moneda" OnClientChange="cambioModRPFAnexo"></rfn:RFNTextbox>
@@ -5888,8 +5620,7 @@
                                 </div>
                                 <fieldset id="fsAnexo" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="lblLegendAnexo" runat="server" Text="Anexos">
-                                        </rfn:RFNLabel>
+                                        <label id="lblLegendAnexo" runat="server">Anexos</label>
                                     </legend>
                                     <div class="productosGridConScrollHoriz">
                                         <rfn:RFNGridEditable2 ID="gvAnexos" runat="server" GridLines="Both" CssClass="borde_grid"
@@ -5950,8 +5681,7 @@
 
                                     <fieldset id="fsobservacioens" class="seccionesPrincipales">
                                         <legend>
-                                            <rfn:RFNLabel ID="lblbobser" runat="server" Text="Búsqueda">
-                                            </rfn:RFNLabel>
+                                            <label id="lblbobser" runat="server">Búsqueda</label>
                                         </legend>
                                         <rfn:RFNDropDownList runat="server" ID="ddlobser" CausesValidation="True"
                                             Width="450px"
@@ -5960,8 +5690,7 @@
                                         </rfn:RFNDropDownList>
                                         <rfn:RFNButton ID="Cambiobserv" runat="server" Style="display: none" ScriptEnabled="true" />
                                         <div class="subelementosSeccionPrincipalPadd">
-                                            <rfn:RFNLabel ID="lblbobser2" class="lblEtiquetas" AssociatedControlID="txtCtrObserv"
-                                                runat="server" Text="Observaciones del contrato"> </rfn:RFNLabel>
+                                            <label id="lblbobser2" runat="server" for="txtCtrObserv" class="lblEtiquetas">Observaciones del contrato</label>
                                             <rfn:RFNTextbox runat="server" ID="txtCtrObserv" CausesValidation="False" Requerido="False"
                                                 Enabled="true" CssClass="control_txt" TextMode="MultiLine" TipoDato="Texto" ReadOnly="true"
                                                 Width="100%" Height="200px">
@@ -5983,8 +5712,7 @@
                                 Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                 <fieldset id="fsGrupoOtrasActividades" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="lblLegendGrupoOtrasActividades" runat="server" Text="Actividades de formación">
-                                        </rfn:RFNLabel>
+                                        <label id="lblLegendGrupoOtrasActividades" runat="server">Actividades de formación</label>
                                     </legend>
                                     <div class="subelementosSeccionPrincipalPadd2">
                                         <div class="subelementosSeccionPrincipalPadd">
@@ -6027,13 +5755,12 @@
                                 Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                 <fieldset id="fsCtrBaja" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="lblLegendCtrBaja" runat="server" Text="Baja del Contrato">
-                                        </rfn:RFNLabel>
+                                        <label id="lblLegendCtrBaja" runat="server">Baja del Contrato</label>
                                     </legend>
                                     <div class="subelementosSeccionPrincipalPadd2">
                                         <div class="subelementosSeccionPrincipalPadd">
                                             <div id="contenedorCtrFecBaja" runat="server" class="elementosSeccionPrincipal">
-                                                <rfn:RFNLabel ID="lblCtrFecBaja" runat="server" class="lblEtiquetas" Text="Fecha de Baja"></rfn:RFNLabel>
+                                                <label id="lblCtrFecBaja" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6: True">Fecha de Baja</label>
                                                 <rfn:RFNCalendar ID="calCtrFecBaja" runat="server" ErrorMessage="Fecha de Baja Obligatoria"
                                                     ValidationGroup="vGuardaContrato" Enabled="True" OnClientChange="cambioCtrcalFecBaja"
                                                     Width="75px">
@@ -6043,19 +5770,16 @@
                                                 <rfn:RFNCheckBox ID="chkCtrBajaFutura" runat="server" Text="Baja Futura" OnClientClick="bajaCtrFutura"></rfn:RFNCheckBox>
                                             </div>
                                             <div class="elementosSeccionPrincipal">
-                                                <rfn:RFNLabel ID="lblCtrContratoAntiguo" class="lblEtiquetas" AssociatedControlID="txtCtrContratoAntiguo"
-                                                    runat="server" Text="Contrato Antiguo"> </rfn:RFNLabel>
+                                                <label id="lblCtrContratoAntiguo" runat="server" for="txtCtrContratoAntiguo" class="lblEtiquetas">Contrato Antiguo</label>
                                                 <rfn:RFNTextbox ID="txtCtrContratoAntiguo" runat="server" TipoDato="EnteroPositivo"></rfn:RFNTextbox>
                                             </div>
                                             <div class="elementosSeccionPrincipal">
-                                                <rfn:RFNLabel ID="lblCtrContratoNuevo" class="lblEtiquetas" AssociatedControlID="txtCtrContratoNuevo"
-                                                    runat="server" Text="Contrato Nuevo"> </rfn:RFNLabel>
+                                                <label id="lblCtrContratoNuevo" runat="server" for="txtCtrContratoNuevo" class="lblEtiquetas">Contrato Nuevo</label>
                                                 <rfn:RFNTextbox ID="txtCtrContratoNuevo" runat="server" TipoDato="EnteroPositivo" MaxLength="10" OnClientChange="ComprobarContrato" ErrorMessage="Código del nuevo contrato obligatorio" ValidationGroup="vGuardaContrato"></rfn:RFNTextbox>
                                             </div>
                                         </div>
                                         <div class="subelementosSeccionPrincipalPadd">
-                                            <rfn:RFNLabel ID="lblCtrCausaBaja" class="lblEtiquetas" AssociatedControlID="ddlCtrCausaBaja"
-                                                runat="server" Text="Causa de baja"> </rfn:RFNLabel>
+                                            <label id="lblCtrCausaBaja" runat="server" for="ddlCtrCausaBaja" class="lblEtiquetas">Causa de baja</label>
                                             <rfn:RFNDropDownList runat="server" ID="ddlCtrCausaBaja" CausesValidation="True"
                                                 ErrorMessage="Causa de Baja Obligatoria" Width="450px" OnClientChange="ActualizaCausaBaja" ValidationGroup="vGuardaContrato"
                                                 PermitirVacio="True" Requerido="False" CssClass="control_ddl" Enabled="False"
@@ -6063,8 +5787,7 @@
                                             </rfn:RFNDropDownList>
                                         </div>
                                         <div class="subelementosSeccionPrincipalPadd">
-                                            <rfn:RFNLabel ID="lblCtrObservBaja" class="lblEtiquetas" AssociatedControlID="txtCtrObservBaja"
-                                                runat="server" Text="Observaciones de baja"> </rfn:RFNLabel>
+                                            <label id="lblCtrObservBaja" runat="server" for="txtCtrObservBaja" class="lblEtiquetas">Observaciones de baja</label>
                                             <rfn:RFNTextbox runat="server" ID="txtCtrObservBaja" CausesValidation="False" Requerido="False"
                                                 ErrorMessage="Observaciones de Baja Obligatoria" ValidationGroup="vGuardaContrato"
                                                 Enabled="False" CssClass="control_txt" TextMode="MultiLine" TipoDato="Texto"
@@ -6076,18 +5799,15 @@
                                         <div class="subelementosSeccionPrincipalPadd">
                                             <fieldset id="fsCtrRenoPrecios" class="seccionesPrincipales">
                                                 <legend>
-                                                    <rfn:RFNLabel ID="lblLegendCtrRenoPrecios" runat="server" Text="Renovación de Precios de Concierto">
-                                                    </rfn:RFNLabel>
+                                                    <label id="lblLegendCtrRenoPrecios" runat="server">Renovación de Precios de Concierto</label>
                                                 </legend>
                                                 <div class="subelementosSeccionPrincipal">
                                                     <div class="elementosSeccionPrincipalCent">
-                                                        <rfn:RFNLabel ID="lblFecUltReno" AssociatedControlID="calFecUltReno" CssClass="lblEtiquetas"
-                                                            runat="server" Text="Fecha de última Renovación"></rfn:RFNLabel>
+                                                        <label id="lblFecUltReno" runat="server" for="calFecUltReno" class="lblEtiquetas">Fecha de última Renovación</label>
                                                         <rfn:RFNCalendar ID="calFecUltReno" runat="server" Width="75px" Enabled="True"></rfn:RFNCalendar>
                                                     </div>
                                                     <div class="elementosSeccionPrincipal">
-                                                        <rfn:RFNLabel ID="lblFecFin" AssociatedControlID="calFecFin" CssClass="lblEtiquetas"
-                                                            runat="server" Text="Fecha Finalización"></rfn:RFNLabel>
+                                                        <label id="lblFecFin" runat="server" for="calFecFin" class="lblEtiquetas">Fecha Finalización</label>
                                                         <rfn:RFNCalendar ID="calFecFin" runat="server" Width="75px" Enabled="True"></rfn:RFNCalendar>
                                                     </div>
                                                 </div>
@@ -6103,13 +5823,12 @@
                                     Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                     <fieldset id="fsCtrBaja2" class="seccionesPrincipales">
                                         <legend>
-                                            <rfn:RFNLabel ID="lblLegendCtrBaja2" runat="server" Text="Baja del Contrato">
-                                            </rfn:RFNLabel>
+                                            <label id="lblLegendCtrBaja2" runat="server">Baja del Contrato</label>
                                         </legend>
                                         <div class="subelementosSeccionPrincipalPadd2">
                                             <div class="subelementosSeccionPrincipalPadd">
                                                 <div id="contenedorCtrFecBaja2" runat="server" class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel ID="lblCtrFecBaja2" runat="server" class="lblEtiquetas" Text="Fecha de Baja"></rfn:RFNLabel>
+                                                    <label id="lblCtrFecBaja2" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6: True">Fecha de Baja</label>
                                                     <rfn:RFNCalendar ID="calCtrFecBaja2" runat="server" ErrorMessage="Fecha de Baja Obligatoria"
                                                         Enabled="True" Requerido="true"
                                                         Width="75px">
@@ -6117,8 +5836,7 @@
                                                 </div>
                                             </div>
                                             <div class="subelementosSeccionPrincipalPadd">
-                                                <rfn:RFNLabel ID="lblCtrCausaBaja2" class="lblEtiquetas" AssociatedControlID="ddlCtrCausaBaja2"
-                                                    runat="server" Text="Causa de baja"> </rfn:RFNLabel>
+                                                <label id="lblCtrCausaBaja2" runat="server" for="ddlCtrCausaBaja2" class="lblEtiquetas">Causa de baja</label>
                                                 <rfn:RFNDropDownList runat="server" ID="ddlCtrCausaBaja2" CausesValidation="True"
                                                     ErrorMessage="Causa de Baja Obligatoria" Width="450px"
                                                     PermitirVacio="True" Requerido="True" CssClass="control_ddl" Enabled="True"
@@ -6126,8 +5844,7 @@
                                                 </rfn:RFNDropDownList>
                                             </div>
                                             <div class="subelementosSeccionPrincipalPadd">
-                                                <rfn:RFNLabel ID="lblCtrObservBaja2" class="lblEtiquetas" AssociatedControlID="txtCtrObservBaja2"
-                                                    runat="server" Text="Observaciones de baja"> </rfn:RFNLabel>
+                                                <label id="lblCtrObservBaja2" runat="server" for="txtCtrObservBaja2" class="lblEtiquetas">Observaciones de baja</label>
                                                 <rfn:RFNTextbox runat="server" ID="txtCtrObservBaja2" CausesValidation="False" Requerido="True"
                                                     ErrorMessage="Observaciones de Baja Obligatoria"
                                                     Enabled="True" CssClass="control_txt" TextMode="MultiLine" TipoDato="Texto"
@@ -6137,8 +5854,7 @@
                                             <%--txtCtrBajaMultiple--%>
 
                                             <div id="DivBajaMultiple" class="subelementosSeccionPrincipalPadd" runat="server">
-                                                <rfn:RFNLabel ID="lblCtrBajaMultiple" class="lblEtiquetas" AssociatedControlID="txtCtrBajaMultiple"
-                                                    runat="server" Text="Observaciones de baja"> </rfn:RFNLabel>
+                                                <label id="lblCtrBajaMultiple" runat="server" for="txtCtrBajaMultiple" class="lblEtiquetas">Observaciones de baja</label>
                                                 <rfn:RFNTextbox runat="server" ID="txtCtrBajaMultiple" CausesValidation="False" Requerido="True"
                                                     ErrorMessage="Error en contratos"
                                                     Enabled="True" CssClass="control_txt" TextMode="MultiLine" TipoDato="Texto"
@@ -6148,9 +5864,7 @@
 
 
                                             <div id="bajamultiple" runat="server" class="elementosSeccionPrincipalCercano" style="display: block">
-                                                <rfn:RFNLabel ID="lblbajamultiple" runat="server" Text="Dar de baja contratos AAEE"
-                                                    BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True"
-                                                    Width="175px" Enabled="false"></rfn:RFNLabel>
+                                                <label id="lblbajamultiple" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Dar de baja contratos AAEE</label>
                                             </div>
                                             <div style="display: none">
                                                 <rfn:RFNButton ID="btnBajaMultiple" runat="server" CausesValidation="False" ScriptEnabled="True" />
@@ -6172,8 +5886,7 @@
                                 Visualizacion="Seccion" Collapsable="True" Collapsed="True" Width="100%" Display="table">
                                 <fieldset id="Fieldset1" class="seccionesPrincipales">
                                     <legend>
-                                        <rfn:RFNLabel ID="RFNLabel1" runat="server" Text="Datos Organismos Públicos">
-                                        </rfn:RFNLabel>
+                                        <label id="RFNLabel1" runat="server">Datos Organismos Públicos</label>
                                     </legend>
                                     <div class="subelementosSeccionPrincipalPadd2">
                                         <div class="subelementosSeccionPrincipalPadd">
@@ -6216,16 +5929,14 @@
                                                     <rfn:RFNCheckBox ID="chkDatosFACE" runat="server" Text="Datos FACE" Font-Bold="False"
                                                         OnClientClick="cambioChkDatosFace"></rfn:RFNCheckBox>
                                                 </div>--%>
-                                                        <rfn:RFNLabel class="lblEtiquetas" ID="lblOficinaContable" AssociatedControlID="txtOficinaContable"
-                                                            runat="server" Text="Oficina Contable"> </rfn:RFNLabel>
+                                                        <label id="lblOficinaContable" runat="server" for="txtOficinaContable" class="lblEtiquetas">Oficina Contable</label>
                                                         <rfn:RFNTextbox ID="txtOficinaContable" runat="server" Width="90%" Height="30px"
                                                             Requerido="False" MaxLength="250" TextMode="MultiLine" />
                                                         <%--  OnClientChange ="VALIDAFACE1" CausesValidation="True" ValidationGroup="vGuardaContrato" ErrorMessage="Error en 'Oficina Contable' en los Datos de Organismos Públicos" /> --%>
                                                     </td>
                                                     <td style="width: 50%;">
 
-                                                        <rfn:RFNLabel class="lblEtiquetas" ID="lblUnidadTramitadora" AssociatedControlID="txtUnidadTramitadora"
-                                                            runat="server" Text="Unidad Tramitadora"> </rfn:RFNLabel>
+                                                        <label id="lblUnidadTramitadora" runat="server" for="txtUnidadTramitadora" class="lblEtiquetas">Unidad Tramitadora</label>
                                                         <rfn:RFNTextbox ID="txtUnidadTramitadora" runat="server" Width="90%" Height="30px"
                                                             Requerido="False" MaxLength="250" TextMode="MultiLine" />
                                                         <%-- OnClientChange ="VALIDAFACE2"CausesValidation="True" ValidationGroup="vGuardaContrato" ErrorMessage="Error en 'Unidad Tramitadora' en los Datos de Organismos Públicos" /> --%>
@@ -6233,15 +5944,13 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="width: 50%;">
-                                                        <rfn:RFNLabel class="lblEtiquetas" ID="lblOrganoGestor" AssociatedControlID="txtOrganoGestor"
-                                                            runat="server" Text="Órgano Gestor"> </rfn:RFNLabel>
+                                                        <label id="lblOrganoGestor" runat="server" for="txtOrganoGestor" class="lblEtiquetas">Órgano Gestor</label>
                                                         <rfn:RFNTextbox ID="txtOrganoGestor" runat="server" Width="90%" Height="30px" Requerido="False"
                                                             MaxLength="250" TextMode="MultiLine" />
                                                         <%-- OnClientChange ="VALIDAFACE3" CausesValidation="True" ValidationGroup="vGuardaContrato" ErrorMessage="Error en 'Órgano Gestor' en los Datos de Organismos Públicos" /> --%>
                                                     </td>
                                                     <td style="width: 50%;">
-                                                        <rfn:RFNLabel class="lblEtiquetas" ID="lblOrganoProponente" AssociatedControlID="txtOrganoProponente"
-                                                            runat="server" Text="Órgano Competente"> </rfn:RFNLabel>
+                                                        <label id="lblOrganoProponente" runat="server" for="txtOrganoProponente" class="lblEtiquetas">Órgano Competente</label>
                                                         <rfn:RFNTextbox ID="txtOrganoProponente" runat="server" Width="90%" Height="30px"
                                                             Requerido="False" MaxLength="250" TextMode="MultiLine" />
                                                         <%--  OnClientChange ="VALIDAFACE4" CausesValidation="True" ValidationGroup="vGuardaContrato" ErrorMessage="Error en 'Órgano Proponente' en los Datos de Organismos Públicos" /> --%>
