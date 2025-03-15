@@ -1,0 +1,881 @@
+Antes 24: <rfn:RFNLabel class="lblEtiquetas" ID="lblCPFilial" AssociatedControlID="txtCPFilial" runat="server"></rfn:RFNLabel>
+Ahora 24: <label id="lblCPFilial" runat="server" for="txtCPFilial" class="lblEtiquetas"></label>
+
+Antes 25: <rfn:RFNLabel class="lblEtiquetas" ID="lblDomicilioFacturacionFilial" AssociatedControlID="txtDomicilioFacturacionFilial" runat="server"> </rfn:RFNLabel>
+Ahora 25: <label id="lblDomicilioFacturacionFilial" runat="server" for="txtDomicilioFacturacionFilial" class="lblEtiquetas"></label>
+
+Antes 26: <rfn:RFNLabel class="lblEtiquetas" ID="lblEmail" AssociatedControlID="txtEmailDS" runat="server" Text="Email"> </rfn:RFNLabel>
+Ahora 26: <label id="lblEmail" runat="server" for="txtEmailDS" class="lblEtiquetas">Email</label>
+
+Antes 27: <rfn:RFNLabel class="lblEtiquetas" ID="lblEmailEnvFact" AssociatedControlID="txtEmailEnvFact" runat="server" Text="Dirección Email"> </rfn:RFNLabel>
+Ahora 27: <label id="lblEmailEnvFact" runat="server" for="txtEmailEnvFact" class="lblEtiquetas">Dirección Email</label>
+
+Antes 28: <rfn:RFNLabel class="lblEtiquetas" ID="lblEmailEnvFactP" AssociatedControlID="txtEmailEnvFactP" runat="server" Text="Dirección Email"> </rfn:RFNLabel>
+Ahora 28: <label id="lblEmailEnvFactP" runat="server" for="txtEmailEnvFactP" class="lblEtiquetas">Dirección Email</label>
+
+Antes 29: <rfn:RFNLabel class="lblEtiquetas" ID="lblEscaleraDS" AssociatedControlID="txtEscaleraDS" runat="server" Text="Escalera"> </rfn:RFNLabel>
+Ahora 29: <label id="lblEscaleraDS" runat="server" for="txtEscaleraDS" class="lblEtiquetas">Escalera</label>
+
+Antes 30: <rfn:RFNLabel class="lblEtiquetas" ID="lblEscaleraEnvFact" AssociatedControlID="txtEscaleraEnvFact" runat="server" Text="Escalera"> </rfn:RFNLabel>
+Ahora 30: <label id="lblEscaleraEnvFact" runat="server" for="txtEscaleraEnvFact" class="lblEtiquetas">Escalera</label>
+
+Antes 31: <rfn:RFNLabel class="lblEtiquetas" ID="lblEscaleraEnvFactP" AssociatedControlID="txtEscaleraEnvFactP" runat="server" Text="Escalera"> </rfn:RFNLabel>
+Ahora 31: <label id="lblEscaleraEnvFactP" runat="server" for="txtEscaleraEnvFactP" class="lblEtiquetas">Escalera</label>
+
+Antes 32: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumeroDS" AssociatedControlID="txtNumDS" runat="server" Text="Número"> </rfn:RFNLabel>
+Ahora 32: <label id="lblNumeroDS" runat="server" for="txtNumDS" class="lblEtiquetas">Número</label>
+
+Antes 33: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumeroEnvFact" AssociatedControlID="txtNumEnvFact" runat="server" Text="Número"> </rfn:RFNLabel>
+Ahora 33: <label id="lblNumeroEnvFact" runat="server" for="txtNumEnvFact" class="lblEtiquetas">Número</label>
+
+Antes 34: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumeroEnvFactP" AssociatedControlID="txtNumEnvFactP" runat="server" Text="Número"> </rfn:RFNLabel>
+Ahora 34: <label id="lblNumeroEnvFactP" runat="server" for="txtNumEnvFactP" class="lblEtiquetas">Número</label>
+
+Antes 35: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumFaxDS" AssociatedControlID="txtNumFaxDS" runat="server" Text="Fax"> </rfn:RFNLabel>
+Ahora 35: <label id="lblNumFaxDS" runat="server" for="txtNumFaxDS" class="lblEtiquetas">Fax</label>
+
+Antes 36: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumFaxEnvFact" AssociatedControlID="txtNumFaxEnvFact" runat="server" Text="Fax"> </rfn:RFNLabel>
+Ahora 36: <label id="lblNumFaxEnvFact" runat="server" for="txtNumFaxEnvFact" class="lblEtiquetas">Fax</label>
+
+Antes 37: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumFaxEnvFactP" AssociatedControlID="txtNumFaxEnvFactP" runat="server" Text="Fax"> </rfn:RFNLabel>
+Ahora 37: <label id="lblNumFaxEnvFactP" runat="server" for="txtNumFaxEnvFactP" class="lblEtiquetas">Fax</label>
+
+Antes 38: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumTelfDS" AssociatedControlID="txtTelefonoDS" runat="server" Text="Teléfono"> </rfn:RFNLabel>
+Ahora 38: <label id="lblNumTelfDS" runat="server" for="txtTelefonoDS" class="lblEtiquetas">Teléfono</label>
+
+Antes 39: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumTelfEnvFact" AssociatedControlID="txtTelefonoEnvFact" runat="server" Text="Teléfono"> </rfn:RFNLabel>
+Ahora 39: <label id="lblNumTelfEnvFact" runat="server" for="txtTelefonoEnvFact" class="lblEtiquetas">Teléfono</label>
+
+Antes 40: <rfn:RFNLabel class="lblEtiquetas" ID="lblNumTelfEnvFactP" AssociatedControlID="txtTelefonoEnvFactP" runat="server" Text="Teléfono"> </rfn:RFNLabel>
+Ahora 40: <label id="lblNumTelfEnvFactP" runat="server" for="txtTelefonoEnvFactP" class="lblEtiquetas">Teléfono</label>
+
+Antes 41: <rfn:RFNLabel class="lblEtiquetas" ID="lblOficinaContable" AssociatedControlID="txtOficinaContable" runat="server" Text="Oficina Contable"> </rfn:RFNLabel>
+Ahora 41: <label id="lblOficinaContable" runat="server" for="txtOficinaContable" class="lblEtiquetas">Oficina Contable</label>
+
+Antes 42: <rfn:RFNLabel class="lblEtiquetas" ID="lblOrganoGestor" AssociatedControlID="txtOrganoGestor" runat="server" Text="Órgano Gestor"> </rfn:RFNLabel>
+Ahora 42: <label id="lblOrganoGestor" runat="server" for="txtOrganoGestor" class="lblEtiquetas">Órgano Gestor</label>
+
+Antes 43: <rfn:RFNLabel class="lblEtiquetas" ID="lblOrganoProponente" AssociatedControlID="txtOrganoProponente" runat="server" Text="Órgano Competente"> </rfn:RFNLabel>
+Ahora 43: <label id="lblOrganoProponente" runat="server" for="txtOrganoProponente" class="lblEtiquetas">Órgano Competente</label>
+
+Antes 44: <rfn:RFNLabel class="lblEtiquetas" ID="lblPisoDS" AssociatedControlID="txtPisoDS" runat="server" Text="Piso"> </rfn:RFNLabel>
+Ahora 44: <label id="lblPisoDS" runat="server" for="txtPisoDS" class="lblEtiquetas">Piso</label>
+
+Antes 45: <rfn:RFNLabel class="lblEtiquetas" ID="lblPisoEnvFact" AssociatedControlID="txtPisoEnvFact" runat="server" Text="Piso"> </rfn:RFNLabel>
+Ahora 45: <label id="lblPisoEnvFact" runat="server" for="txtPisoEnvFact" class="lblEtiquetas">Piso</label>
+
+Antes 46: <rfn:RFNLabel class="lblEtiquetas" ID="lblPisoEnvFactP" AssociatedControlID="txtPisoEnvFactP" runat="server" Text="Piso"> </rfn:RFNLabel>
+Ahora 46: <label id="lblPisoEnvFactP" runat="server" for="txtPisoEnvFactP" class="lblEtiquetas">Piso</label>
+
+Antes 47: <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionDS" AssociatedControlID="ccdPoblacionDS" runat="server" Text="Población"></rfn:RFNLabel>
+Ahora 47: <label id="lblPoblacionDS" runat="server" for="ccdPoblacionDS" class="lblEtiquetas">Población</label>
+
+Antes 48: <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionEnvFact" AssociatedControlID="ccdPoblacionEnvFact" runat="server" Text="Población"></rfn:RFNLabel>
+Ahora 48: <label id="lblPoblacionEnvFact" runat="server" for="ccdPoblacionEnvFact" class="lblEtiquetas">Población</label>
+
+Antes 49: <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionEnvFactP" AssociatedControlID="ccdPoblacionEnvFactP" runat="server" Text="Población"></rfn:RFNLabel>
+Ahora 49: <label id="lblPoblacionEnvFactP" runat="server" for="ccdPoblacionEnvFactP" class="lblEtiquetas">Población</label>
+
+Antes 50: <rfn:RFNLabel class="lblEtiquetas" ID="lblPoblacionFilial" AssociatedControlID="txtPoblacionFilial" runat="server"></rfn:RFNLabel>
+Ahora 50: <label id="lblPoblacionFilial" runat="server" for="txtPoblacionFilial" class="lblEtiquetas"></label>
+
+Antes 51: <rfn:RFNLabel class="lblEtiquetas" ID="lblPortalDS" AssociatedControlID="txtPortalDS" runat="server" Text="Portal"> </rfn:RFNLabel>
+Ahora 51: <label id="lblPortalDS" runat="server" for="txtPortalDS" class="lblEtiquetas">Portal</label>
+
+Antes 52: <rfn:RFNLabel class="lblEtiquetas" ID="lblPortalEnvFact" AssociatedControlID="txtPortalEnvFact" runat="server" Text="Portal"> </rfn:RFNLabel>
+Ahora 52: <label id="lblPortalEnvFact" runat="server" for="txtPortalEnvFact" class="lblEtiquetas">Portal</label>
+
+Antes 53: <rfn:RFNLabel class="lblEtiquetas" ID="lblPortalEnvFactP" AssociatedControlID="txtPortalEnvFactP" runat="server" Text="Portal"> </rfn:RFNLabel>
+Ahora 53: <label id="lblPortalEnvFactP" runat="server" for="txtPortalEnvFactP" class="lblEtiquetas">Portal</label>
+
+Antes 54: <rfn:RFNLabel class="lblEtiquetas" ID="lblPuertaDS" AssociatedControlID="txtPuertaDS" runat="server" Text="Puerta"> </rfn:RFNLabel>
+Ahora 54: <label id="lblPuertaDS" runat="server" for="txtPuertaDS" class="lblEtiquetas">Puerta</label>
+
+Antes 55: <rfn:RFNLabel class="lblEtiquetas" ID="lblPuertaEnvFact" AssociatedControlID="txtPuertaEnvFact" runat="server" Text="Puerta"> </rfn:RFNLabel>
+Ahora 55: <label id="lblPuertaEnvFact" runat="server" for="txtPuertaEnvFact" class="lblEtiquetas">Puerta</label>
+
+Antes 56: <rfn:RFNLabel class="lblEtiquetas" ID="lblPuertaEnvFactP" AssociatedControlID="txtPuertaEnvFactP" runat="server" Text="Puerta"> </rfn:RFNLabel>
+Ahora 56: <label id="lblPuertaEnvFactP" runat="server" for="txtPuertaEnvFactP" class="lblEtiquetas">Puerta</label>
+
+Antes 57: <rfn:RFNLabel class="lblEtiquetas" ID="lblReferenciaDomi" AssociatedControlID="txtReferenciaDomi" runat="server" Text="Referencia"> </rfn:RFNLabel>
+Ahora 57: <label id="lblReferenciaDomi" runat="server" for="txtReferenciaDomi" class="lblEtiquetas">Referencia</label>
+
+Antes 58: <rfn:RFNLabel class="lblEtiquetas" ID="lblRefFact" AssociatedControlID="txtRefFact" runat="server" Text="Ref. Factura"> </rfn:RFNLabel>
+Ahora 58: <label id="lblRefFact" runat="server" for="txtRefFact" class="lblEtiquetas">Ref. Factura</label>
+
+Antes 59: <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabAnexo" AssociatedControlID="txtTrabAnexo" runat="server" Text="Anexo" ToolTip="Alto Riesgo"> </rfn:RFNLabel>
+Ahora 59: <label id="lblTrabAnexo" runat="server" for="txtTrabAnexo" class="lblEtiquetas" title="Alto Riesgo">Anexo</label>
+
+Antes 60: <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabConstruccion" AssociatedControlID="txtTrabConstruccion" runat="server" Text="Construcción"> </rfn:RFNLabel>
+Ahora 60: <label id="lblTrabConstruccion" runat="server" for="txtTrabConstruccion" class="lblEtiquetas">Construcción</label>
+
+Antes 61: <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabIndustria" AssociatedControlID="txtTrabIndustria" runat="server" Text="Industria"> </rfn:RFNLabel>
+Ahora 61: <label id="lblTrabIndustria" runat="server" for="txtTrabIndustria" class="lblEtiquetas">Industria</label>
+
+Antes 62: <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabOficina" AssociatedControlID="txtTrabOficina" runat="server" Text="Oficina" ToolTip="Bajo Riesgo"> </rfn:RFNLabel>
+Ahora 62: <label id="lblTrabOficina" runat="server" for="txtTrabOficina" class="lblEtiquetas" title="Bajo Riesgo">Oficina</label>
+
+Antes 63: <rfn:RFNLabel class="lblEtiquetas" ID="lblTrabTotal" AssociatedControlID="txtTrabTotal" runat="server" Text="Total"> </rfn:RFNLabel>
+Ahora 63: <label id="lblTrabTotal" runat="server" for="txtTrabTotal" class="lblEtiquetas">Total</label>
+
+Antes 64: <rfn:RFNLabel class="lblEtiquetas" ID="lblUnidadTramitadora" AssociatedControlID="txtUnidadTramitadora" runat="server" Text="Unidad Tramitadora"> </rfn:RFNLabel>
+Ahora 64: <label id="lblUnidadTramitadora" runat="server" for="txtUnidadTramitadora" class="lblEtiquetas">Unidad Tramitadora</label>
+
+Antes 65: <rfn:RFNLabel class="lblEtiquetas" ID="lblViaDS" AssociatedControlID="cmbTipoViaDS" runat="server" Text="Tipo de vía"> </rfn:RFNLabel>
+Ahora 65: <label id="lblViaDS" runat="server" for="cmbTipoViaDS" class="lblEtiquetas">Tipo de vía</label>
+
+Antes 66: <rfn:RFNLabel class="lblEtiquetas" ID="lblViaEnvFact" AssociatedControlID="cmbTipoViaEnvFact" runat="server" Text="Tipo de vía"> </rfn:RFNLabel>
+Ahora 66: <label id="lblViaEnvFact" runat="server" for="cmbTipoViaEnvFact" class="lblEtiquetas">Tipo de vía</label>
+
+Antes 67: <rfn:RFNLabel class="lblEtiquetas" ID="lblViaEnvFactP" AssociatedControlID="cmbTipoViaEnvFactP" runat="server" Text="Tipo de vía"> </rfn:RFNLabel>
+Ahora 67: <label id="lblViaEnvFactP" runat="server" for="cmbTipoViaEnvFactP" class="lblEtiquetas">Tipo de vía</label>
+
+Antes 68: <rfn:RFNLabel ID="btninsertarPrueba" runat="server" Visible="True" Text="Añadir Prueba" Style="margin: 15px 0px 0px 30px;" BackColor="#009900" Font-Bold="True" BorderWidth="1" BorderColor="Black"   CssClass="lblEtiquetaBoton" Tipo="Texto" ForeColor="White" Width="110px"></rfn:RFNLabel>
+Ahora 68: <label id="btninsertarPrueba" runat="server" class="lblEtiquetaBoton" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; font-weight: bold; width: 110px; margin: 15px 0px 0px 30px;">Añadir Prueba</label>
+
+Antes 69: <rfn:RFNLabel ID="btnrecargar" runat="server" Visible="True" Text="Filtrar lista" Style="margin: 0px 0px 0px 30px;" BackColor="#009900" Font-Bold="True" BorderWidth="1" BorderColor="Black" CssClass="lblEtiquetaBoton" Tipo="Texto" ForeColor="White" Width="80px" display="none"></rfn:RFNLabel>
+Ahora 69: <label id="btnrecargar" runat="server" class="lblEtiquetaBoton" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; font-weight: bold; width: 80px; display: none; margin: 0px 0px 0px 30px;">Filtrar lista</label>
+
+Antes 70: <rfn:RFNLabel ID="datosAsociadosFilial" runat="server" Text="Datos de Contacto asociados a filial"></rfn:RFNLabel>
+Ahora 70: <label id="datosAsociadosFilial" runat="server">Datos de Contacto asociados a filial</label>
+
+Antes 71: <rfn:RFNLabel ID="lbCosteTotalPruebasVSI" runat="server" Text="Coste Total Pruebas VSI incluidas: " Font-Bold="True"></rfn:RFNLabel>
+Ahora 71: <label id="lbCosteTotalPruebasVSI" runat="server" style="font-weight: bold">Coste Total Pruebas VSI incluidas:</label>
+
+Antes 72: <rfn:RFNLabel ID="lblActividadCentro" AssociatedControlID="ccdActividadCentro" CssClass="lblEtiquetas" runat="server" Text="CNAE"></rfn:RFNLabel>
+Ahora 72: <label id="lblActividadCentro" runat="server" for="ccdActividadCentro" class="lblEtiquetas">CNAE</label>
+
+Antes 73: <rfn:RFNLabel ID="lblAltaPeligrosidad" class="lblEtiquetas" AssociatedControlID="txtAltaPeligrosidad" runat="server" Text="Alto Riesgo"> </rfn:RFNLabel>
+Ahora 73: <label id="lblAltaPeligrosidad" runat="server" for="txtAltaPeligrosidad" class="lblEtiquetas">Alto Riesgo</label>
+
+Antes 74: <rfn:RFNLabel ID="lblbajamultiple" runat="server" Text="Dar de baja contratos AAEE" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="175px" Enabled="false"></rfn:RFNLabel>
+Ahora 74: <label id="lblbajamultiple" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Dar de baja contratos AAEE</label>
+
+Antes 75: <rfn:RFNLabel ID="lblBajaPeligrosidad" class="lblEtiquetas" AssociatedControlID="txtBajaPeligrosidad" runat="server" Text="Bajo Riesgo"> </rfn:RFNLabel>
+Ahora 75: <label id="lblBajaPeligrosidad" runat="server" for="txtBajaPeligrosidad" class="lblEtiquetas">Bajo Riesgo</label>
+
+Antes 76: <rfn:RFNLabel ID="lblbobser" runat="server" Text="Búsqueda"></rfn:RFNLabel>
+Ahora 76: <label id="lblbobser" runat="server">Búsqueda</label>
+
+Antes 77: <rfn:RFNLabel ID="lblbobser2" class="lblEtiquetas" AssociatedControlID="txtCtrObserv" runat="server" Text="Observaciones del contrato"> </rfn:RFNLabel>
+Ahora 77: <label id="lblbobser2" runat="server" for="txtCtrObserv" class="lblEtiquetas">Observaciones del contrato</label>
+
+Antes 78: <rfn:RFNLabel ID="lblccdPruebasExternas" runat="server" Text="Prueba" AssociatedControlID="ccdPruebasExternas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 78: <label id="lblccdPruebasExternas" runat="server" for="ccdPruebasExternas" class="lblEtiquetas">Prueba</label>
+
+Antes 79: <rfn:RFNLabel ID="lblcifpagador" AssociatedControlID="ccdCifPagador" CssClass="lblEtiquetas" runat="server" Text="Otro Pagador"></rfn:RFNLabel>
+Ahora 79: <label id="lblcifpagador" runat="server" for="ccdCifPagador" class="lblEtiquetas">Otro Pagador</label>
+
+Antes 80: <rfn:RFNLabel ID="lblCrearAnexo" runat="server" Text="Nuevo Anexo" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+Ahora 80: <label id="lblCrearAnexo" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo</label>
+
+Antes 81: <rfn:RFNLabel ID="lblCrearAnexoAAEE" runat="server" Text="Nuevo Anexo AAEE" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+Ahora 81: <label id="lblCrearAnexoAAEE" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo AAEE</label>
+
+Antes 82: <rfn:RFNLabel ID="lblCrearAnexoAnalitica" runat="server" Text="Nuevo Anexo Analiticas" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+Ahora 82: <label id="lblCrearAnexoAnalitica" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo Analiticas</label>
+
+Antes 83: <rfn:RFNLabel ID="lblCrearAnexoRenovacion" runat="server" Text="Nuevo Anexo Renovacion" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+Ahora 83: <label id="lblCrearAnexoRenovacion" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Nuevo Anexo Renovacion</label>
+
+Antes 84: <rfn:RFNLabel ID="lblCtrApellido1Notario1" AssociatedControlID="txtCtrApellido1Notario1" class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+Ahora 84: <label id="lblCtrApellido1Notario1" runat="server" for="txtCtrApellido1Notario1" class="lblEtiquetas">Primer Apellido</label>
+
+Antes 85: <rfn:RFNLabel ID="lblCtrApellido1Notario2" AssociatedControlID="txtCtrApellido1Notario2" class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+Ahora 85: <label id="lblCtrApellido1Notario2" runat="server" for="txtCtrApellido1Notario2" class="lblEtiquetas">Primer Apellido</label>
+
+Antes 86: <rfn:RFNLabel ID="lblCtrApellido1Representante1" AssociatedControlID="txtCtrApellido1Representante1" class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+Ahora 86: <label id="lblCtrApellido1Representante1" runat="server" for="txtCtrApellido1Representante1" class="lblEtiquetas">Primer Apellido</label>
+
+Antes 87: <rfn:RFNLabel ID="lblCtrApellido1Representante2" AssociatedControlID="txtCtrApellido1Representante2" class="lblEtiquetas" Text="Primer Apellido" runat="server"></rfn:RFNLabel>
+Ahora 87: <label id="lblCtrApellido1Representante2" runat="server" for="txtCtrApellido1Representante2" class="lblEtiquetas">Primer Apellido</label>
+
+Antes 88: <rfn:RFNLabel ID="lblCtrApellido2Notario1" AssociatedControlID="txtCtrApellido2Notario1" class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+Ahora 88: <label id="lblCtrApellido2Notario1" runat="server" for="txtCtrApellido2Notario1" class="lblEtiquetas">Segundo Apellido</label>
+
+Antes 89: <rfn:RFNLabel ID="lblCtrApellido2Notario2" AssociatedControlID="txtCtrApellido2Notario2" class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+Ahora 89: <label id="lblCtrApellido2Notario2" runat="server" for="txtCtrApellido2Notario2" class="lblEtiquetas">Segundo Apellido</label>
+
+Antes 90: <rfn:RFNLabel ID="lblCtrApellido2Representante1" AssociatedControlID="txtCtrApellido2Representante1" class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+Ahora 90: <label id="lblCtrApellido2Representante1" runat="server" for="txtCtrApellido2Representante1" class="lblEtiquetas">Segundo Apellido</label>
+
+Antes 91: <rfn:RFNLabel ID="lblCtrApellido2Representante2" AssociatedControlID="txtCtrApellido2Representante2" class="lblEtiquetas" Text="Segundo Apellido" runat="server"></rfn:RFNLabel>
+Ahora 91: <label id="lblCtrApellido2Representante2" runat="server" for="txtCtrApellido2Representante2" class="lblEtiquetas">Segundo Apellido</label>
+
+Antes 92: <rfn:RFNLabel ID="lblCtrBajaMultiple" class="lblEtiquetas" AssociatedControlID="txtCtrBajaMultiple" runat="server" Text="Observaciones de baja"> </rfn:RFNLabel>
+Ahora 92: <label id="lblCtrBajaMultiple" runat="server" for="txtCtrBajaMultiple" class="lblEtiquetas">Observaciones de baja</label>
+
+Antes 93: <rfn:RFNLabel ID="lblCtrCargoDirectivo1" AssociatedControlID="txtCtrCargoDirectivo1" class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+Ahora 93: <label id="lblCtrCargoDirectivo1" runat="server" for="txtCtrCargoDirectivo1" class="lblEtiquetas">Cargo</label>
+
+Antes 94: <rfn:RFNLabel ID="lblCtrCargoDirectivo2" AssociatedControlID="txtCtrCargoDirectivo2" class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+Ahora 94: <label id="lblCtrCargoDirectivo2" runat="server" for="txtCtrCargoDirectivo2" class="lblEtiquetas">Cargo</label>
+
+Antes 95: <rfn:RFNLabel ID="lblCtrCargoRepresentante1" AssociatedControlID="txtCtrCargoRepresentante1" class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+Ahora 95: <label id="lblCtrCargoRepresentante1" runat="server" for="txtCtrCargoRepresentante1" class="lblEtiquetas">Cargo</label>
+
+Antes 96: <rfn:RFNLabel ID="lblCtrCargoRepresentante2" AssociatedControlID="txtCtrCargoRepresentante2" class="lblEtiquetas" Text="Cargo" runat="server"></rfn:RFNLabel>
+Ahora 96: <label id="lblCtrCargoRepresentante2" runat="server" for="txtCtrCargoRepresentante2" class="lblEtiquetas">Cargo</label>
+
+Antes 97: <rfn:RFNLabel ID="lblCtrCausaBaja" class="lblEtiquetas" AssociatedControlID="ddlCtrCausaBaja" runat="server" Text="Causa de baja"> </rfn:RFNLabel>
+Ahora 97: <label id="lblCtrCausaBaja" runat="server" for="ddlCtrCausaBaja" class="lblEtiquetas">Causa de baja</label>
+
+Antes 98: <rfn:RFNLabel ID="lblCtrCausaBaja2" class="lblEtiquetas" AssociatedControlID="ddlCtrCausaBaja2" runat="server" Text="Causa de baja"> </rfn:RFNLabel>
+Ahora 98: <label id="lblCtrCausaBaja2" runat="server" for="ddlCtrCausaBaja2" class="lblEtiquetas">Causa de baja</label>
+
+Antes 99: <rfn:RFNLabel ID="lblCtrContratoAntiguo" class="lblEtiquetas" AssociatedControlID="txtCtrContratoAntiguo" runat="server" Text="Contrato Antiguo"> </rfn:RFNLabel>
+Ahora 99: <label id="lblCtrContratoAntiguo" runat="server" for="txtCtrContratoAntiguo" class="lblEtiquetas">Contrato Antiguo</label>
+
+Antes 100: <rfn:RFNLabel ID="lblCtrContratoNuevo" class="lblEtiquetas" AssociatedControlID="txtCtrContratoNuevo" runat="server" Text="Contrato Nuevo"> </rfn:RFNLabel>
+Ahora 100: <label id="lblCtrContratoNuevo" runat="server" for="txtCtrContratoNuevo" class="lblEtiquetas">Contrato Nuevo</label>
+
+Antes 101: <rfn:RFNLabel ID="lblCtrDirectivo1" AssociatedControlID="ccdCtrDirectivo1" class="lblEtiquetas" Text="Directivo" runat="server"></rfn:RFNLabel>
+Ahora 101: <label id="lblCtrDirectivo1" runat="server" for="ccdCtrDirectivo1" class="lblEtiquetas">Directivo</label>
+
+Antes 102: <rfn:RFNLabel ID="lblCtrDirectivo2" AssociatedControlID="ccdCtrDirectivo2" class="lblEtiquetas"Text="Directivo" runat="server"></rfn:RFNLabel>
+Ahora 102: <label id="lblCtrDirectivo2" runat="server" for="ccdCtrDirectivo2" class="lblEtiquetas">Directivo</label>
+
+Antes 103: <rfn:RFNLabel ID="lblCtrEmailRepresentante1" AssociatedControlID="txtCtrEmailRepresentante1" class="lblEtiquetas" Text="Email" runat="server"></rfn:RFNLabel>
+Ahora 103: <label id="lblCtrEmailRepresentante1" runat="server" for="txtCtrEmailRepresentante1" class="lblEtiquetas">Email</label>
+
+Antes 104: <rfn:RFNLabel ID="lblCtrEmailRepresentante2" AssociatedControlID="txtCtrEmailRepresentante2" class="lblEtiquetas" Text="Email" runat="server"></rfn:RFNLabel>
+Ahora 104: <label id="lblCtrEmailRepresentante2" runat="server" for="txtCtrEmailRepresentante2" class="lblEtiquetas">Email</label>
+
+Antes 105: <rfn:RFNLabel ID="lblCtrFecBaja" runat="server" class="lblEtiquetas" Text="Fecha de Baja"></rfn:RFNLabel>
+Ahora 105: <label id="lblCtrFecBaja" runat="server" class="lblEtiquetas">Fecha de Baja</label>
+
+Antes 106: <rfn:RFNLabel ID="lblCtrFecBaja2" runat="server" class="lblEtiquetas" Text="Fecha de Baja"></rfn:RFNLabel>
+Ahora 106: <label id="lblCtrFecBaja2" runat="server" class="lblEtiquetas">Fecha de Baja</label>
+
+Antes 107: <rfn:RFNLabel ID="lblCtrFirmaCliente" runat="server" Text="Por parte del Cliente"></rfn:RFNLabel>
+Ahora 107: <label id="lblCtrFirmaCliente" runat="server">Por parte del Cliente</label>
+
+Antes 108: <rfn:RFNLabel ID="lblCtrFirmaClienteNotario1" runat="server" Text="Notario"></rfn:RFNLabel>
+Ahora 108: <label id="lblCtrFirmaClienteNotario1" runat="server">Notario</label>
+
+Antes 109: <rfn:RFNLabel ID="lblCtrFirmaClienteNotario2" runat="server" Text="Notario"></rfn:RFNLabel>
+Ahora 109: <label id="lblCtrFirmaClienteNotario2" runat="server">Notario</label>
+
+Antes 110: <rfn:RFNLabel ID="lblCtrFirmaClienteRepresentante1" runat="server" Text="Primer Representante"></rfn:RFNLabel>
+Ahora 110: <label id="lblCtrFirmaClienteRepresentante1" runat="server">Primer Representante</label>
+
+Antes 111: <rfn:RFNLabel ID="lblCtrFirmaClienteRepresentante2" runat="server" Text="Segundo Representante"></rfn:RFNLabel>
+Ahora 111: <label id="lblCtrFirmaClienteRepresentante2" runat="server">Segundo Representante</label>
+
+Antes 112: <rfn:RFNLabel ID="lblCtrFirmaSPFM" runat="server" Text="Por parte de Quirón Prevención"></rfn:RFNLabel>
+Ahora 112: <label id="lblCtrFirmaSPFM" runat="server">Por parte de Quirón Prevención</label>
+
+Antes 113: <rfn:RFNLabel ID="lblCtrFirmaSPFMDirectivo1" runat="server" Text="Primer Directivo"></rfn:RFNLabel>
+Ahora 113: <label id="lblCtrFirmaSPFMDirectivo1" runat="server">Primer Directivo</label>
+
+Antes 114: <rfn:RFNLabel ID="lblCtrFirmaSPFMDirectivo2" runat="server" Text="Segundo Directivo"></rfn:RFNLabel>
+Ahora 114: <label id="lblCtrFirmaSPFMDirectivo2" runat="server">Segundo Directivo</label>
+
+Antes 115: <rfn:RFNLabel ID="lblCtrIdentificadorRepresentante1" AssociatedControlID="txtCtrIdentificadorRepresentante1" class="lblEtiquetas" Text="DNI/CIF" runat="server"></rfn:RFNLabel>
+Ahora 115: <label id="lblCtrIdentificadorRepresentante1" runat="server" for="txtCtrIdentificadorRepresentante1" class="lblEtiquetas">DNI/CIF</label>
+
+Antes 116: <rfn:RFNLabel ID="lblCtrIdentificadorRepresentante2" AssociatedControlID="txtCtrIdentificadorRepresentante2" class="lblEtiquetas" Text="DNI/CIF" runat="server"></rfn:RFNLabel>
+Ahora 116: <label id="lblCtrIdentificadorRepresentante2" runat="server" for="txtCtrIdentificadorRepresentante2" class="lblEtiquetas">DNI/CIF</label>
+
+Antes 117: <rfn:RFNLabel ID="lblCtrNombreNotario1" AssociatedControlID="txtCtrNombreNotario1" class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+Ahora 117: <label id="lblCtrNombreNotario1" runat="server" for="txtCtrNombreNotario1" class="lblEtiquetas">Nombre</label>
+
+Antes 118: <rfn:RFNLabel ID="lblCtrNombreNotario2" AssociatedControlID="txtCtrNombreNotario2" class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+Ahora 118: <label id="lblCtrNombreNotario2" runat="server" for="txtCtrNombreNotario2" class="lblEtiquetas">Nombre</label>
+
+Antes 119: <rfn:RFNLabel ID="lblCtrNombreRepresentante1" AssociatedControlID="txtCtrNombreRepresentante1" class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+Ahora 119: <label id="lblCtrNombreRepresentante1" runat="server" for="txtCtrNombreRepresentante1" class="lblEtiquetas">Nombre</label>
+
+Antes 120: <rfn:RFNLabel ID="lblCtrNombreRepresentante2" AssociatedControlID="txtCtrNombreRepresentante2" class="lblEtiquetas" Text="Nombre" runat="server"></rfn:RFNLabel>
+Ahora 120: <label id="lblCtrNombreRepresentante2" runat="server" for="txtCtrNombreRepresentante2" class="lblEtiquetas">Nombre</label>
+
+Antes 121: <rfn:RFNLabel ID="lblCtrObservBaja" class="lblEtiquetas" AssociatedControlID="txtCtrObservBaja" runat="server" Text="Observaciones de baja"> </rfn:RFNLabel>
+Ahora 121: <label id="lblCtrObservBaja" runat="server" for="txtCtrObservBaja" class="lblEtiquetas">Observaciones de baja</label>
+
+Antes 122: <rfn:RFNLabel ID="lblCtrObservBaja2" class="lblEtiquetas" AssociatedControlID="txtCtrObservBaja2" runat="server" Text="Observaciones de baja"> </rfn:RFNLabel>
+Ahora 122: <label id="lblCtrObservBaja2" runat="server" for="txtCtrObservBaja2" class="lblEtiquetas">Observaciones de baja</label>
+
+Antes 123: <rfn:RFNLabel ID="lblCtrPoblacionNotario1" AssociatedControlID="ccdCtrPoblacionNotario1" class="lblEtiquetas" Text="Población" runat="server"></rfn:RFNLabel>
+Ahora 123: <label id="lblCtrPoblacionNotario1" runat="server" for="ccdCtrPoblacionNotario1" class="lblEtiquetas">Población</label>
+
+Antes 124: <rfn:RFNLabel ID="lblCtrPoblacionNotario2" AssociatedControlID="ccdCtrPoblacionNotario2" class="lblEtiquetas" Text="Población" runat="server"></rfn:RFNLabel>
+Ahora 124: <label id="lblCtrPoblacionNotario2" runat="server" for="ccdCtrPoblacionNotario2" class="lblEtiquetas">Población</label>
+
+Antes 125: <rfn:RFNLabel ID="lblCtrPoderDirectivo1" AssociatedControlID="txtCtrPoderDirectivo1" class="lblEtiquetas" Text="Poder" runat="server"></rfn:RFNLabel>
+Ahora 125: <label id="lblCtrPoderDirectivo1" runat="server" for="txtCtrPoderDirectivo1" class="lblEtiquetas">Poder</label>
+
+Antes 126: <rfn:RFNLabel ID="lblCtrPoderDirectivo2" AssociatedControlID="txtCtrPoderDirectivo2" class="lblEtiquetas" Text="Poder" runat="server"></rfn:RFNLabel>
+Ahora 126: <label id="lblCtrPoderDirectivo2" runat="server" for="txtCtrPoderDirectivo2" class="lblEtiquetas">Poder</label>
+
+Antes 127: <rfn:RFNLabel ID="lblCtrPorcentajeColab" AssociatedControlID="txtCtrPorcentajeColab" CssClass="lblEtiquetas" runat="server" Text="%"> </rfn:RFNLabel>
+Ahora 127: <label id="lblCtrPorcentajeColab" runat="server" for="txtCtrPorcentajeColab" class="lblEtiquetas">%</label>
+
+Antes 128: <rfn:RFNLabel ID="lblCtrProtocoloNotario1" AssociatedControlID="txtCtrProtocoloNotario1" class="lblEtiquetas" Text="Protocolo" runat="server"></rfn:RFNLabel>
+Ahora 128: <label id="lblCtrProtocoloNotario1" runat="server" for="txtCtrProtocoloNotario1" class="lblEtiquetas">Protocolo</label>
+
+Antes 129: <rfn:RFNLabel ID="lblCtrProtocoloNotario2" AssociatedControlID="txtCtrProtocoloNotario2" class="lblEtiquetas" Text="Protocolo" runat="server"></rfn:RFNLabel>
+Ahora 129: <label id="lblCtrProtocoloNotario2" runat="server" for="txtCtrProtocoloNotario2" class="lblEtiquetas">Protocolo</label>
+
+Antes 130: <rfn:RFNLabel ID="lblCtrTrimestreColab" AssociatedControlID="txtCtrTrimestreColab_1" runat="server" CssClass="lblEtiquetas" Text="Desde Trimestre"> </rfn:RFNLabel>
+Ahora 130: <label id="lblCtrTrimestreColab" runat="server" for="txtCtrTrimestreColab_1" class="lblEtiquetas">Desde Trimestre</label>
+
+Antes 131: <rfn:RFNLabel ID="lblDescMed" AssociatedControlID="txtDescMed" runat="server" Text="%Desc. Méd."> </rfn:RFNLabel>
+Ahora 131: <label id="lblDescMed" runat="server" for="txtDescMed">%Desc. Méd.</label>
+
+Antes 132: <rfn:RFNLabel ID="lblDescMed" AssociatedControlID="txtDescMed" runat="server" Text="%Desc. Méd."> </rfn:RFNLabel>
+Ahora 132: <label id="lblDescMed" runat="server" for="txtDescMed">%Desc. Méd.</label>
+
+Antes 133: <rfn:RFNLabel ID="lblDescRecoAlta" AssociatedControlID="txtDescRecoAlta" runat="server" Text="%Desc.Reco.Alto Riesgo"> </rfn:RFNLabel>
+Ahora 133: <label id="lblDescRecoAlta" runat="server" for="txtDescRecoAlta">%Desc.Reco.Alto Riesgo</label>
+
+Antes 134: <rfn:RFNLabel ID="lblDescRecoBaja" AssociatedControlID="txtDescRecoBaja" runat="server" Text="%Desc.Reco.Bajo Riesgo"> </rfn:RFNLabel>
+Ahora 134: <label id="lblDescRecoBaja" runat="server" for="txtDescRecoBaja">%Desc.Reco.Bajo Riesgo</label>
+
+Antes 135: <rfn:RFNLabel ID="lblDescTec" AssociatedControlID="txtDescTec" runat="server" Text="%Desc. Téc."> </rfn:RFNLabel>
+Ahora 135: <label id="lblDescTec" runat="server" for="txtDescTec">%Desc. Téc.</label>
+
+Antes 136: <rfn:RFNLabel ID="lblDescTec" AssociatedControlID="txtDescTec" runat="server" Text="%Desc. Téc."> </rfn:RFNLabel>
+Ahora 136: <label id="lblDescTec" runat="server" for="txtDescTec">%Desc. Téc.</label>
+
+Antes 137: <rfn:RFNLabel ID="lblDescTecHoras" AssociatedControlID="txtDescTecHoras" runat="server" Text="%Desc. Téc. Horas" Width="110px">  </rfn:RFNLabel>
+Ahora 137: <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras" style="width: 110px">%Desc. Téc. Horas</label>
+
+Antes 138: <rfn:RFNLabel ID="lblDescTecHoras" AssociatedControlID="txtDescTecHoras" runat="server" Text="%Desc. Téc. Horas"> </rfn:RFNLabel>
+Ahora 138: <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras">%Desc. Téc. Horas</label>
+
+Antes 139: <rfn:RFNLabel ID="lblDesde1" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+Ahora 139: <label id="lblDesde1" runat="server" class="lblEtiquetas">Desde</label>
+
+Antes 140: <rfn:RFNLabel ID="lblDesde2" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+Ahora 140: <label id="lblDesde2" runat="server" class="lblEtiquetas">Desde</label>
+
+Antes 141: <rfn:RFNLabel ID="lblDesde3" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+Ahora 141: <label id="lblDesde3" runat="server" class="lblEtiquetas">Desde</label>
+
+Antes 142: <rfn:RFNLabel ID="lblDesde4" class="lblEtiquetas" runat="server" Text="Desde"> </rfn:RFNLabel>
+Ahora 142: <label id="lblDesde4" runat="server" class="lblEtiquetas">Desde</label>
+
+Antes 143: <rfn:RFNLabel ID="lbldiapago" AssociatedControlID="txtdiapago" CssClass="lblEtiquetas" runat="server" Text="Día de Pago"></rfn:RFNLabel>
+Ahora 143: <label id="lbldiapago" runat="server" for="txtdiapago" class="lblEtiquetas">Día de Pago</label>
+
+Antes 144: <rfn:RFNLabel ID="lbleliminarIPC" runat="server" Text="Eliminar IPC" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px" Enabled="false"></rfn:RFNLabel>
+Ahora 144: <label id="lbleliminarIPC" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px; pointer-events: none; opacity: 0.6">Eliminar IPC</label>
+
+Antes 145: <rfn:RFNLabel ID="lbleliminarIPC2" runat="server" Text="Eliminar IPC Fija" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="110px" Enabled="false"></rfn:RFNLabel>
+Ahora 145: <label id="lbleliminarIPC2" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 110px; pointer-events: none; opacity: 0.6">Eliminar IPC Fija</label>
+
+Antes 146: <rfn:RFNLabel ID="lblfact" ForeColor="Red" runat="server" Style="display: none" Text="Según los permisos que usted tiene no puede introducir la cuenta bancaria del contrato."></rfn:RFNLabel>
+Ahora 146: <label id="lblfact" runat="server" style="color: Red; display: none">Según los permisos que usted tiene no puede introducir la cuenta bancaria del contrato.</label>
+
+Antes 147: <rfn:RFNLabel ID="lblFecFin" AssociatedControlID="calFecFin" CssClass="lblEtiquetas" runat="server" Text="Fecha Finalización"></rfn:RFNLabel>
+Ahora 147: <label id="lblFecFin" runat="server" for="calFecFin" class="lblEtiquetas">Fecha Finalización</label>
+
+Antes 148: <rfn:RFNLabel ID="lblFecUltReno" AssociatedControlID="calFecUltReno" CssClass="lblEtiquetas" runat="server" Text="Fecha de última Renovación"></rfn:RFNLabel>
+Ahora 148: <label id="lblFecUltReno" runat="server" for="calFecUltReno" class="lblEtiquetas">Fecha de última Renovación</label>
+
+Antes 149: <rfn:RFNLabel ID="lblFieldSetFactRecos" runat="server" Text="Facturación de Reconocimientos"></rfn:RFNLabel>
+Ahora 149: <label id="lblFieldSetFactRecos" runat="server">Facturación de Reconocimientos</label>
+
+Antes 150: <rfn:RFNLabel ID="lblfiltrosCT" runat="server" Text="Filtros de búsqueda"></rfn:RFNLabel>
+Ahora 150: <label id="lblfiltrosCT" runat="server">Filtros de búsqueda</label>
+
+Antes 151: <rfn:RFNLabel ID="lblfltroCT" runat="server" Text="Buscar" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="175px" Enabled="false"></rfn:RFNLabel>
+Ahora 151: <label id="lblfltroCT" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Buscar</label>
+
+Antes 152: <rfn:RFNLabel ID="lblFormaPago" AssociatedControlID="rblTipoPago" CssClass="lblEtiquetas" runat="server" Text="Forma de Pago"></rfn:RFNLabel>
+Ahora 152: <label id="lblFormaPago" runat="server" for="rblTipoPago" class="lblEtiquetas">Forma de Pago</label>
+
+Antes 153: <rfn:RFNLabel ID="lblFsAnalCompuesta" runat="server" Text="Analíticas Compuestas"></rfn:RFNLabel>
+Ahora 153: <label id="lblFsAnalCompuesta" runat="server">Analíticas Compuestas</label>
+
+Antes 154: <rfn:RFNLabel ID="lblFsAnalPerfil" runat="server" Text="Perfiles"></rfn:RFNLabel>
+Ahora 154: <label id="lblFsAnalPerfil" runat="server">Perfiles</label>
+
+Antes 155: <rfn:RFNLabel ID="lblFsAnalSimple" runat="server" Text="Analíticas Simples"></rfn:RFNLabel>
+Ahora 155: <label id="lblFsAnalSimple" runat="server">Analíticas Simples</label>
+
+Antes 156: <rfn:RFNLabel ID="lblGenerarCargoCuenta" runat="server" Text="Doc. cargo en cuenta" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="155px"></rfn:RFNLabel>
+Ahora 156: <label id="lblGenerarCargoCuenta" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 155px">Doc. cargo en cuenta</label>
+
+Antes 157: <rfn:RFNLabel ID="lblGenerarDocumentacion" runat="server" Text="Generar Documentación" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="155px"></rfn:RFNLabel>
+Ahora 157: <label id="lblGenerarDocumentacion" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 155px">Generar Documentación</label>
+
+Antes 158: <rfn:RFNLabel ID="lblgrabarcentro" runat="server" Text="Grabar" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="100px"></rfn:RFNLabel>
+Ahora 158: <label id="lblgrabarcentro" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 100px">Grabar</label>
+
+Antes 159: <rfn:RFNLabel ID="lblHDAnx" runat="server" Width="110px" Text="Importe Hospital Digital"></rfn:RFNLabel>
+Ahora 159: <label id="lblHDAnx" runat="server" style="width: 110px">Importe Hospital Digital</label>
+
+Antes 160: <rfn:RFNLabel ID="lblHDCtrt" runat="server" Width="110px" Text="Importe Hospital Digital"></rfn:RFNLabel>
+Ahora 160: <label id="lblHDCtrt" runat="server" style="width: 110px">Importe Hospital Digital</label>
+
+Antes 161: <rfn:RFNLabel ID="lblHistColab" runat="server" Text="Histórico de Colaboradores" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White"></rfn:RFNLabel>
+Ahora 161: <label id="lblHistColab" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White">Histórico de Colaboradores</label>
+
+Antes 162: <rfn:RFNLabel ID="lblhistTarifa" runat="server" Text="Histórico de Tarifas" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White"></rfn:RFNLabel>
+Ahora 162: <label id="lblhistTarifa" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White">Histórico de Tarifas</label>
+
+Antes 163: <rfn:RFNLabel ID="lblHorasProducto" runat="server" Text="Horas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 163: <label id="lblHorasProducto" runat="server" class="lblEtiquetas">Horas</label>
+
+Antes 164: <rfn:RFNLabel ID="lblHorasProductoAutonomo" runat="server" Text="Horas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 164: <label id="lblHorasProductoAutonomo" runat="server" class="lblEtiquetas">Horas</label>
+
+Antes 165: <rfn:RFNLabel ID="lblHorasProductoBolsaHoras" runat="server" Text="Horas" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 165: <label id="lblHorasProductoBolsaHoras" runat="server" class="lblEtiquetas">Horas</label>
+
+Antes 166: <rfn:RFNLabel ID="lblImpAnexo" runat="server" Text="Modalidades antes de Bayes"></rfn:RFNLabel>
+Ahora 166: <label id="lblImpAnexo" runat="server">Modalidades antes de Bayes</label>
+
+Antes 167: <rfn:RFNLabel ID="lblImpContrato" runat="server" Text="Modalidades contrato"></rfn:RFNLabel>
+Ahora 167: <label id="lblImpContrato" runat="server">Modalidades contrato</label>
+
+Antes 168: <rfn:RFNLabel ID="lblImporteARTarifa" Width="70px" runat="server" Text="Alto Riesgo: "></rfn:RFNLabel>
+Ahora 168: <label id="lblImporteARTarifa" runat="server" style="width: 70px">Alto Riesgo:</label>
+
+Antes 169: <rfn:RFNLabel ID="lblImporteBRTarifa" Width="70px" runat="server" Text="Bajo Riesgo: "></rfn:RFNLabel>
+Ahora 169: <label id="lblImporteBRTarifa" runat="server" style="width: 70px">Bajo Riesgo:</label>
+
+Antes 170: <rfn:RFNLabel ID="lblimporteqshd" runat="server" Width="110px" Text="Importe Hospital Digital: "></rfn:RFNLabel>
+Ahora 170: <label id="lblimporteqshd" runat="server" style="width: 110px">Importe Hospital Digital:</label>
+
+Antes 171: <rfn:RFNLabel ID="lblImporteTarifa" runat="server" Text="Importe según Tarifa: "></rfn:RFNLabel>
+Ahora 171: <label id="lblImporteTarifa" runat="server">Importe según Tarifa:</label>
+
+Antes 172: <rfn:RFNLabel ID="lblImporteTarifa" runat="server" Text="Importe según Tarifa: "></rfn:RFNLabel>
+Ahora 172: <label id="lblImporteTarifa" runat="server">Importe según Tarifa:</label>
+
+Antes 173: <rfn:RFNLabel ID="lblImporteTarifaDescuento" runat="server" Text="Importe aplicado: " Width="110px"></rfn:RFNLabel>
+Ahora 173: <label id="lblImporteTarifaDescuento" runat="server" style="width: 110px">Importe aplicado:</label>
+
+Antes 174: <rfn:RFNLabel ID="lblImporteTarifaDescuento" runat="server" Text="Importe aplicado: "></rfn:RFNLabel>
+Ahora 174: <label id="lblImporteTarifaDescuento" runat="server">Importe aplicado:</label>
+
+Antes 175: <rfn:RFNLabel ID="lblImporteTarifaReco" runat="server" Text="Importe según Tarifa: "></rfn:RFNLabel>
+Ahora 175: <label id="lblImporteTarifaReco" runat="server">Importe según Tarifa:</label>
+
+Antes 176: <rfn:RFNLabel ID="lblImporteTarifaRecoDescuento" runat="server" Text="Importe aplicado: "></rfn:RFNLabel>
+Ahora 176: <label id="lblImporteTarifaRecoDescuento" runat="server">Importe aplicado:</label>
+
+Antes 177: <rfn:RFNLabel ID="lblImpPruebasVSI" runat="server" Text="IMPORTE TOTAL VSI PREFACTURADA " CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 177: <label id="lblImpPruebasVSI" runat="server" class="lblEtiquetas">IMPORTE TOTAL VSI PREFACTURADA</label>
+
+Antes 178: <rfn:RFNLabel ID="lblIncluyeRecos" class="lblEtiquetas" AssociatedControlID="txtIncluyeRecos" runat="server" Text="Incluye"> </rfn:RFNLabel>
+Ahora 178: <label id="lblIncluyeRecos" runat="server" for="txtIncluyeRecos" class="lblEtiquetas">Incluye</label>
+
+Antes 179: <rfn:RFNLabel ID="lblLegendAnexo" runat="server" Text="Anexos"></rfn:RFNLabel>
+Ahora 179: <label id="lblLegendAnexo" runat="server">Anexos</label>
+
+Antes 180: <rfn:RFNLabel ID="lblLegendCentrosTotal" runat="server" Text="Número de centros"> </rfn:RFNLabel>
+Ahora 180: <label id="lblLegendCentrosTotal" runat="server">Número de centros</label>
+
+Antes 181: <rfn:RFNLabel ID="lblLegendCentrosTrabajo" runat="server" Text="Centros de Trabajo"></rfn:RFNLabel>
+Ahora 181: <label id="lblLegendCentrosTrabajo" runat="server">Centros de Trabajo</label>
+
+Antes 182: <rfn:RFNLabel ID="lblLegendCtrBaja" runat="server" Text="Baja del Contrato"></rfn:RFNLabel>
+Ahora 182: <label id="lblLegendCtrBaja" runat="server">Baja del Contrato</label>
+
+Antes 183: <rfn:RFNLabel ID="lblLegendCtrBaja2" runat="server" Text="Baja del Contrato"> </rfn:RFNLabel>
+Ahora 183: <label id="lblLegendCtrBaja2" runat="server">Baja del Contrato</label>
+
+Antes 184: <rfn:RFNLabel ID="lblLegendCtrColaborador" runat="server" Text="Colaborador"></rfn:RFNLabel>
+Ahora 184: <label id="lblLegendCtrColaborador" runat="server">Colaborador</label>
+
+Antes 185: <rfn:RFNLabel ID="lblLegendCtrContactos" runat="server" Text="Contactos del Cliente"></rfn:RFNLabel>
+Ahora 185: <label id="lblLegendCtrContactos" runat="server">Contactos del Cliente</label>
+
+Antes 186: <rfn:RFNLabel ID="lblLegendCtrDirEnvFact" runat="server" Text="Dirección de envío de facturas"></rfn:RFNLabel>
+Ahora 186: <label id="lblLegendCtrDirEnvFact" runat="server">Dirección de envío de facturas</label>
+
+Antes 187: <rfn:RFNLabel ID="lblLegendCtrDomiBanc" runat="server" Text="Domiciliación Bancaria"></rfn:RFNLabel>
+Ahora 187: <label id="lblLegendCtrDomiBanc" runat="server">Domiciliación Bancaria</label>
+
+Antes 188: <rfn:RFNLabel ID="lblLegendCtrFirma" runat="server" Text="Firmantes"></rfn:RFNLabel>
+Ahora 188: <label id="lblLegendCtrFirma" runat="server">Firmantes</label>
+
+Antes 189: <rfn:RFNLabel ID="lblLegendCtrIndicadores" runat="server" Text="Indicadores"></rfn:RFNLabel>
+Ahora 189: <label id="lblLegendCtrIndicadores" runat="server">Indicadores</label>
+
+Antes 190: <rfn:RFNLabel ID="lblLegendCtrRenoPrecios" runat="server" Text="Renovación de Precios de Concierto"></rfn:RFNLabel>
+Ahora 190: <label id="lblLegendCtrRenoPrecios" runat="server">Renovación de Precios de Concierto</label>
+
+Antes 191: <rfn:RFNLabel ID="lblLegendCtrRespCap" runat="server" Text="Captación/Renovación del Contrato"></rfn:RFNLabel>
+Ahora 191: <label id="lblLegendCtrRespCap" runat="server">Captación/Renovación del Contrato</label>
+
+Antes 192: <rfn:RFNLabel ID="lblLegendFacturacion" runat="server" Text="Facturación"></rfn:RFNLabel>
+Ahora 192: <label id="lblLegendFacturacion" runat="server">Facturación</label>
+
+Antes 193: <rfn:RFNLabel ID="lblLegendGrupoOtrasActividades" runat="server" Text="Actividades de formación"></rfn:RFNLabel>
+Ahora 193: <label id="lblLegendGrupoOtrasActividades" runat="server">Actividades de formación</label>
+
+Antes 194: <rfn:RFNLabel ID="lblLegendHistColab" runat="server" Text="Datos de los Colaboradores"></rfn:RFNLabel>
+Ahora 194: <label id="lblLegendHistColab" runat="server">Datos de los Colaboradores</label>
+
+Antes 195: <rfn:RFNLabel ID="lblLegendHistDocumento" runat="server" Text="Anexo Renovación"></rfn:RFNLabel>
+Ahora 195: <label id="lblLegendHistDocumento" runat="server">Anexo Renovación</label>
+
+Antes 196: <rfn:RFNLabel ID="lblLegendHistTarifa" runat="server" Text="Datos"></rfn:RFNLabel>
+Ahora 196: <label id="lblLegendHistTarifa" runat="server">Datos</label>
+
+Antes 197: <rfn:RFNLabel ID="lblLegendTarificacionAutonomos" runat="server" Text="Autónomos"> </rfn:RFNLabel>
+Ahora 197: <label id="lblLegendTarificacionAutonomos" runat="server">Autónomos</label>
+
+Antes 198: <rfn:RFNLabel ID="lblLegendTarificacionBolsaHoras" runat="server" Text="Bolsa de Horas"></rfn:RFNLabel>
+Ahora 198: <label id="lblLegendTarificacionBolsaHoras" runat="server">Bolsa de Horas</label>
+
+Antes 199: <rfn:RFNLabel ID="lblLegendTarificacionModalidades" runat="server" Text="Modalidades"></rfn:RFNLabel>
+Ahora 199: <label id="lblLegendTarificacionModalidades" runat="server">Modalidades</label>
+
+Antes 200: <rfn:RFNLabel ID="lblLegendTarificacionProductos" runat="server" Text="Productos"> </rfn:RFNLabel>
+Ahora 200: <label id="lblLegendTarificacionProductos" runat="server">Productos</label>
+
+Antes 201: <rfn:RFNLabel ID="lblLegendTrabTotal" runat="server" Text="Trabajadores Totales"> </rfn:RFNLabel>
+Ahora 201: <label id="lblLegendTrabTotal" runat="server">Trabajadores Totales</label>
+
+Antes 202: <rfn:RFNLabel ID="lbllimpiarfiltroct" runat="server" Text="Limpiar campos" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="175px" Enabled="false"></rfn:RFNLabel>
+Ahora 202: <label id="lbllimpiarfiltroct" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Limpiar campos</label>
+
+Antes 203: <rfn:RFNLabel ID="lblModalidades" runat="server" Text="Precios/Horas"></rfn:RFNLabel>
+Ahora 203: <label id="lblModalidades" runat="server">Precios/Horas</label>
+
+Antes 204: <rfn:RFNLabel ID="lblModEPAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModEPAnx" runat="server" Text="EP"> </rfn:RFNLabel>
+Ahora 204: <label id="lblModEPAnx" runat="server" for="txtModEPAnx" class="lblEtiquetasPadd">EP</label>
+
+Antes 205: <rfn:RFNLabel ID="lblModHIAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHIAnx" runat="server" Text="HI"> </rfn:RFNLabel>
+Ahora 205: <label id="lblModHIAnx" runat="server" for="txtModHIAnx" class="lblEtiquetasPadd">HI</label>
+
+Antes 206: <rfn:RFNLabel ID="lblModHorMed" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorMedDescuento" runat="server" Text="Horas Méd"> </rfn:RFNLabel>
+Ahora 206: <label id="lblModHorMed" runat="server" for="txtModHorMedDescuento" class="lblEtiquetasPadd">Horas Méd</label>
+
+Antes 207: <rfn:RFNLabel ID="lblModHorMed" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorMedDescuento" runat="server" Text="Horas Méd"> </rfn:RFNLabel>
+Ahora 207: <label id="lblModHorMed" runat="server" for="txtModHorMedDescuento" class="lblEtiquetasPadd">Horas Méd</label>
+
+Antes 208: <rfn:RFNLabel ID="lblModHorTec" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorTecDescuento" runat="server" Text="Horas Téc"> </rfn:RFNLabel>
+Ahora 208: <label id="lblModHorTec" runat="server" for="txtModHorTecDescuento" class="lblEtiquetasPadd">Horas Téc</label>
+
+Antes 209: <rfn:RFNLabel ID="lblModHorTec" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModHorTecDescuento" runat="server" Text="Horas Téc"> </rfn:RFNLabel>
+Ahora 209: <label id="lblModHorTec" runat="server" for="txtModHorTecDescuento" class="lblEtiquetasPadd">Horas Téc</label>
+
+Antes 210: <rfn:RFNLabel ID="lblModMTAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModMTAnx" runat="server" Text="MT"> </rfn:RFNLabel>
+Ahora 210: <label id="lblModMTAnx" runat="server" for="txtModMTAnx" class="lblEtiquetasPadd">MT</label>
+
+Antes 211: <rfn:RFNLabel ID="lblModRPFAnexo" class="lblEtiquetas" AssociatedControlID="txtModRPFAnexo" runat="server" Text="Importe RPF"> </rfn:RFNLabel>
+Ahora 211: <label id="lblModRPFAnexo" runat="server" for="txtModRPFAnexo" class="lblEtiquetas">Importe RPF</label>
+
+Antes 212: <rfn:RFNLabel ID="lblModRPFCtrt" class="lblEtiquetas" AssociatedControlID="txtModRPFCtrt" runat="server" Text="Importe RPF"> </rfn:RFNLabel>
+Ahora 212: <label id="lblModRPFCtrt" runat="server" for="txtModRPFCtrt" class="lblEtiquetas">Importe RPF</label>
+
+Antes 213: <rfn:RFNLabel ID="lblModSheAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModSheAnx" runat="server" Text="SHE"> </rfn:RFNLabel>
+Ahora 213: <label id="lblModSheAnx" runat="server" for="txtModSheAnx" class="lblEtiquetasPadd">SHE</label>
+
+Antes 214: <rfn:RFNLabel ID="lblModSheCtrt" runat="server" Text="SHE" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModSheCtrt"></rfn:RFNLabel>
+Ahora 214: <label id="lblModSheCtrt" runat="server" for="txtModSheCtrt" class="lblEtiquetasPadd">SHE</label>
+
+Antes 215: <rfn:RFNLabel ID="lblModSTAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModSTAnx" runat="server" Text="ST"> </rfn:RFNLabel>
+Ahora 215: <label id="lblModSTAnx" runat="server" for="txtModSTAnx" class="lblEtiquetasPadd">ST</label>
+
+Antes 216: <rfn:RFNLabel ID="lblModTot" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTot" runat="server" Text="Total"> </rfn:RFNLabel>
+Ahora 216: <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd">Total</label>
+
+Antes 217: <rfn:RFNLabel ID="lblModTot" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTot" runat="server" Text="Total"> </rfn:RFNLabel>
+Ahora 217: <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd">Total</label>
+
+Antes 218: <rfn:RFNLabel ID="lblModTOTALAnx" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTotAnx" runat="server" Text="TOTAL"> </rfn:RFNLabel>
+Ahora 218: <label id="lblModTOTALAnx" runat="server" for="txtModTotAnx" class="lblEtiquetasPadd">TOTAL</label>
+
+Antes 219: <rfn:RFNLabel ID="lblModTotCtrt" CssClass="lblEtiquetasPadd" AssociatedControlID="txtModTotCtrt" runat="server" Text="Total"> </rfn:RFNLabel>
+Ahora 219: <label id="lblModTotCtrt" runat="server" for="txtModTotCtrt" class="lblEtiquetasPadd">Total</label>
+
+Antes 220: <rfn:RFNLabel ID="lblMotivoDescuento" class="lblEtiquetas" AssociatedControlID="txtMotivoDescuento" runat="server" Text="Motivo de Descuento" Visible="False"> </rfn:RFNLabel>
+Ahora 220: <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas">Motivo de Descuento</label>
+
+Antes 221: <rfn:RFNLabel ID="lblMotivoDescuento" class="lblEtiquetas" AssociatedControlID="txtMotivoDescuento" runat="server" Text="Motivo de Descuento" Visible="False"> </rfn:RFNLabel>
+Ahora 221: <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas">Motivo de Descuento</label>
+
+Antes 222: <rfn:RFNLabel ID="lblNumpedidoF" AssociatedControlID="txtNumPedidoF" CssClass="lblEtiquetas" runat="server" Text="Nº Pedido Fijo"></rfn:RFNLabel>
+Ahora 222: <label id="lblNumpedidoF" runat="server" for="txtNumPedidoF" class="lblEtiquetas">Nº Pedido Fijo</label>
+
+Antes 223: <rfn:RFNLabel ID="lblNumpedidoF" AssociatedControlID="txtNumPedidoF" CssClass="lblEtiquetas" runat="server" Text="Nº Pedido Fijo"></rfn:RFNLabel>
+Ahora 223: <label id="lblNumpedidoF" runat="server" for="txtNumPedidoF" class="lblEtiquetas">Nº Pedido Fijo</label>
+
+Antes 224: <rfn:RFNLabel ID="lblNumpedidoV" AssociatedControlID="txtNumPedidoV" CssClass="lblEtiquetas" runat="server" Text="Nº Pedido Variable"></rfn:RFNLabel>
+Ahora 224: <label id="lblNumpedidoV" runat="server" for="txtNumPedidoV" class="lblEtiquetas">Nº Pedido Variable</label>
+
+Antes 225: <rfn:RFNLabel ID="lblNumpedidoV" AssociatedControlID="txtNumPedidoV" CssClass="lblEtiquetas" runat="server" Text="Nº Pedido Variable"></rfn:RFNLabel>
+Ahora 225: <label id="lblNumpedidoV" runat="server" for="txtNumPedidoV" class="lblEtiquetas">Nº Pedido Variable</label>
+
+Antes 226: <rfn:RFNLabel ID="lblOtrasPruebasExternas" runat="server" Text="Resto de pruebas VSI"></rfn:RFNLabel>
+Ahora 226: <label id="lblOtrasPruebasExternas" runat="server">Resto de pruebas VSI</label>
+
+Antes 227: <rfn:RFNLabel ID="lblPeriPago" AssociatedControlID="rblPeriPago" CssClass="lblEtiquetas" runat="server" Text="Periodo de Facturación"></rfn:RFNLabel>
+Ahora 227: <label id="lblPeriPago" runat="server" for="rblPeriPago" class="lblEtiquetas">Periodo de Facturación</label>
+
+Antes 228: <rfn:RFNLabel ID="lblPlazoPago" AssociatedControlID="cmbPlazoPago" CssClass="lblEtiquetas" runat="server" Text="Plazo de Pago"></rfn:RFNLabel>
+Ahora 228: <label id="lblPlazoPago" runat="server" for="cmbPlazoPago" class="lblEtiquetas">Plazo de Pago</label>
+
+Antes 229: <rfn:RFNLabel ID="lblPrecio1" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+Ahora 229: <label id="lblPrecio1" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 230: <rfn:RFNLabel ID="lblPrecio2" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+Ahora 230: <label id="lblPrecio2" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 231: <rfn:RFNLabel ID="lblPrecio3" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+Ahora 231: <label id="lblPrecio3" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 232: <rfn:RFNLabel ID="lblPrecio4" class="lblEtiquetas" runat="server" Text="Precio"> </rfn:RFNLabel>
+Ahora 232: <label id="lblPrecio4" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 233: <rfn:RFNLabel ID="lblPrecioMedicoProducto" runat="server" Text="Médico" Width="50px"></rfn:RFNLabel>
+Ahora 233: <label id="lblPrecioMedicoProducto" runat="server" style="width: 50px">Médico</label>
+
+Antes 234: <rfn:RFNLabel ID="lblPrecioMedicoProductoAutonomo" runat="server" Text="Médico" Width="50px"></rfn:RFNLabel>
+Ahora 234: <label id="lblPrecioMedicoProductoAutonomo" runat="server" style="width: 50px">Médico</label>
+
+Antes 235: <rfn:RFNLabel ID="lblPrecioMedicoProductoBolsaHoras" runat="server" Text="Médico" Width="50px"></rfn:RFNLabel>
+Ahora 235: <label id="lblPrecioMedicoProductoBolsaHoras" runat="server" style="width: 50px">Médico</label>
+
+Antes 236: <rfn:RFNLabel ID="lblPrecioProducto" runat="server" Text="Precio" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 236: <label id="lblPrecioProducto" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 237: <rfn:RFNLabel ID="lblPrecioProductoAutonomo" runat="server" Text="Precio" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 237: <label id="lblPrecioProductoAutonomo" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 238: <rfn:RFNLabel ID="lblPrecioProductoBolsaHoras" runat="server" Text="Precio" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 238: <label id="lblPrecioProductoBolsaHoras" runat="server" class="lblEtiquetas">Precio</label>
+
+Antes 239: <rfn:RFNLabel ID="lblPrecioTecnicoProducto" runat="server" Text="Técnico" Width="50px"></rfn:RFNLabel>
+Ahora 239: <label id="lblPrecioTecnicoProducto" runat="server" style="width: 50px">Técnico</label>
+
+Antes 240: <rfn:RFNLabel ID="lblPrecioTecnicoProductoAutonomo" runat="server" Text="Técnico" Width="50px"></rfn:RFNLabel>
+Ahora 240: <label id="lblPrecioTecnicoProductoAutonomo" runat="server" style="width: 50px">Técnico</label>
+
+Antes 241: <rfn:RFNLabel ID="lblPrecioTecnicoProductoBolsaHoras" runat="server" Text="Técnico" Width="50px"></rfn:RFNLabel>
+Ahora 241: <label id="lblPrecioTecnicoProductoBolsaHoras" runat="server" style="width: 50px">Técnico</label>
+
+Antes 242: <rfn:RFNLabel ID="lblPrecioTotalProducto" runat="server" Text="Total" Width="50px" Font-Bold="True"></rfn:RFNLabel>
+Ahora 242: <label id="lblPrecioTotalProducto" runat="server" style="font-weight: bold; width: 50px">Total</label>
+
+Antes 243: <rfn:RFNLabel ID="lblPrecioTotalProductoAutonomo" runat="server" Text="Total" Width="50px" Font-Bold="True"></rfn:RFNLabel>
+Ahora 243: <label id="lblPrecioTotalProductoAutonomo" runat="server" style="font-weight: bold; width: 50px">Total</label>
+
+Antes 244: <rfn:RFNLabel ID="lblPrecioTotalProductoBolsaHoras" runat="server" Text="Total" Width="50px" Font-Bold="True"></rfn:RFNLabel>
+Ahora 244: <label id="lblPrecioTotalProductoBolsaHoras" runat="server" style="font-weight: bold; width: 50px">Total</label>
+
+Antes 245: <rfn:RFNLabel ID="lblProvinciaDS" AssociatedControlID="cmbProvinciaDS" CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+Ahora 245: <label id="lblProvinciaDS" runat="server" for="cmbProvinciaDS" class="lblEtiquetas">Provincia</label>
+
+Antes 246: <rfn:RFNLabel ID="lblProvinciaEnvFact" AssociatedControlID="cmbProvinciaEnvFact" CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+Ahora 246: <label id="lblProvinciaEnvFact" runat="server" for="cmbProvinciaEnvFact" class="lblEtiquetas">Provincia</label>
+
+Antes 247: <rfn:RFNLabel ID="lblProvinciaEnvFactP" AssociatedControlID="cmbProvinciaEnvFactP" CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+Ahora 247: <label id="lblProvinciaEnvFactP" runat="server" for="cmbProvinciaEnvFactP" class="lblEtiquetas">Provincia</label>
+
+Antes 248: <rfn:RFNLabel ID="lblProvinciaFilial" AssociatedControlID="txtProvinciaFilial" CssClass="lblEtiquetas" runat="server"></rfn:RFNLabel>
+Ahora 248: <label id="lblProvinciaFilial" runat="server" for="txtProvinciaFilial" class="lblEtiquetas"></label>
+
+Antes 249: <rfn:RFNLabel ID="lblProvinciaNotario1" AssociatedControlID="cmbProvinciaNotario1" CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+Ahora 249: <label id="lblProvinciaNotario1" runat="server" for="cmbProvinciaNotario1" class="lblEtiquetas">Provincia</label>
+
+Antes 250: <rfn:RFNLabel ID="lblProvinciaNotario2" AssociatedControlID="cmbProvinciaNotario2" CssClass="lblEtiquetas" runat="server" Text="Provincia"></rfn:RFNLabel>
+Ahora 250: <label id="lblProvinciaNotario2" runat="server" for="cmbProvinciaNotario2" class="lblEtiquetas">Provincia</label>
+
+Antes 251: <rfn:RFNLabel ID="lblRAPAnexo" class="lblEtiquetas" AssociatedControlID="txtRAPAnexo" runat="server" Text="Alto Riesgo"> </rfn:RFNLabel>
+Ahora 251: <label id="lblRAPAnexo" runat="server" for="txtRAPAnexo" class="lblEtiquetas">Alto Riesgo</label>
+
+Antes 252: <rfn:RFNLabel ID="lblRAPCtrt" class="lblEtiquetas" AssociatedControlID="txtRAPCtrt" runat="server" Text="Alto Riesgo"> </rfn:RFNLabel>
+Ahora 252: <label id="lblRAPCtrt" runat="server" for="txtRAPCtrt" class="lblEtiquetas">Alto Riesgo</label>
+
+Antes 253: <rfn:RFNLabel ID="lblRBPAnexo" class="lblEtiquetas" AssociatedControlID="txtRBPAnexo" runat="server" Text="Bajo Riesgo"> </rfn:RFNLabel>
+Ahora 253: <label id="lblRBPAnexo" runat="server" for="txtRBPAnexo" class="lblEtiquetas">Bajo Riesgo</label>
+
+Antes 254: <rfn:RFNLabel ID="lblRBPCtrt" class="lblEtiquetas" AssociatedControlID="txtRBPCtrt" runat="server" Text="Bajo Riesgo"> </rfn:RFNLabel>
+Ahora 254: <label id="lblRBPCtrt" runat="server" for="txtRBPCtrt" class="lblEtiquetas">Bajo Riesgo</label>
+
+Antes 255: <rfn:RFNLabel ID="lblReconocimientosPrefacturados" class="lblEtiquetas" AssociatedControlID="txtModRPF" runat="server" Text="Importe Reconocimientos Prefact."> </rfn:RFNLabel>
+Ahora 255: <label id="lblReconocimientosPrefacturados" runat="server" for="txtModRPF" class="lblEtiquetas">Importe Reconocimientos Prefact.</label>
+
+Antes 256: <rfn:RFNLabel ID="lblRecosVSI" runat="server" Text="Reconocimientos"></rfn:RFNLabel>
+Ahora 256: <label id="lblRecosVSI" runat="server">Reconocimientos</label>
+
+Antes 257: <rfn:RFNLabel ID="lblRPFAnexo" runat="server" Text="Reconocimientos"></rfn:RFNLabel>
+Ahora 257: <label id="lblRPFAnexo" runat="server">Reconocimientos</label>
+
+Antes 258: <rfn:RFNLabel ID="lblRPFCtrato" runat="server" Text="Reconocimientos"></rfn:RFNLabel>
+Ahora 258: <label id="lblRPFCtrato" runat="server">Reconocimientos</label>
+
+Antes 259: <rfn:RFNLabel ID="lblRPFIncluidosAnexo" class="lblEtiquetas" AssociatedControlID="txtRPFIncluidosAnexo" runat="server" Text="Incluye"> </rfn:RFNLabel>
+Ahora 259: <label id="lblRPFIncluidosAnexo" runat="server" for="txtRPFIncluidosAnexo" class="lblEtiquetas">Incluye</label>
+
+Antes 260: <rfn:RFNLabel ID="lblRPFIncluidosCtrt" class="lblEtiquetas" AssociatedControlID="txtRPFIncluidosCtrt" runat="server" Text="Incluye"> </rfn:RFNLabel>
+Ahora 260: <label id="lblRPFIncluidosCtrt" runat="server" for="txtRPFIncluidosCtrt" class="lblEtiquetas">Incluye</label>
+
+Antes 261: <rfn:RFNLabel ID="lblTarifa" class="lblEtiquetas" runat="server" Text="Tarifa"> </rfn:RFNLabel>
+Ahora 261: <label id="lblTarifa" runat="server" class="lblEtiquetas">Tarifa</label>
+
+Antes 262: <rfn:RFNLabel ID="lblTerminadoToVigente" runat="server" Text="Pasar a Vigente" BorderWidth="1" BorderColor="Black" BackColor="#009900" ForeColor="White" Visible="True" Width="175px" Enabled="false"></rfn:RFNLabel>
+Ahora 262: <label id="lblTerminadoToVigente" runat="server" style="border-color: Black; border-width: 1px; background-color: #009900; color: White; width: 175px; pointer-events: none; opacity: 0.6">Pasar a Vigente</label>
+
+Antes 263: <rfn:RFNLabel ID="lblTramos" runat="server" Text="Tramos :" Class="tituloPanelColapsable"></rfn:RFNLabel>
+Ahora 263: <label id="lblTramos" runat="server" class="tituloPanelColapsable">Tramos :</label>
+
+Antes 264: <rfn:RFNLabel ID="lblVacio" runat="server" Text="lblVacio" CssClass="lblEtiquetas" ForeColor="White"></rfn:RFNLabel>
+Ahora 264: <label id="lblVacio" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
+
+Antes 265: <rfn:RFNLabel ID="lblVacioAutonomo" runat="server" Text="lblVacio" CssClass="lblEtiquetas" ForeColor="White"></rfn:RFNLabel>
+Ahora 265: <label id="lblVacioAutonomo" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
+
+Antes 266: <rfn:RFNLabel ID="lblVacioBolsaHoras" runat="server" Text="lblVacio" CssClass="lblEtiquetas" ForeColor="White"></rfn:RFNLabel>
+Ahora 266: <label id="lblVacioBolsaHoras" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
+
+Antes 267: <rfn:RFNLabel ID="RFNLabel1" runat="server" Text="Datos Organismos Públicos"></rfn:RFNLabel>
+Ahora 267: <label id="RFNLabel1" runat="server">Datos Organismos Públicos</label>
+
+Antes 268: <rfn:RFNLabel ID="RFNLabel10" runat="server" Text="&nbspEl precio de la MT es el sumatorio de la Subscripción a Hospital Digital y la vigilancia de la salud colectiva" ForeColor="Red" Font-Bold="True" ></rfn:RFNLabel>
+Ahora 268: <label id="RFNLabel10" runat="server" style="color: Red; font-weight: bold">&nbspEl precio de la MT es el sumatorio de la Subscripción a Hospital Digital y la vigilancia de la salud colectiva</label>
+
+Antes 269: <rfn:RFNLabel ID="RFNLabel2" runat="server" Text="Datos Contrato"></rfn:RFNLabel>
+Ahora 269: <label id="RFNLabel2" runat="server">Datos Contrato</label>
+
+Antes 270: <rfn:RFNLabel ID="RFNLabel5" runat="server" Text="Número total de Pruebas VSI en el contrato"></rfn:RFNLabel>
+Ahora 270: <label id="RFNLabel5" runat="server">Número total de Pruebas VSI en el contrato</label>
+
+Antes 271: <rfn:RFNLabel ID="RFNLabel6" AssociatedControlID="btnDescargarExcel" CssClass="lblEtiquetas" runat="server" Text="Descargar Centros de Trabajo"></rfn:RFNLabel>
+Ahora 271: <label id="RFNLabel6" runat="server" for="btnDescargarExcel" class="lblEtiquetas">Descargar Centros de Trabajo</label>
+
+Antes 272: <rfn:RFNLabel ID="RFNLabel9" runat="server" Text="_." BackColor="Red" ForeColor="Red" Font-Bold="True" ></rfn:RFNLabel>
+Ahora 272: <label id="RFNLabel9" runat="server" style="background-color: Red; color: Red; font-weight: bold">_.</label>
+
+Antes 273: <rfn:RFNLabel runat="server" ID="lblApellido1" Text="Primer Apellido" AssociatedControlID="txtApellido1" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 273: <label id="lblApellido1" runat="server" for="txtApellido1" class="lblEtiquetas">Primer Apellido</label>
+
+Antes 274: <rfn:RFNLabel runat="server" ID="lblApellido2" Text="Segundo Apellido" AssociatedControlID="txtApellido2" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 274: <label id="lblApellido2" runat="server" for="txtApellido2" class="lblEtiquetas">Segundo Apellido</label>
+
+Antes 275: <rfn:RFNLabel runat="server" ID="lblCCC" Text="CCC" AssociatedControlID="txtIban"></rfn:RFNLabel>
+Ahora 275: <label id="lblCCC" runat="server" for="txtIban">CCC</label>
+
+Antes 276: <rfn:RFNLabel runat="server" ID="lblccdTarifaAutonomos" Text="Tarifa" AssociatedControlID="ccdTarifaAutonomos" CssClass="lblEtiquetas"></rfn:RFNLabel> 
+Ahora 276: <label id="lblccdTarifaAutonomos" runat="server" for="ccdTarifaAutonomos" class="lblEtiquetas">Tarifa</label> 
+
+Antes 277: <rfn:RFNLabel runat="server" ID="lblccdTarifaBolsaHoras" Text="Tarifa" AssociatedControlID="ccdTarifaBolsaHoras" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 277: <label id="lblccdTarifaBolsaHoras" runat="server" for="ccdTarifaBolsaHoras" class="lblEtiquetas">Tarifa</label>
+
+Antes 278: <rfn:RFNLabel runat="server" ID="lblccdTarifaModalidad" Text="Tarifa" AssociatedControlID="ccdTarifaModalidad" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 278: <label id="lblccdTarifaModalidad" runat="server" for="ccdTarifaModalidad" class="lblEtiquetas">Tarifa</label>
+
+Antes 279: <rfn:RFNLabel runat="server" ID="lblccdTarifaProductos" Text="Tarifa" AssociatedControlID="ccdTarifaProductos" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 279: <label id="lblccdTarifaProductos" runat="server" for="ccdTarifaProductos" class="lblEtiquetas">Tarifa</label>
+
+Antes 280: <rfn:RFNLabel runat="server" ID="lblCentros" Text="Datos Centro de Trabajo" ></rfn:RFNLabel>
+Ahora 280: <label id="lblCentros" runat="server">Datos Centro de Trabajo</label>
+
+Antes 281: <rfn:RFNLabel runat="server" ID="lblCodAnexo" Text="Anexo" AssociatedControlID="txtCodAnexo" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 281: <label id="lblCodAnexo" runat="server" for="txtCodAnexo" class="lblEtiquetas">Anexo</label>
+
+Antes 282: <rfn:RFNLabel runat="server" ID="lblCodContrato" Text="Cod. Contrato" AssociatedControlID="txtCodContrato" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 282: <label id="lblCodContrato" runat="server" for="txtCodContrato" class="lblEtiquetas">Cod. Contrato</label>
+
+Antes 283: <rfn:RFNLabel runat="server" ID="lblCtrCodContratoFirma" Text="Cod. Contrato" AssociatedControlID="txtCtrCodContratoFirma" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 283: <label id="lblCtrCodContratoFirma" runat="server" for="txtCtrCodContratoFirma" class="lblEtiquetas">Cod. Contrato</label>
+
+Antes 284: <rfn:RFNLabel runat="server" ID="lblCtrCodPresupuestoFirma" Text="Cod. Presupuesto" AssociatedControlID="txtCtrCodPresupuestoFirma" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 284: <label id="lblCtrCodPresupuestoFirma" runat="server" for="txtCtrCodPresupuestoFirma" class="lblEtiquetas">Cod. Presupuesto</label>
+
+Antes 285: <rfn:RFNLabel runat="server" ID="lblCtrColaborador" Text="Colaborador" AssociatedControlID="ccdCtrColaborador" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 285: <label id="lblCtrColaborador" runat="server" for="ccdCtrColaborador" class="lblEtiquetas">Colaborador</label>
+
+Antes 286: <rfn:RFNLabel runat="server" ID="lblCtrEstadoContratoFirma" Text="Estado Contrato" AssociatedControlID="ddlCtrEstadoContratoFirma" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 286: <label id="lblCtrEstadoContratoFirma" runat="server" for="ddlCtrEstadoContratoFirma" class="lblEtiquetas">Estado Contrato</label>
+
+Antes 287: <rfn:RFNLabel runat="server" ID="lblCtrFecColabDesde" Text="Fecha Desde" AssociatedControlID="calCtrFecColabDesde" CssClass="lblEtiquetas"> </rfn:RFNLabel>
+Ahora 287: <label id="lblCtrFecColabDesde" runat="server" for="calCtrFecColabDesde" class="lblEtiquetas">Fecha Desde</label>
+
+Antes 288: <rfn:RFNLabel runat="server" ID="lblCtrFecFirma" Text="Fecha de Firma" AssociatedControlID="calCtrFecFirma" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 288: <label id="lblCtrFecFirma" runat="server" for="calCtrFecFirma" class="lblEtiquetas">Fecha de Firma</label>
+
+Antes 289: <rfn:RFNLabel runat="server" ID="lblCtrFecPoderDirectivo1" Text="Fecha Poder" AssociatedControlID="calCtrFecPoderDirectivo1" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 289: <label id="lblCtrFecPoderDirectivo1" runat="server" for="calCtrFecPoderDirectivo1" class="lblEtiquetas">Fecha Poder</label>
+
+Antes 290: <rfn:RFNLabel runat="server" ID="lblCtrFecPoderDirectivo2" Text="Fecha Poder" AssociatedControlID="calCtrFecPoderDirectivo2" CssClass="lblEtiquetas"> </rfn:RFNLabel>
+Ahora 290: <label id="lblCtrFecPoderDirectivo2" runat="server" for="calCtrFecPoderDirectivo2" class="lblEtiquetas">Fecha Poder</label>
+
+Antes 291: <rfn:RFNLabel runat="server" ID="lblCtrRespRenovacion" Text="Persona QP de Contacto" AssociatedControlID="ccdCtrRespRenovacion" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 291: <label id="lblCtrRespRenovacion" runat="server" for="ccdCtrRespRenovacion" class="lblEtiquetas">Persona QP de Contacto</label>
+
+Antes 292: <rfn:RFNLabel runat="server" ID="lblCtrtSAP" Text="Contrato SAP" AssociatedControlID="txtCtrtSAP" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 292: <label id="lblCtrtSAP" runat="server" for="txtCtrtSAP" class="lblEtiquetas">Contrato SAP</label>
+
+Antes 293: <rfn:RFNLabel runat="server" ID="lblDc" Text="DC" AssociatedControlID="txtIban" CssClass="lblEtiquetasPadd3"></rfn:RFNLabel>
+Ahora 293: <label id="lblDc" runat="server" for="txtIban" class="lblEtiquetasPadd3">DC</label>
+
+Antes 294: <rfn:RFNLabel runat="server" ID="lblEmailFilial" Text="Email del cliente" AssociatedControlID="txtEmailFilial" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 294: <label id="lblEmailFilial" runat="server" for="txtEmailFilial" class="lblEtiquetas">Email del cliente</label>
+
+Antes 295: <rfn:RFNLabel runat="server" ID="lblFecAnexoRenovacion" Text="Fecha anexo" class="lblEtiquetas"></rfn:RFNLabel>
+Ahora 295: <label id="lblFecAnexoRenovacion" runat="server" class="lblEtiquetas">Fecha anexo</label>
+
+Antes 296: <rfn:RFNLabel runat="server" ID="lblFecPoderNotario1" Text="Fecha Poder" AssociatedControlID="calFecPoderNotario1" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 296: <label id="lblFecPoderNotario1" runat="server" for="calFecPoderNotario1" class="lblEtiquetas">Fecha Poder</label>
+
+Antes 297: <rfn:RFNLabel runat="server" ID="lblFecPoderNotario2" Text="Fecha Poder" AssociatedControlID="calFecPoderNotario2" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 297: <label id="lblFecPoderNotario2" runat="server" for="calFecPoderNotario2" class="lblEtiquetas">Fecha Poder</label>
+
+Antes 298: <rfn:RFNLabel runat="server" ID="lblfiltro2" Text="Código Centro Ventas" AssociatedControlID="txtfiltroCodigo" class="lblEtiquetas"></rfn:RFNLabel>
+Ahora 298: <label id="lblfiltro2" runat="server" for="txtfiltroCodigo" class="lblEtiquetas">Código Centro Ventas</label>
+
+Antes 299: <rfn:RFNLabel runat="server" ID="lblfiltro3" Text="Referencia" AssociatedControlID="filtro3" class="lblEtiquetas"></rfn:RFNLabel>
+Ahora 299: <label id="lblfiltro3" runat="server" for="filtro3" class="lblEtiquetas">Referencia</label>
+
+Antes 300: <rfn:RFNLabel runat="server" ID="lblfiltro4" Text="Código Centro Prestación" AssociatedControlID="txtfiltroCodigo" class="lblEtiquetas"></rfn:RFNLabel>
+Ahora 300: <label id="lblfiltro4" runat="server" for="txtfiltroCodigo" class="lblEtiquetas">Código Centro Prestación</label>
+
+Antes 301: <rfn:RFNLabel runat="server" ID="lblIban" Text="IBAN" AssociatedControlID="txtIban" CssClass="lblEtiquetasPadd2"></rfn:RFNLabel>
+Ahora 301: <label id="lblIban" runat="server" for="txtIban" class="lblEtiquetasPadd2">IBAN</label>
+
+Antes 302: <rfn:RFNLabel runat="server" ID="lblIdentificador" Text="CIF" AssociatedControlID="txtIdentificador" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 302: <label id="lblIdentificador" runat="server" for="txtIdentificador" class="lblEtiquetas">CIF</label>
+
+Antes 303: <rfn:RFNLabel runat="server" ID="lblImpRPF" Text="IMP. Reco.P.F" AssociatedControlID="txtImpRPF" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 303: <label id="lblImpRPF" runat="server" for="txtImpRPF" class="lblEtiquetas">IMP. Reco.P.F</label>
+
+Antes 304: <rfn:RFNLabel runat="server" ID="lblImpUndIncl" Text="€/Und Incl." AssociatedControlID="txtImpUndIncl" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 304: <label id="lblImpUndIncl" runat="server" for="txtImpUndIncl" class="lblEtiquetas">€/Und Incl.</label>
+
+Antes 305: <rfn:RFNLabel runat="server" ID="lbllineaproducto" Text="Linea Producto" AssociatedControlID="ddllineaproducto" class="lblEtiquetas"></rfn:RFNLabel>
+Ahora 305: <label id="lbllineaproducto" runat="server" for="ddllineaproducto" class="lblEtiquetas">Linea Producto</label>
+
+Antes 306: <rfn:RFNLabel runat="server" ID="lblNIncluidos" Text="Nº Incluidos" AssociatedControlID="txtNIncluidos" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 306: <label id="lblNIncluidos" runat="server" for="txtNIncluidos" class="lblEtiquetas">Nº Incluidos</label>
+
+Antes 307: <rfn:RFNLabel runat="server" ID="lblNomBanco" Text="Banco" AssociatedControlID="txtNomBanco" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 307: <label id="lblNomBanco" runat="server" for="txtNomBanco" class="lblEtiquetas">Banco</label>
+
+Antes 308: <rfn:RFNLabel runat="server" ID="lblNombre" Text="Nombre" AssociatedControlID="txtNombre" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 308: <label id="lblNombre" runat="server" for="txtNombre" class="lblEtiquetas">Nombre</label>
+
+Antes 309: <rfn:RFNLabel runat="server" ID="lblNombreCompleto" Text="Razón Social" AssociatedControlID="txtNombre" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 309: <label id="lblNombreCompleto" runat="server" for="txtNombre" class="lblEtiquetas">Razón Social</label>
+
+Antes 310: <rfn:RFNLabel runat="server" ID="lblNumCuenta" Text="Cuenta" AssociatedControlID="txtNumCuenta" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 310: <label id="lblNumCuenta" runat="server" for="txtNumCuenta" class="lblEtiquetas">Cuenta</label>
+
+Antes 311: <rfn:RFNLabel runat="server" ID="lblPersonaFilial" Text="Contacto del cliente" AssociatedControlID="txtPersonaFilial" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 311: <label id="lblPersonaFilial" runat="server" for="txtPersonaFilial" class="lblEtiquetas">Contacto del cliente</label>
+
+Antes 312: <rfn:RFNLabel runat="server" ID="lblRazonSocialAnexoRenovacion" Text="Razón Social" AssociatedControlID="txtCodRazonSocialAnexoRenovacion" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 312: <label id="lblRazonSocialAnexoRenovacion" runat="server" for="txtCodRazonSocialAnexoRenovacion" class="lblEtiquetas">Razón Social</label>
+
+Antes 313: <rfn:RFNLabel runat="server" ID="lblTelefonoFilial" Text="Teléfono del cliente" AssociatedControlID="txtTelefonoFilial" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 313: <label id="lblTelefonoFilial" runat="server" for="txtTelefonoFilial" class="lblEtiquetas">Teléfono del cliente</label>
+
+Antes 314: <rfn:RFNLabel runat="server" ID="lblTipDocu" Text="Tipo" AssociatedControlID="rblColInd" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 314: <label id="lblTipDocu" runat="server" for="rblColInd" class="lblEtiquetas">Tipo</label>
+
+Antes 315: <rfn:RFNLabel runat="server" ID="lblTipoAnaliticaCompuesta" Text="Analitica" AssociatedControlID="ccdTipoAnaliticaCompuesta" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 315: <label id="lblTipoAnaliticaCompuesta" runat="server" for="ccdTipoAnaliticaCompuesta" class="lblEtiquetas">Analitica</label>
+
+Antes 316: <rfn:RFNLabel runat="server" ID="lblTipoAnaliticaPerfil" Text="Perfil" AssociatedControlID="ccdTipoAnaliticaPerfil" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 316: <label id="lblTipoAnaliticaPerfil" runat="server" for="ccdTipoAnaliticaPerfil" class="lblEtiquetas">Perfil</label>
+
+Antes 317: <rfn:RFNLabel runat="server" ID="lblTipoAnaliticaSimple" Text="Analitica" AssociatedControlID="ccdTipoAnaliticaSimple" CssClass="lblEtiquetas"></rfn:RFNLabel>
+Ahora 317: <label id="lblTipoAnaliticaSimple" runat="server" for="ccdTipoAnaliticaSimple" class="lblEtiquetas">Analitica</label>

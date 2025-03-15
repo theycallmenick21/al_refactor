@@ -2054,8 +2054,7 @@
                                                     </rfn:RFNCodDescripcion>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblCodPostalDS" AssociatedControlID="txtCPDS"
-                                                        runat="server" Text=" C.P."></rfn:RFNLabel>
+                                                    <label id="lblCodPostalDS" runat="server" for="txtCPDS" class="lblEtiquetas">C.P.</label>
                                                     <rfn:RFNTextbox ID="txtCPDS" runat="server" Requerido="True" MaxLength="5" TipoDato="CodigoPostal"
                                                         ValidationGroup="vGuardaDomiSocial" Width="70px" ErrorMessage="Error en Código Postal"
                                                         Enabled="False"></rfn:RFNTextbox>
@@ -2070,8 +2069,7 @@
                                                         Enabled="False" />
                                                 </div>
                                                 <div class="elementosSeccionPrincipalDS">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblCalleDS" AssociatedControlID="txtCalleDS"
-                                                        runat="server" Text="Calle"></rfn:RFNLabel>
+                                                    <label id="lblCalleDS" runat="server" for="txtCalleDS" class="lblEtiquetas">Calle</label>
                                                     <rfn:RFNTextbox ID="txtCalleDS" Width="331px" runat="server" OnClientChange="validaNumeroCaracteresDS"
                                                         ValidationGroup="vGuardaDomiSocial" Requerido="True" MaxLength="49" ErrorMessage="Error en Calle"
                                                         Enabled="False"></rfn:RFNTextbox>
@@ -2978,14 +2976,14 @@
                                                         <table>
                                                             <tr>
                                                                 <td>
-                                                                    <rfn:RFNLabel class="etiqueta" ID="FlblProvincia" runat="server">Provincia</rfn:RFNLabel><br />
+                                                                    <label id="FlblProvincia" runat="server" class="etiqueta">Provincia</label>
                                                                     <rfn:RFNDropDownList ID="FcmbProvincia" runat="server" Width="192px" PermitirVacio="True"
                                                                         Requerido="False" DataTextField="DESCRIPCION" DataValueField="ID_REGION" OnClientChange="cambioRegionF" />
 
                                                                 </td>
                                                                 <td>
 
-                                                                    <rfn:RFNLabel class="etiqueta" ID="FlblPoblacion" runat="server"> Población</rfn:RFNLabel><br />
+                                                                    <label id="FlblPoblacion" runat="server" class="etiqueta">Población</label>
                                                                     <rfn:RFNCodDescripcion ID="FccdPoblacion" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                                         Width="300px" Requerido="False" ErrorMessage="La Población es obligatoria"
                                                                         BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población" Tipo="Procedimiento" MostrarCodigo="False"
@@ -2995,8 +2993,7 @@
                                                                 </td>
 
                                                                 <td>
-                                                                    <rfn:RFNLabel class="lblEtiquetas" ID="FlblCodPostalCentro" AssociatedControlID="TXTCP"
-                                                                        runat="server" Text=" C.P."></rfn:RFNLabel>
+                                                                    <label id="FlblCodPostalCentro" runat="server" for="TXTCP" class="lblEtiquetas">C.P.</label>
                                                                     <rfn:RFNTextbox runat="server" ID="TXTCP" Width="100px"></rfn:RFNTextbox>
 
                                                                 </td>
@@ -3136,12 +3133,12 @@
                                             </div>
                                             <div class="subelementosSeccionPrincipalPadd">
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblProvincia" runat="server">Provincia</rfn:RFNLabel><br />
+                                                    <label id="lblProvincia" runat="server" class="etiqueta">Provincia</label><br />
                                                     <rfn:RFNDropDownList ID="cmbProvincia" runat="server" Width="192px" PermitirVacio="True"
                                                         Requerido="False" DataTextField="DESCRIPCION" DataValueField="ID_REGION" OnClientChange="CambioProvinciaCentro" />
                                                 </div>
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblPoblacion" runat="server"> Población</rfn:RFNLabel><br />
+                                                    <label id="lblPoblacion" runat="server" class="etiqueta">Población</label><br />
                                                     <rfn:RFNCodDescripcion ID="ccdPoblacion" runat="server" FuenteDatos="SPA.Spoblaciones_Read"
                                                         Width="300px" Requerido="False" ErrorMessage="La Población es obligatoria" ValidationGroup="GuardarCentro"
                                                         BusquedaAutomatica="True" MinCaracteresBusquedaAutomatica="5" Titulo="Población" Tipo="Procedimiento" MostrarCodigo="False"
@@ -3150,8 +3147,7 @@
                                                     </rfn:RFNCodDescripcion>
                                                 </div>
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="lblEtiquetas" ID="lblCodPostalCentro" AssociatedControlID="cmbCodPostal"
-                                                        runat="server" Text=" C.P."></rfn:RFNLabel>
+                                                    <label id="lblCodPostalCentro" runat="server" for="cmbCodPostal" class="lblEtiquetas">C.P.</label>
                                                     <rfn:RFNDropDownList ID="cmbCodPostal" runat="server" Width="100px" PermitirVacio="True"
                                                         Requerido="False" DataTextField="DES_POSTAL" DataValueField="COD_POSTAL" Enabled="true">
                                                     </rfn:RFNDropDownList>
@@ -3159,45 +3155,45 @@
                                             </div>
                                             <div class="subelementosSeccionPrincipalPadd">
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblVia" runat="server"> Tipo de vía</rfn:RFNLabel><br />
+                                                    <label id="lblVia" runat="server" class="etiqueta">Tipo de vía</label><br />
                                                     <rfn:RFNDropDownList ID="cmbTipoVia" runat="server" Width="192px" PermitirVacio="True"
                                                         Requerido="False" ValidationGroup="GuardarCentro" ErrorMessage="El tipo de vía es obligatorio" />
                                                 </div>
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblCalle" runat="server"> Calle</rfn:RFNLabel><br />
+                                                    <label id="lblCalle" runat="server" class="etiqueta">Calle</label>
                                                     <rfn:RFNTextbox class="etiqueta" ID="txtCalle" Width="306px" runat="server" Requerido="False"
                                                         MaxLength="49"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipal">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblNumero" runat="server"> Número</rfn:RFNLabel><br />
+                                                    <label id="lblNumero" runat="server" class="etiqueta">Número</label><br />
                                                     <rfn:RFNTextbox class="etiqueta" ID="txtNum" Width="130px" runat="server" Requerido="False"
                                                         MaxLength="16"></rfn:RFNTextbox>
                                                 </div>
                                             </div>
                                             <div class="subelementosSeccionPrincipalPadd">
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblPortal" runat="server"> Portal</rfn:RFNLabel><br />
+                                                    <label id="lblPortal" runat="server" class="etiqueta">Portal</label><br />
                                                     <rfn:RFNTextbox class="etiqueta" ID="txtPortal" Width="50px" runat="server" Requerido="False"
                                                         MaxLength="4"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblEscalera" runat="server"> Escalera</rfn:RFNLabel><br />
+                                                    <label id="lblEscalera" runat="server" class="etiqueta">Escalera</label><br />
                                                     <rfn:RFNTextbox ID="txtEscalera" Width="50px" runat="server" MaxLength="4"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblPiso" runat="server"> Piso</rfn:RFNLabel><br />
+                                                    <label id="lblPiso" runat="server" class="etiqueta">Piso</label><br />
                                                     <rfn:RFNTextbox ID="txtPiso" Width="50px" runat="server" MaxLength="2"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblPuerta" runat="server"> Puerta</rfn:RFNLabel><br />
+                                                    <label id="lblPuerta" runat="server" class="etiqueta">Puerta</label><br />
                                                     <rfn:RFNTextbox ID="txtPuerta" Width="70px" runat="server" MaxLength="2"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblNumTelf" runat="server"> Teléfono</rfn:RFNLabel><br />
+                                                    <label id="lblNumTelf" runat="server" class="etiqueta">Teléfono</label><br />
                                                     <rfn:RFNTextbox ID="txtTelefono" Width="70px" runat="server" MaxLength="9" TipoDato="Telefono"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano">
-                                                    <rfn:RFNLabel class="etiqueta" ID="lblNumFaxCentro" runat="server"> Fax</rfn:RFNLabel><br />
+                                                    <label id="lblNumFaxCentro" runat="server" class="etiqueta">Fax</label><br />
                                                     <rfn:RFNTextbox ID="txtFax" Width="70px" runat="server" MaxLength="9" TipoDato="Telefono"></rfn:RFNTextbox>
                                                 </div>
                                                 <div class="elementosSeccionPrincipalCercano" style="display: none">
@@ -3246,8 +3242,7 @@
                                                             </rfn:RFNCodDescripcion>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblCodPostalEnvFactP" AssociatedControlID="cmbCPEnvFactP"
-                                                                runat="server" Text=" C.P."></rfn:RFNLabel>
+                                                            <label id="lblCodPostalEnvFactP" runat="server" for="cmbCPEnvFactP" class="lblEtiquetas">C.P.</label>
                                                             <rfn:RFNDropDownList ID="cmbCPEnvFactP" runat="server" Width="100px" PermitirVacio="True"
                                                                 ErrorMessage="Error en Código Postal de la Dirección de envío de facturas" ValidationGroup="GuardaCentroTrabajoP"
                                                                 Requerido="False" DataTextField="DES_POSTAL" DataValueField="COD_POSTAL" Enabled="False">
@@ -3264,8 +3259,7 @@
                                                                 Enabled="False" />
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblCalleEnvFactP" AssociatedControlID="txtCalleEnvFactP"
-                                                                runat="server" Text="Calle"></rfn:RFNLabel>
+                                                            <label id="lblCalleEnvFactP" runat="server" for="txtCalleEnvFactP" class="lblEtiquetas">Calle</label>
                                                             <rfn:RFNTextbox ID="txtCalleEnvFactP" Width="331px" runat="server" Requerido="False"
                                                                 MaxLength="34" ErrorMessage="Error en Calle de la Dirección de envío de facturas"
                                                                 ValidationGroup="GuardaCentroTrabajoP" Enabled="False"></rfn:RFNTextbox>
@@ -3316,8 +3310,7 @@
                                                     </div>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblAtencionEnvFactP" AssociatedControlID="txtAtencionEnvFactP"
-                                                                runat="server" Text="A la atención de"> </rfn:RFNLabel>
+                                                            <label id="lblAtencionEnvFactP" runat="server" for="txtAtencionEnvFactP" class="lblEtiquetas">A la atención de</label>
                                                             <rfn:RFNTextbox ID="txtAtencionEnvFactP" Width="300px" runat="server" CausesValidation="True"
                                                                 ValidationGroup="GuardaCentroTrabajoP" ErrorMessage="Error en 'A la atención de' de la Dirección de envío de facturas"
                                                                 Enabled="False" MaxLength="70"></rfn:RFNTextbox>
@@ -4640,8 +4633,7 @@
                                                                 </rfn:RFNCodDescripcion>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblCodPostalEnvFact" AssociatedControlID="cmbCPEnvFact"
-                                                                    runat="server" Text=" C.P."></rfn:RFNLabel>
+                                                                <label id="lblCodPostalEnvFact" runat="server" for="cmbCPEnvFact" class="lblEtiquetas">C.P.</label>
                                                                 <rfn:RFNDropDownList ID="cmbCPEnvFact" runat="server" Width="100px" PermitirVacio="True"
                                                                     ErrorMessage="Error en Código Postal de la Dirección de envío de facturas" ValidationGroup="vGuardaContrato" Requerido="False"
                                                                     DataTextField="DES_POSTAL" DataValueField="COD_POSTAL" Enabled="true">
@@ -4657,8 +4649,7 @@
                                                                     DataTextField="DES_TIPO_VIA" DataValueField="COD_TIPO_VIA" />
                                                             </div>
                                                             <div class="elementosSeccionPrincipalDS">
-                                                                <rfn:RFNLabel class="lblEtiquetas" ID="lblCalleEnvFact" AssociatedControlID="txtCalleEnvFact"
-                                                                    runat="server" Text="Calle"></rfn:RFNLabel>
+                                                                <label id="lblCalleEnvFact" runat="server" for="txtCalleEnvFact" class="lblEtiquetas">Calle</label>
                                                                 <rfn:RFNTextbox ID="txtCalleEnvFact" Width="331px" runat="server" OnClientChange="validaNumeroCaracteresEnvFact"
                                                                     Requerido="False" MaxLength="49" ErrorMessage="Error en Calle de la Dirección de envío de facturas" ValidationGroup="vGuardaContrato"></rfn:RFNTextbox>
                                                             </div>
@@ -4756,8 +4747,7 @@
 
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <rfn:RFNLabel class="lblEtiquetas" ID="lblAtencionEnvFact" AssociatedControlID="txtAtencionEnvFact"
-                                                                runat="server" Text="A la atención de"> </rfn:RFNLabel>
+                                                            <label id="lblAtencionEnvFact" runat="server" for="txtAtencionEnvFact" class="lblEtiquetas">A la atención de</label>
                                                             <rfn:RFNTextbox ID="txtAtencionEnvFact" Width="300px" runat="server" CausesValidation="True"
                                                                 ValidationGroup="vGuardaContrato" ErrorMessage="Error en 'A la atención de' en la Dirección de envío de facturas"
                                                                 MaxLength="70" OnClientChange="CompruebaCaracteres"></rfn:RFNTextbox>
