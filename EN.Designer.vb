@@ -324,5 +324,1591 @@ Friend Shared ReadOnly Property lblAltaApellido2Social() As String
     End Get
 End Property
 
+Friend Shared ReadOnly Property FlblPoblacion() As String
+    Get
+        Return ResourceManager.GetString("FlblPoblacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property FlblProvincia() As String
+    Get
+        Return ResourceManager.GetString("FlblProvincia", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCalle() As String
+    Get
+        Return ResourceManager.GetString("lblCalle", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEscalera() As String
+    Get
+        Return ResourceManager.GetString("lblEscalera", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumero() As String
+    Get
+        Return ResourceManager.GetString("lblNumero", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumFaxCentro() As String
+    Get
+        Return ResourceManager.GetString("lblNumFaxCentro", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumTelf() As String
+    Get
+        Return ResourceManager.GetString("lblNumTelf", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPiso() As String
+    Get
+        Return ResourceManager.GetString("lblPiso", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPoblacion() As String
+    Get
+        Return ResourceManager.GetString("lblPoblacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPortal() As String
+    Get
+        Return ResourceManager.GetString("lblPortal", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvincia() As String
+    Get
+        Return ResourceManager.GetString("lblProvincia", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPuerta() As String
+    Get
+        Return ResourceManager.GetString("lblPuerta", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblVia() As String
+    Get
+        Return ResourceManager.GetString("lblVia", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property FlblCodPostalCentro() As String
+    Get
+        Return ResourceManager.GetString("FlblCodPostalCentro", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblAtencionEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblAtencionEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblAtencionEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblAtencionEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCalleDS() As String
+    Get
+        Return ResourceManager.GetString("lblCalleDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCalleEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblCalleEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCalleEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblCalleEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCodPostalCentro() As String
+    Get
+        Return ResourceManager.GetString("lblCodPostalCentro", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCodPostalDS() As String
+    Get
+        Return ResourceManager.GetString("lblCodPostalDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCodPostalEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblCodPostalEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCodPostalEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblCodPostalEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCPFilial() As String
+    Get
+        Return ResourceManager.GetString("lblCPFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDomicilioFacturacionFilial() As String
+    Get
+        Return ResourceManager.GetString("lblDomicilioFacturacionFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEmail() As String
+    Get
+        Return ResourceManager.GetString("lblEmail", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEmailEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblEmailEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEmailEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblEmailEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEscaleraDS() As String
+    Get
+        Return ResourceManager.GetString("lblEscaleraDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEscaleraEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblEscaleraEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEscaleraEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblEscaleraEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumeroDS() As String
+    Get
+        Return ResourceManager.GetString("lblNumeroDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumeroEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblNumeroEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumeroEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblNumeroEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumFaxDS() As String
+    Get
+        Return ResourceManager.GetString("lblNumFaxDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumFaxEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblNumFaxEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumFaxEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblNumFaxEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumTelfDS() As String
+    Get
+        Return ResourceManager.GetString("lblNumTelfDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumTelfEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblNumTelfEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumTelfEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblNumTelfEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblOficinaContable() As String
+    Get
+        Return ResourceManager.GetString("lblOficinaContable", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblOrganoGestor() As String
+    Get
+        Return ResourceManager.GetString("lblOrganoGestor", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblOrganoProponente() As String
+    Get
+        Return ResourceManager.GetString("lblOrganoProponente", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPisoDS() As String
+    Get
+        Return ResourceManager.GetString("lblPisoDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPisoEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblPisoEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPisoEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblPisoEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPoblacionDS() As String
+    Get
+        Return ResourceManager.GetString("lblPoblacionDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPoblacionEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblPoblacionEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPoblacionEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblPoblacionEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPoblacionFilial() As String
+    Get
+        Return ResourceManager.GetString("lblPoblacionFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPortalDS() As String
+    Get
+        Return ResourceManager.GetString("lblPortalDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPortalEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblPortalEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPortalEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblPortalEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPuertaDS() As String
+    Get
+        Return ResourceManager.GetString("lblPuertaDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPuertaEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblPuertaEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPuertaEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblPuertaEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblReferenciaDomi() As String
+    Get
+        Return ResourceManager.GetString("lblReferenciaDomi", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRefFact() As String
+    Get
+        Return ResourceManager.GetString("lblRefFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTrabAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblTrabAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTrabConstruccion() As String
+    Get
+        Return ResourceManager.GetString("lblTrabConstruccion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTrabIndustria() As String
+    Get
+        Return ResourceManager.GetString("lblTrabIndustria", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTrabOficina() As String
+    Get
+        Return ResourceManager.GetString("lblTrabOficina", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTrabTotal() As String
+    Get
+        Return ResourceManager.GetString("lblTrabTotal", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblUnidadTramitadora() As String
+    Get
+        Return ResourceManager.GetString("lblUnidadTramitadora", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblViaDS() As String
+    Get
+        Return ResourceManager.GetString("lblViaDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblViaEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblViaEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblViaEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblViaEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property btninsertarPrueba() As String
+    Get
+        Return ResourceManager.GetString("btninsertarPrueba", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property btnrecargar() As String
+    Get
+        Return ResourceManager.GetString("btnrecargar", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property datosAsociadosFilial() As String
+    Get
+        Return ResourceManager.GetString("datosAsociadosFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lbCosteTotalPruebasVSI() As String
+    Get
+        Return ResourceManager.GetString("lbCosteTotalPruebasVSI", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblActividadCentro() As String
+    Get
+        Return ResourceManager.GetString("lblActividadCentro", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblAltaPeligrosidad() As String
+    Get
+        Return ResourceManager.GetString("lblAltaPeligrosidad", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblbajamultiple() As String
+    Get
+        Return ResourceManager.GetString("lblbajamultiple", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblBajaPeligrosidad() As String
+    Get
+        Return ResourceManager.GetString("lblBajaPeligrosidad", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblbobser() As String
+    Get
+        Return ResourceManager.GetString("lblbobser", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblbobser2() As String
+    Get
+        Return ResourceManager.GetString("lblbobser2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblccdPruebasExternas() As String
+    Get
+        Return ResourceManager.GetString("lblccdPruebasExternas", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblcifpagador() As String
+    Get
+        Return ResourceManager.GetString("lblcifpagador", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCrearAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblCrearAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCrearAnexoAAEE() As String
+    Get
+        Return ResourceManager.GetString("lblCrearAnexoAAEE", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCrearAnexoAnalitica() As String
+    Get
+        Return ResourceManager.GetString("lblCrearAnexoAnalitica", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCrearAnexoRenovacion() As String
+    Get
+        Return ResourceManager.GetString("lblCrearAnexoRenovacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido1Notario1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido1Notario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido1Notario2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido1Notario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido1Representante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido1Representante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido1Representante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido1Representante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido2Notario1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido2Notario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido2Notario2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido2Notario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido2Representante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido2Representante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrApellido2Representante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrApellido2Representante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrBajaMultiple() As String
+    Get
+        Return ResourceManager.GetString("lblCtrBajaMultiple", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCargoDirectivo1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCargoDirectivo1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCargoDirectivo2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCargoDirectivo2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCargoRepresentante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCargoRepresentante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCargoRepresentante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCargoRepresentante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCausaBaja() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCausaBaja", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCausaBaja2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCausaBaja2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrContratoAntiguo() As String
+    Get
+        Return ResourceManager.GetString("lblCtrContratoAntiguo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrContratoNuevo() As String
+    Get
+        Return ResourceManager.GetString("lblCtrContratoNuevo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrDirectivo1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrDirectivo1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrDirectivo2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrDirectivo2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrEmailRepresentante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrEmailRepresentante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrEmailRepresentante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrEmailRepresentante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFecBaja() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFecBaja", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFecBaja2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFecBaja2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaCliente() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaCliente", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaClienteNotario1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaClienteNotario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaClienteNotario2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaClienteNotario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaClienteRepresentante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaClienteRepresentante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaClienteRepresentante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaClienteRepresentante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaSPFM() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaSPFM", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaSPFMDirectivo1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaSPFMDirectivo1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFirmaSPFMDirectivo2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFirmaSPFMDirectivo2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrIdentificadorRepresentante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrIdentificadorRepresentante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrIdentificadorRepresentante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrIdentificadorRepresentante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrNombreNotario1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrNombreNotario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrNombreNotario2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrNombreNotario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrNombreRepresentante1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrNombreRepresentante1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrNombreRepresentante2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrNombreRepresentante2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrObservBaja() As String
+    Get
+        Return ResourceManager.GetString("lblCtrObservBaja", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrObservBaja2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrObservBaja2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrPoblacionNotario1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrPoblacionNotario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrPoblacionNotario2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrPoblacionNotario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrPoderDirectivo1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrPoderDirectivo1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrPoderDirectivo2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrPoderDirectivo2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrPorcentajeColab() As String
+    Get
+        Return ResourceManager.GetString("lblCtrPorcentajeColab", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrProtocoloNotario1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrProtocoloNotario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrProtocoloNotario2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrProtocoloNotario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrTrimestreColab() As String
+    Get
+        Return ResourceManager.GetString("lblCtrTrimestreColab", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescMed() As String
+    Get
+        Return ResourceManager.GetString("lblDescMed", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescMed() As String
+    Get
+        Return ResourceManager.GetString("lblDescMed", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescRecoAlta() As String
+    Get
+        Return ResourceManager.GetString("lblDescRecoAlta", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescRecoBaja() As String
+    Get
+        Return ResourceManager.GetString("lblDescRecoBaja", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescTec() As String
+    Get
+        Return ResourceManager.GetString("lblDescTec", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescTec() As String
+    Get
+        Return ResourceManager.GetString("lblDescTec", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescTecHoras() As String
+    Get
+        Return ResourceManager.GetString("lblDescTecHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDescTecHoras() As String
+    Get
+        Return ResourceManager.GetString("lblDescTecHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDesde1() As String
+    Get
+        Return ResourceManager.GetString("lblDesde1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDesde2() As String
+    Get
+        Return ResourceManager.GetString("lblDesde2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDesde3() As String
+    Get
+        Return ResourceManager.GetString("lblDesde3", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDesde4() As String
+    Get
+        Return ResourceManager.GetString("lblDesde4", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lbldiapago() As String
+    Get
+        Return ResourceManager.GetString("lbldiapago", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lbleliminarIPC() As String
+    Get
+        Return ResourceManager.GetString("lbleliminarIPC", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lbleliminarIPC2() As String
+    Get
+        Return ResourceManager.GetString("lbleliminarIPC2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblfact() As String
+    Get
+        Return ResourceManager.GetString("lblfact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFecFin() As String
+    Get
+        Return ResourceManager.GetString("lblFecFin", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFecUltReno() As String
+    Get
+        Return ResourceManager.GetString("lblFecUltReno", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFieldSetFactRecos() As String
+    Get
+        Return ResourceManager.GetString("lblFieldSetFactRecos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblfiltrosCT() As String
+    Get
+        Return ResourceManager.GetString("lblfiltrosCT", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblfltroCT() As String
+    Get
+        Return ResourceManager.GetString("lblfltroCT", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFormaPago() As String
+    Get
+        Return ResourceManager.GetString("lblFormaPago", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFsAnalCompuesta() As String
+    Get
+        Return ResourceManager.GetString("lblFsAnalCompuesta", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFsAnalPerfil() As String
+    Get
+        Return ResourceManager.GetString("lblFsAnalPerfil", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFsAnalSimple() As String
+    Get
+        Return ResourceManager.GetString("lblFsAnalSimple", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblGenerarCargoCuenta() As String
+    Get
+        Return ResourceManager.GetString("lblGenerarCargoCuenta", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblGenerarDocumentacion() As String
+    Get
+        Return ResourceManager.GetString("lblGenerarDocumentacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblgrabarcentro() As String
+    Get
+        Return ResourceManager.GetString("lblgrabarcentro", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblHDAnx() As String
+    Get
+        Return ResourceManager.GetString("lblHDAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblHDCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblHDCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblHistColab() As String
+    Get
+        Return ResourceManager.GetString("lblHistColab", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblhistTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblhistTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblHorasProducto() As String
+    Get
+        Return ResourceManager.GetString("lblHorasProducto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblHorasProductoAutonomo() As String
+    Get
+        Return ResourceManager.GetString("lblHorasProductoAutonomo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblHorasProductoBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblHorasProductoBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImpAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblImpAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImpContrato() As String
+    Get
+        Return ResourceManager.GetString("lblImpContrato", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteARTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblImporteARTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteBRTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblImporteBRTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblimporteqshd() As String
+    Get
+        Return ResourceManager.GetString("lblimporteqshd", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblImporteTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblImporteTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteTarifaDescuento() As String
+    Get
+        Return ResourceManager.GetString("lblImporteTarifaDescuento", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteTarifaDescuento() As String
+    Get
+        Return ResourceManager.GetString("lblImporteTarifaDescuento", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteTarifaReco() As String
+    Get
+        Return ResourceManager.GetString("lblImporteTarifaReco", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImporteTarifaRecoDescuento() As String
+    Get
+        Return ResourceManager.GetString("lblImporteTarifaRecoDescuento", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImpPruebasVSI() As String
+    Get
+        Return ResourceManager.GetString("lblImpPruebasVSI", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblIncluyeRecos() As String
+    Get
+        Return ResourceManager.GetString("lblIncluyeRecos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblLegendAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCentrosTotal() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCentrosTotal", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCentrosTrabajo() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCentrosTrabajo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrBaja() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrBaja", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrBaja2() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrBaja2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrColaborador() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrColaborador", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrContactos() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrContactos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrDirEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrDirEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrDomiBanc() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrDomiBanc", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrFirma() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrFirma", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrIndicadores() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrIndicadores", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrRenoPrecios() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrRenoPrecios", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendCtrRespCap() As String
+    Get
+        Return ResourceManager.GetString("lblLegendCtrRespCap", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendFacturacion() As String
+    Get
+        Return ResourceManager.GetString("lblLegendFacturacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendGrupoOtrasActividades() As String
+    Get
+        Return ResourceManager.GetString("lblLegendGrupoOtrasActividades", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendHistColab() As String
+    Get
+        Return ResourceManager.GetString("lblLegendHistColab", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendHistDocumento() As String
+    Get
+        Return ResourceManager.GetString("lblLegendHistDocumento", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendHistTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblLegendHistTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendTarificacionAutonomos() As String
+    Get
+        Return ResourceManager.GetString("lblLegendTarificacionAutonomos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendTarificacionBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblLegendTarificacionBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendTarificacionModalidades() As String
+    Get
+        Return ResourceManager.GetString("lblLegendTarificacionModalidades", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendTarificacionProductos() As String
+    Get
+        Return ResourceManager.GetString("lblLegendTarificacionProductos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblLegendTrabTotal() As String
+    Get
+        Return ResourceManager.GetString("lblLegendTrabTotal", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lbllimpiarfiltroct() As String
+    Get
+        Return ResourceManager.GetString("lbllimpiarfiltroct", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModalidades() As String
+    Get
+        Return ResourceManager.GetString("lblModalidades", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModEPAnx() As String
+    Get
+        Return ResourceManager.GetString("lblModEPAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModHIAnx() As String
+    Get
+        Return ResourceManager.GetString("lblModHIAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModHorMed() As String
+    Get
+        Return ResourceManager.GetString("lblModHorMed", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModHorMed() As String
+    Get
+        Return ResourceManager.GetString("lblModHorMed", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModHorTec() As String
+    Get
+        Return ResourceManager.GetString("lblModHorTec", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModHorTec() As String
+    Get
+        Return ResourceManager.GetString("lblModHorTec", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModMTAnx() As String
+    Get
+        Return ResourceManager.GetString("lblModMTAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModRPFAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblModRPFAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModRPFCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblModRPFCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModSheAnx() As String
+    Get
+        Return ResourceManager.GetString("lblModSheAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModSheCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblModSheCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModSTAnx() As String
+    Get
+        Return ResourceManager.GetString("lblModSTAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModTot() As String
+    Get
+        Return ResourceManager.GetString("lblModTot", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModTot() As String
+    Get
+        Return ResourceManager.GetString("lblModTot", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModTOTALAnx() As String
+    Get
+        Return ResourceManager.GetString("lblModTOTALAnx", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblModTotCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblModTotCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblMotivoDescuento() As String
+    Get
+        Return ResourceManager.GetString("lblMotivoDescuento", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblMotivoDescuento() As String
+    Get
+        Return ResourceManager.GetString("lblMotivoDescuento", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumpedidoF() As String
+    Get
+        Return ResourceManager.GetString("lblNumpedidoF", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumpedidoF() As String
+    Get
+        Return ResourceManager.GetString("lblNumpedidoF", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumpedidoV() As String
+    Get
+        Return ResourceManager.GetString("lblNumpedidoV", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumpedidoV() As String
+    Get
+        Return ResourceManager.GetString("lblNumpedidoV", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblOtrasPruebasExternas() As String
+    Get
+        Return ResourceManager.GetString("lblOtrasPruebasExternas", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPeriPago() As String
+    Get
+        Return ResourceManager.GetString("lblPeriPago", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPlazoPago() As String
+    Get
+        Return ResourceManager.GetString("lblPlazoPago", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecio1() As String
+    Get
+        Return ResourceManager.GetString("lblPrecio1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecio2() As String
+    Get
+        Return ResourceManager.GetString("lblPrecio2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecio3() As String
+    Get
+        Return ResourceManager.GetString("lblPrecio3", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecio4() As String
+    Get
+        Return ResourceManager.GetString("lblPrecio4", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioMedicoProducto() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioMedicoProducto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioMedicoProductoAutonomo() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioMedicoProductoAutonomo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioMedicoProductoBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioMedicoProductoBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioProducto() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioProducto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioProductoAutonomo() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioProductoAutonomo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioProductoBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioProductoBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioTecnicoProducto() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioTecnicoProducto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioTecnicoProductoAutonomo() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioTecnicoProductoAutonomo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioTecnicoProductoBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioTecnicoProductoBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioTotalProducto() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioTotalProducto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioTotalProductoAutonomo() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioTotalProductoAutonomo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPrecioTotalProductoBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblPrecioTotalProductoBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvinciaDS() As String
+    Get
+        Return ResourceManager.GetString("lblProvinciaDS", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvinciaEnvFact() As String
+    Get
+        Return ResourceManager.GetString("lblProvinciaEnvFact", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvinciaEnvFactP() As String
+    Get
+        Return ResourceManager.GetString("lblProvinciaEnvFactP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvinciaFilial() As String
+    Get
+        Return ResourceManager.GetString("lblProvinciaFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvinciaNotario1() As String
+    Get
+        Return ResourceManager.GetString("lblProvinciaNotario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblProvinciaNotario2() As String
+    Get
+        Return ResourceManager.GetString("lblProvinciaNotario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRAPAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblRAPAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRAPCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblRAPCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRBPAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblRBPAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRBPCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblRBPCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblReconocimientosPrefacturados() As String
+    Get
+        Return ResourceManager.GetString("lblReconocimientosPrefacturados", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRecosVSI() As String
+    Get
+        Return ResourceManager.GetString("lblRecosVSI", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRPFAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblRPFAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRPFCtrato() As String
+    Get
+        Return ResourceManager.GetString("lblRPFCtrato", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRPFIncluidosAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblRPFIncluidosAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRPFIncluidosCtrt() As String
+    Get
+        Return ResourceManager.GetString("lblRPFIncluidosCtrt", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTarifa() As String
+    Get
+        Return ResourceManager.GetString("lblTarifa", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTerminadoToVigente() As String
+    Get
+        Return ResourceManager.GetString("lblTerminadoToVigente", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTramos() As String
+    Get
+        Return ResourceManager.GetString("lblTramos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblVacio() As String
+    Get
+        Return ResourceManager.GetString("lblVacio", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblVacioAutonomo() As String
+    Get
+        Return ResourceManager.GetString("lblVacioAutonomo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblVacioBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblVacioBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property RFNLabel1() As String
+    Get
+        Return ResourceManager.GetString("RFNLabel1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property RFNLabel10() As String
+    Get
+        Return ResourceManager.GetString("RFNLabel10", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property RFNLabel2() As String
+    Get
+        Return ResourceManager.GetString("RFNLabel2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property RFNLabel5() As String
+    Get
+        Return ResourceManager.GetString("RFNLabel5", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property RFNLabel6() As String
+    Get
+        Return ResourceManager.GetString("RFNLabel6", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property RFNLabel9() As String
+    Get
+        Return ResourceManager.GetString("RFNLabel9", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblApellido1() As String
+    Get
+        Return ResourceManager.GetString("lblApellido1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblApellido2() As String
+    Get
+        Return ResourceManager.GetString("lblApellido2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCCC() As String
+    Get
+        Return ResourceManager.GetString("lblCCC", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblccdTarifaAutonomos() As String
+    Get
+        Return ResourceManager.GetString("lblccdTarifaAutonomos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblccdTarifaBolsaHoras() As String
+    Get
+        Return ResourceManager.GetString("lblccdTarifaBolsaHoras", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblccdTarifaModalidad() As String
+    Get
+        Return ResourceManager.GetString("lblccdTarifaModalidad", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblccdTarifaProductos() As String
+    Get
+        Return ResourceManager.GetString("lblccdTarifaProductos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCentros() As String
+    Get
+        Return ResourceManager.GetString("lblCentros", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCodAnexo() As String
+    Get
+        Return ResourceManager.GetString("lblCodAnexo", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCodContrato() As String
+    Get
+        Return ResourceManager.GetString("lblCodContrato", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCodContratoFirma() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCodContratoFirma", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrCodPresupuestoFirma() As String
+    Get
+        Return ResourceManager.GetString("lblCtrCodPresupuestoFirma", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrColaborador() As String
+    Get
+        Return ResourceManager.GetString("lblCtrColaborador", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrEstadoContratoFirma() As String
+    Get
+        Return ResourceManager.GetString("lblCtrEstadoContratoFirma", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFecColabDesde() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFecColabDesde", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFecFirma() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFecFirma", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFecPoderDirectivo1() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFecPoderDirectivo1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrFecPoderDirectivo2() As String
+    Get
+        Return ResourceManager.GetString("lblCtrFecPoderDirectivo2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrRespRenovacion() As String
+    Get
+        Return ResourceManager.GetString("lblCtrRespRenovacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblCtrtSAP() As String
+    Get
+        Return ResourceManager.GetString("lblCtrtSAP", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblDc() As String
+    Get
+        Return ResourceManager.GetString("lblDc", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblEmailFilial() As String
+    Get
+        Return ResourceManager.GetString("lblEmailFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFecAnexoRenovacion() As String
+    Get
+        Return ResourceManager.GetString("lblFecAnexoRenovacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFecPoderNotario1() As String
+    Get
+        Return ResourceManager.GetString("lblFecPoderNotario1", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblFecPoderNotario2() As String
+    Get
+        Return ResourceManager.GetString("lblFecPoderNotario2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblfiltro2() As String
+    Get
+        Return ResourceManager.GetString("lblfiltro2", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblfiltro3() As String
+    Get
+        Return ResourceManager.GetString("lblfiltro3", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblfiltro4() As String
+    Get
+        Return ResourceManager.GetString("lblfiltro4", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblIban() As String
+    Get
+        Return ResourceManager.GetString("lblIban", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblIdentificador() As String
+    Get
+        Return ResourceManager.GetString("lblIdentificador", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImpRPF() As String
+    Get
+        Return ResourceManager.GetString("lblImpRPF", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblImpUndIncl() As String
+    Get
+        Return ResourceManager.GetString("lblImpUndIncl", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lbllineaproducto() As String
+    Get
+        Return ResourceManager.GetString("lbllineaproducto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNIncluidos() As String
+    Get
+        Return ResourceManager.GetString("lblNIncluidos", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNomBanco() As String
+    Get
+        Return ResourceManager.GetString("lblNomBanco", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNombre() As String
+    Get
+        Return ResourceManager.GetString("lblNombre", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNombreCompleto() As String
+    Get
+        Return ResourceManager.GetString("lblNombreCompleto", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblNumCuenta() As String
+    Get
+        Return ResourceManager.GetString("lblNumCuenta", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblPersonaFilial() As String
+    Get
+        Return ResourceManager.GetString("lblPersonaFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblRazonSocialAnexoRenovacion() As String
+    Get
+        Return ResourceManager.GetString("lblRazonSocialAnexoRenovacion", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTelefonoFilial() As String
+    Get
+        Return ResourceManager.GetString("lblTelefonoFilial", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTipDocu() As String
+    Get
+        Return ResourceManager.GetString("lblTipDocu", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTipoAnaliticaCompuesta() As String
+    Get
+        Return ResourceManager.GetString("lblTipoAnaliticaCompuesta", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTipoAnaliticaPerfil() As String
+    Get
+        Return ResourceManager.GetString("lblTipoAnaliticaPerfil", resourceCulture)
+    End Get
+End Property
+Friend Shared ReadOnly Property lblTipoAnaliticaSimple() As String
+    Get
+        Return ResourceManager.GetString("lblTipoAnaliticaSimple", resourceCulture)
+    End Get
+End Property
+
     End Class
 End Namespace
