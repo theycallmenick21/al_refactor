@@ -5828,7 +5828,7 @@
                                         <div class="subelementosSeccionPrincipalPadd2">
                                             <div class="subelementosSeccionPrincipalPadd">
                                                 <div id="contenedorCtrFecBaja2" runat="server" class="elementosSeccionPrincipal">
-                                                    <label id="lblCtrFecBaja2" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6: True">Fecha de Baja</label>
+                                                    <label id="lblCtrFecBaja2" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6: True">Causa de baja</label>
                                                     <rfn:RFNCalendar ID="calCtrFecBaja2" runat="server" ErrorMessage="Fecha de Baja Obligatoria"
                                                         Enabled="True" Requerido="true"
                                                         Width="75px">
