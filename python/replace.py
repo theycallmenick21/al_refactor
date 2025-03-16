@@ -109,6 +109,6 @@ def modificar_ascx(archivo_entrada, archivo_salida):
         print(f"Ocurrió un error: {e}")
 
 archivo_entrada = 'C:/Users/niban/Documents/ALEVERI/al_refactor/VSPA01003.ascx'
-archivo_salida = 'C:/Users/niban/Documents/ALEVERI/al_refactor/VSPA01003_resultados.ascx'
+archivo_salida = 'C:/Users/niban/Documents/ALEVERI/al_refactor/data/VSPA01003_resultados.ascx'
 
 modificar_ascx(archivo_entrada, archivo_salida)

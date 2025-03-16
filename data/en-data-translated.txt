@@ -1,0 +1,951 @@
+<data name="FlblPoblacion" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="FlblProvincia" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblCalle" xml:space="preserve">
+  <value>Street</value>
+</data>
+<data name="lblEscalera" xml:space="preserve">
+  <value>Staircase</value>
+</data>
+<data name="lblNumero" xml:space="preserve">
+  <value>Number</value>
+</data>
+<data name="lblNumFaxCentro" xml:space="preserve">
+  <value>Fax</value>
+</data>
+<data name="lblNumTelf" xml:space="preserve">
+  <value>Phone</value>
+</data>
+<data name="lblPiso" xml:space="preserve">
+  <value>Floor</value>
+</data>
+<data name="lblPoblacion" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="lblPortal" xml:space="preserve">
+  <value>Portal</value>
+</data>
+<data name="lblProvincia" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblPuerta" xml:space="preserve">
+  <value>Puerta</value>
+</data>
+<data name="lblVia" xml:space="preserve">
+  <value>Type of road</value>
+</data>
+<data name="FlblCodPostalCentro" xml:space="preserve">
+  <value>Postal Code</value>
+</data>
+<data name="lblAtencionEnvFact" xml:space="preserve">
+  <value>Attention to</value>
+</data>
+<data name="lblAtencionEnvFactP" xml:space="preserve">
+  <value>Attention to</value>
+</data>
+<data name="lblCalleDS" xml:space="preserve">
+  <value>Street</value>
+</data>
+<data name="lblCalleEnvFact" xml:space="preserve">
+  <value>Street</value>
+</data>
+<data name="lblCalleEnvFactP" xml:space="preserve">
+  <value>Street</value>
+</data>
+<data name="lblCodPostalCentro" xml:space="preserve">
+  <value>Postal Code</value>
+</data>
+<data name="lblCodPostalDS" xml:space="preserve">
+  <value>Postal Code</value>
+</data>
+<data name="lblCodPostalEnvFact" xml:space="preserve">
+  <value>Postal Code</value>
+</data>
+<data name="lblCodPostalEnvFactP" xml:space="preserve">
+  <value>Postal Code</value>
+</data>
+<data name="lblCPFilial" xml:space="preserve">
+  <value></value>
+</data>
+<data name="lblDomicilioFacturacionFilial" xml:space="preserve">
+  <value></value>
+</data>
+<data name="lblEmail" xml:space="preserve">
+  <value>Email</value>
+</data>
+<data name="lblEmailEnvFact" xml:space="preserve">
+  <value>Email Address</value>
+</data>
+<data name="lblEmailEnvFactP" xml:space="preserve">
+  <value>Email Address</value>
+</data>
+<data name="lblEscaleraDS" xml:space="preserve">
+  <value>Staircase</value>
+</data>
+<data name="lblEscaleraEnvFact" xml:space="preserve">
+  <value>Staircase</value>
+</data>
+<data name="lblEscaleraEnvFactP" xml:space="preserve">
+  <value>Staircase</value>
+</data>
+<data name="lblNumeroDS" xml:space="preserve">
+  <value>Number</value>
+</data>
+<data name="lblNumeroEnvFact" xml:space="preserve">
+  <value>Number</value>
+</data>
+<data name="lblNumeroEnvFactP" xml:space="preserve">
+  <value>Number</value>
+</data>
+<data name="lblNumFaxDS" xml:space="preserve">
+  <value>Fax</value>
+</data>
+<data name="lblNumFaxEnvFact" xml:space="preserve">
+  <value>Fax</value>
+</data>
+<data name="lblNumFaxEnvFactP" xml:space="preserve">
+  <value>Fax</value>
+</data>
+<data name="lblNumTelfDS" xml:space="preserve">
+  <value>Phone</value>
+</data>
+<data name="lblNumTelfEnvFact" xml:space="preserve">
+  <value>Phone</value>
+</data>
+<data name="lblNumTelfEnvFactP" xml:space="preserve">
+  <value>Phone</value>
+</data>
+<data name="lblOficinaContable" xml:space="preserve">
+  <value>Accounting Office</value>
+</data>
+<data name="lblOrganoGestor" xml:space="preserve">
+  <value>Managing Body</value>
+</data>
+<data name="lblOrganoProponente" xml:space="preserve">
+  <value>Competent Body</value>
+</data>
+<data name="lblPisoDS" xml:space="preserve">
+  <value>Floor</value>
+</data>
+<data name="lblPisoEnvFact" xml:space="preserve">
+  <value>Floor</value>
+</data>
+<data name="lblPisoEnvFactP" xml:space="preserve">
+  <value>Floor</value>
+</data>
+<data name="lblPoblacionDS" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="lblPoblacionEnvFact" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="lblPoblacionEnvFactP" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="lblPoblacionFilial" xml:space="preserve">
+  <value></value>
+</data>
+<data name="lblPortalDS" xml:space="preserve">
+  <value>Portal</value>
+</data>
+<data name="lblPortalEnvFact" xml:space="preserve">
+  <value>Portal</value>
+</data>
+<data name="lblPortalEnvFactP" xml:space="preserve">
+  <value>Portal</value>
+</data>
+<data name="lblPuertaDS" xml:space="preserve">
+  <value>Puerta</value>
+</data>
+<data name="lblPuertaEnvFact" xml:space="preserve">
+  <value>Puerta</value>
+</data>
+<data name="lblPuertaEnvFactP" xml:space="preserve">
+  <value>Puerta</value>
+</data>
+<data name="lblReferenciaDomi" xml:space="preserve">
+  <value>Reference</value>
+</data>
+<data name="lblRefFact" xml:space="preserve">
+  <value>Ref. Factura</value>
+</data>
+<data name="lblTrabAnexo" xml:space="preserve">
+  <value>Anexo</value>
+</data>
+<data name="lblTrabConstruccion" xml:space="preserve">
+  <value>Construcción</value>
+</data>
+<data name="lblTrabIndustria" xml:space="preserve">
+  <value>Industria</value>
+</data>
+<data name="lblTrabOficina" xml:space="preserve">
+  <value>Oficina</value>
+</data>
+<data name="lblTrabTotal" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblUnidadTramitadora" xml:space="preserve">
+  <value>Unidad Tramitadora</value>
+</data>
+<data name="lblViaDS" xml:space="preserve">
+  <value>Type of road</value>
+</data>
+<data name="lblViaEnvFact" xml:space="preserve">
+  <value>Type of road</value>
+</data>
+<data name="lblViaEnvFactP" xml:space="preserve">
+  <value>Type of road</value>
+</data>
+<data name="btninsertarPrueba" xml:space="preserve">
+  <value>Añadir Prueba</value>
+</data>
+<data name="btnrecargar" xml:space="preserve">
+  <value>Filtrar lista</value>
+</data>
+<data name="datosAsociadosFilial" xml:space="preserve">
+  <value>Contact Data associated with branch</value>
+</data>
+<data name="lbCosteTotalPruebasVSI" xml:space="preserve">
+  <value>Coste Total Pruebas VSI incluidas:</value>
+</data>
+<data name="lblActividadCentro" xml:space="preserve">
+  <value>CNAE</value>
+</data>
+<data name="lblAltaPeligrosidad" xml:space="preserve">
+  <value>High Risk</value>
+</data>
+<data name="lblbajamultiple" xml:space="preserve">
+  <value>Terminate AAEE contracts</value>
+</data>
+<data name="lblBajaPeligrosidad" xml:space="preserve">
+  <value>Low Risk</value>
+</data>
+<data name="lblbobser" xml:space="preserve">
+  <value>Search</value>
+</data>
+<data name="lblbobser2" xml:space="preserve">
+  <value>Contract observations</value>
+</data>
+<data name="lblccdPruebasExternas" xml:space="preserve">
+  <value>Test</value>
+</data>
+<data name="lblcifpagador" xml:space="preserve">
+  <value>Other Payer</value>
+</data>
+<data name="lblCrearAnexo" xml:space="preserve">
+  <value>New Annex</value>
+</data>
+<data name="lblCrearAnexoAAEE" xml:space="preserve">
+  <value>New Annex AAEE</value>
+</data>
+<data name="lblCrearAnexoAnalitica" xml:space="preserve">
+  <value>New Annex Analytics</value>
+</data>
+<data name="lblCrearAnexoRenovacion" xml:space="preserve">
+  <value>New Annex Renewal</value>
+</data>
+<data name="lblCtrApellido1Notario1" xml:space="preserve">
+  <value>First Surname</value>
+</data>
+<data name="lblCtrApellido1Notario2" xml:space="preserve">
+  <value>First Surname</value>
+</data>
+<data name="lblCtrApellido1Representante1" xml:space="preserve">
+  <value>First Surname</value>
+</data>
+<data name="lblCtrApellido1Representante2" xml:space="preserve">
+  <value>First Surname</value>
+</data>
+<data name="lblCtrApellido2Notario1" xml:space="preserve">
+  <value>Second Surname</value>
+</data>
+<data name="lblCtrApellido2Notario2" xml:space="preserve">
+  <value>Second Surname</value>
+</data>
+<data name="lblCtrApellido2Representante1" xml:space="preserve">
+  <value>Second Surname</value>
+</data>
+<data name="lblCtrApellido2Representante2" xml:space="preserve">
+  <value>Second Surname</value>
+</data>
+<data name="lblCtrBajaMultiple" xml:space="preserve">
+  <value>Dismissal Observations</value>
+</data>
+<data name="lblCtrCargoDirectivo1" xml:space="preserve">
+  <value>Position</value>
+</data>
+<data name="lblCtrCargoDirectivo2" xml:space="preserve">
+  <value>Position</value>
+</data>
+<data name="lblCtrCargoRepresentante1" xml:space="preserve">
+  <value>Position</value>
+</data>
+<data name="lblCtrCargoRepresentante2" xml:space="preserve">
+  <value>Position</value>
+</data>
+<data name="lblCtrCausaBaja" xml:space="preserve">
+  <value>Reason for dismissal</value>
+</data>
+<data name="lblCtrCausaBaja2" xml:space="preserve">
+  <value>Reason for dismissal</value>
+</data>
+<data name="lblCtrContratoAntiguo" xml:space="preserve">
+  <value>Old Contract</value>
+</data>
+<data name="lblCtrContratoNuevo" xml:space="preserve">
+  <value>New Contract</value>
+</data>
+<data name="lblCtrDirectivo1" xml:space="preserve">
+  <value>Executive</value>
+</data>
+<data name="lblCtrDirectivo2" xml:space="preserve">
+  <value>Executive</value>
+</data>
+<data name="lblCtrEmailRepresentante1" xml:space="preserve">
+  <value>Email</value>
+</data>
+<data name="lblCtrEmailRepresentante2" xml:space="preserve">
+  <value>Email</value>
+</data>
+<data name="lblCtrFecBaja" xml:space="preserve">
+  <value>Dismissal Date</value>
+</data>
+<data name="lblCtrFecBaja2" xml:space="preserve">
+  <value>Dismissal Date</value>
+</data>
+<data name="lblCtrFirmaCliente" xml:space="preserve">
+  <value>By Client</value>
+</data>
+<data name="lblCtrFirmaClienteNotario1" xml:space="preserve">
+  <value>Notary</value>
+</data>
+<data name="lblCtrFirmaClienteNotario2" xml:space="preserve">
+  <value>Notary</value>
+</data>
+<data name="lblCtrFirmaClienteRepresentante1" xml:space="preserve">
+  <value>First Representative</value>
+</data>
+<data name="lblCtrFirmaClienteRepresentante2" xml:space="preserve">
+  <value>Second Representative</value>
+</data>
+<data name="lblCtrFirmaSPFM" xml:space="preserve">
+  <value>By Quirón Prevention</value>
+</data>
+<data name="lblCtrFirmaSPFMDirectivo1" xml:space="preserve">
+  <value>Primer Directivo</value>
+</data>
+<data name="lblCtrFirmaSPFMDirectivo2" xml:space="preserve">
+  <value>Segundo Directivo</value>
+</data>
+<data name="lblCtrIdentificadorRepresentante1" xml:space="preserve">
+  <value>DNI/CIF</value>
+</data>
+<data name="lblCtrIdentificadorRepresentante2" xml:space="preserve">
+  <value>DNI/CIF</value>
+</data>
+<data name="lblCtrNombreNotario1" xml:space="preserve">
+  <value>Name</value>
+</data>
+<data name="lblCtrNombreNotario2" xml:space="preserve">
+  <value>Name</value>
+</data>
+<data name="lblCtrNombreRepresentante1" xml:space="preserve">
+  <value>Name</value>
+</data>
+<data name="lblCtrNombreRepresentante2" xml:space="preserve">
+  <value>Name</value>
+</data>
+<data name="lblCtrObservBaja" xml:space="preserve">
+  <value>Dismissal Observations</value>
+</data>
+<data name="lblCtrObservBaja2" xml:space="preserve">
+  <value>Dismissal Observations</value>
+</data>
+<data name="lblCtrPoblacionNotario1" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="lblCtrPoblacionNotario2" xml:space="preserve">
+  <value>Population</value>
+</data>
+<data name="lblCtrPoderDirectivo1" xml:space="preserve">
+  <value>Power</value>
+</data>
+<data name="lblCtrPoderDirectivo2" xml:space="preserve">
+  <value>Power</value>
+</data>
+<data name="lblCtrPorcentajeColab" xml:space="preserve">
+  <value>Percentage</value>
+</data>
+<data name="lblCtrProtocoloNotario1" xml:space="preserve">
+  <value>Protocol</value>
+</data>
+<data name="lblCtrProtocoloNotario2" xml:space="preserve">
+  <value>Protocol</value>
+</data>
+<data name="lblCtrTrimestreColab" xml:space="preserve">
+  <value>From Quarter</value>
+</data>
+<data name="lblDescMed" xml:space="preserve">
+  <value>Medical Discount %</value>
+</data>
+<data name="lblDescMed" xml:space="preserve">
+  <value>Medical Discount %</value>
+</data>
+<data name="lblDescRecoAlta" xml:space="preserve">
+  <value>High Risk Recognition Discount %</value>
+</data>
+<data name="lblDescRecoBaja" xml:space="preserve">
+  <value>Low Risk Recognition Discount %</value>
+</data>
+<data name="lblDescTec" xml:space="preserve">
+  <value>Technical Discount %</value>
+</data>
+<data name="lblDescTec" xml:space="preserve">
+  <value>Technical Discount %</value>
+</data>
+<data name="lblDescTecHoras" xml:space="preserve">
+  <value>Technical Discount Hours %</value>
+</data>
+<data name="lblDescTecHoras" xml:space="preserve">
+  <value>Technical Discount Hours %</value>
+</data>
+<data name="lblDesde1" xml:space="preserve">
+  <value>Desde</value>
+</data>
+<data name="lblDesde2" xml:space="preserve">
+  <value>Desde</value>
+</data>
+<data name="lblDesde3" xml:space="preserve">
+  <value>Desde</value>
+</data>
+<data name="lblDesde4" xml:space="preserve">
+  <value>Desde</value>
+</data>
+<data name="lbldiapago" xml:space="preserve">
+  <value>Payment Day</value>
+</data>
+<data name="lbleliminarIPC" xml:space="preserve">
+  <value>Delete IPC</value>
+</data>
+<data name="lbleliminarIPC2" xml:space="preserve">
+  <value>Delete Fixed IPC</value>
+</data>
+<data name="lblfact" xml:space="preserve">
+  <value>According to your permissions, you cannot enter the bank account of the contract.</value>
+</data>
+<data name="lblFecFin" xml:space="preserve">
+  <value>End Date</value>
+</data>
+<data name="lblFecUltReno" xml:space="preserve">
+  <value>Last Renewal Date</value>
+</data>
+<data name="lblFieldSetFactRecos" xml:space="preserve">
+  <value>Billing of Recognitions</value>
+</data>
+<data name="lblfiltrosCT" xml:space="preserve">
+  <value>Search Filters</value>
+</data>
+<data name="lblfltroCT" xml:space="preserve">
+  <value>Search</value>
+</data>
+<data name="lblFormaPago" xml:space="preserve">
+  <value>Payment Method</value>
+</data>
+<data name="lblFsAnalCompuesta" xml:space="preserve">
+  <value>Composite Analytics</value>
+</data>
+<data name="lblFsAnalPerfil" xml:space="preserve">
+  <value>Profiles</value>
+</data>
+<data name="lblFsAnalSimple" xml:space="preserve">
+  <value>Simple Analytics</value>
+</data>
+<data name="lblGenerarCargoCuenta" xml:space="preserve">
+  <value>Account charge document</value>
+</data>
+<data name="lblGenerarDocumentacion" xml:space="preserve">
+  <value>Generate Documentation</value>
+</data>
+<data name="lblgrabarcentro" xml:space="preserve">
+  <value>Save</value>
+</data>
+<data name="lblHDAnx" xml:space="preserve">
+  <value>Digital Hospital Amount</value>
+</data>
+<data name="lblHDCtrt" xml:space="preserve">
+  <value>Digital Hospital Amount</value>
+</data>
+<data name="lblHistColab" xml:space="preserve">
+  <value>Collaborator History</value>
+</data>
+<data name="lblhistTarifa" xml:space="preserve">
+  <value>Tariff History</value>
+</data>
+<data name="lblHorasProducto" xml:space="preserve">
+  <value>Hours</value>
+</data>
+<data name="lblHorasProductoAutonomo" xml:space="preserve">
+  <value>Hours</value>
+</data>
+<data name="lblHorasProductoBolsaHoras" xml:space="preserve">
+  <value>Hours</value>
+</data>
+<data name="lblImpAnexo" xml:space="preserve">
+  <value>Modalities before Bayes</value>
+</data>
+<data name="lblImpContrato" xml:space="preserve">
+  <value>Contract Modalities</value>
+</data>
+<data name="lblImporteARTarifa" xml:space="preserve">
+  <value>High Risk:</value>
+</data>
+<data name="lblImporteBRTarifa" xml:space="preserve">
+  <value>Low Risk:</value>
+</data>
+<data name="lblimporteqshd" xml:space="preserve">
+  <value>Digital Hospital Amount:</value>
+</data>
+<data name="lblImporteTarifa" xml:space="preserve">
+  <value>Amount according to Rate:</value>
+</data>
+<data name="lblImporteTarifa" xml:space="preserve">
+  <value>Amount according to Rate:</value>
+</data>
+<data name="lblImporteTarifaDescuento" xml:space="preserve">
+  <value>Amount applied:</value>
+</data>
+<data name="lblImporteTarifaDescuento" xml:space="preserve">
+  <value>Amount applied:</value>
+</data>
+<data name="lblImporteTarifaReco" xml:space="preserve">
+  <value>Amount according to Rate:</value>
+</data>
+<data name="lblImporteTarifaRecoDescuento" xml:space="preserve">
+  <value>Amount applied:</value>
+</data>
+<data name="lblImpPruebasVSI" xml:space="preserve">
+  <value>TOTAL VSI PRE-INVOICED AMOUNT</value>
+</data>
+<data name="lblIncluyeRecos" xml:space="preserve">
+  <value>Includes</value>
+</data>
+<data name="lblLegendAnexo" xml:space="preserve">
+  <value>Annexes</value>
+</data>
+<data name="lblLegendCentrosTotal" xml:space="preserve">
+  <value>Number of centers</value>
+</data>
+<data name="lblLegendCentrosTrabajo" xml:space="preserve">
+  <value>Work Centers</value>
+</data>
+<data name="lblLegendCtrBaja" xml:space="preserve">
+  <value>Contract Termination</value>
+</data>
+<data name="lblLegendCtrBaja2" xml:space="preserve">
+  <value>Contract Termination</value>
+</data>
+<data name="lblLegendCtrColaborador" xml:space="preserve">
+  <value>Collaborator</value>
+</data>
+<data name="lblLegendCtrContactos" xml:space="preserve">
+  <value>Client Contacts</value>
+</data>
+<data name="lblLegendCtrDirEnvFact" xml:space="preserve">
+  <value>Invoice Shipping Address</value>
+</data>
+<data name="lblLegendCtrDomiBanc" xml:space="preserve">
+  <value>Banking domiciliation</value>
+</data>
+<data name="lblLegendCtrFirma" xml:space="preserve">
+  <value>Signatories</value>
+</data>
+<data name="lblLegendCtrIndicadores" xml:space="preserve">
+  <value>Indicators</value>
+</data>
+<data name="lblLegendCtrRenoPrecios" xml:space="preserve">
+  <value>Renewal of Agreement Prices</value>
+</data>
+<data name="lblLegendCtrRespCap" xml:space="preserve">
+  <value>Contract Acquisition/Renewal</value>
+</data>
+<data name="lblLegendFacturacion" xml:space="preserve">
+  <value>Billing</value>
+</data>
+<data name="lblLegendGrupoOtrasActividades" xml:space="preserve">
+  <value>Training activities</value>
+</data>
+<data name="lblLegendHistColab" xml:space="preserve">
+  <value>Collaborator Data</value>
+</data>
+<data name="lblLegendHistDocumento" xml:space="preserve">
+  <value>Renewal Annex</value>
+</data>
+<data name="lblLegendHistTarifa" xml:space="preserve">
+  <value>Data</value>
+</data>
+<data name="lblLegendTarificacionAutonomos" xml:space="preserve">
+  <value>Self-employed</value>
+</data>
+<data name="lblLegendTarificacionBolsaHoras" xml:space="preserve">
+  <value>Hours Pool</value>
+</data>
+<data name="lblLegendTarificacionModalidades" xml:space="preserve">
+  <value>Modalities</value>
+</data>
+<data name="lblLegendTarificacionProductos" xml:space="preserve">
+  <value>Products</value>
+</data>
+<data name="lblLegendTrabTotal" xml:space="preserve">
+  <value>Total Workers</value>
+</data>
+<data name="lbllimpiarfiltroct" xml:space="preserve">
+  <value>Clear fields</value>
+</data>
+<data name="lblModalidades" xml:space="preserve">
+  <value>Prices/Hours</value>
+</data>
+<data name="lblModEPAnx" xml:space="preserve">
+  <value>EP</value>
+</data>
+<data name="lblModHIAnx" xml:space="preserve">
+  <value>HI</value>
+</data>
+<data name="lblModHorMed" xml:space="preserve">
+  <value>Medical Hours</value>
+</data>
+<data name="lblModHorMed" xml:space="preserve">
+  <value>Medical Hours</value>
+</data>
+<data name="lblModHorTec" xml:space="preserve">
+  <value>Technical Hours</value>
+</data>
+<data name="lblModHorTec" xml:space="preserve">
+  <value>Technical Hours</value>
+</data>
+<data name="lblModMTAnx" xml:space="preserve">
+  <value>MT</value>
+</data>
+<data name="lblModRPFAnexo" xml:space="preserve">
+  <value>RPF Amount</value>
+</data>
+<data name="lblModRPFCtrt" xml:space="preserve">
+  <value>RPF Amount</value>
+</data>
+<data name="lblModSheAnx" xml:space="preserve">
+  <value>SHE</value>
+</data>
+<data name="lblModSheCtrt" xml:space="preserve">
+  <value>SHE</value>
+</data>
+<data name="lblModSTAnx" xml:space="preserve">
+  <value>ST</value>
+</data>
+<data name="lblModTot" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblModTot" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblModTOTALAnx" xml:space="preserve">
+  <value>TOTAL</value>
+</data>
+<data name="lblModTotCtrt" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblMotivoDescuento" xml:space="preserve">
+  <value>Discount Reason</value>
+</data>
+<data name="lblMotivoDescuento" xml:space="preserve">
+  <value>Discount Reason</value>
+</data>
+<data name="lblNumpedidoF" xml:space="preserve">
+  <value>Fixed Order No.</value>
+</data>
+<data name="lblNumpedidoF" xml:space="preserve">
+  <value>Fixed Order No.</value>
+</data>
+<data name="lblNumpedidoV" xml:space="preserve">
+  <value>Variable Order No.</value>
+</data>
+<data name="lblNumpedidoV" xml:space="preserve">
+  <value>Variable Order No.</value>
+</data>
+<data name="lblOtrasPruebasExternas" xml:space="preserve">
+  <value>Rest of VSI tests</value>
+</data>
+<data name="lblPeriPago" xml:space="preserve">
+  <value>Billing Period</value>
+</data>
+<data name="lblPlazoPago" xml:space="preserve">
+  <value>Payment Term</value>
+</data>
+<data name="lblPrecio1" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecio2" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecio3" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecio4" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecioMedicoProducto" xml:space="preserve">
+  <value>Medical</value>
+</data>
+<data name="lblPrecioMedicoProductoAutonomo" xml:space="preserve">
+  <value>Medical</value>
+</data>
+<data name="lblPrecioMedicoProductoBolsaHoras" xml:space="preserve">
+  <value>Medical</value>
+</data>
+<data name="lblPrecioProducto" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecioProductoAutonomo" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecioProductoBolsaHoras" xml:space="preserve">
+  <value>Price</value>
+</data>
+<data name="lblPrecioTecnicoProducto" xml:space="preserve">
+  <value>Technical</value>
+</data>
+<data name="lblPrecioTecnicoProductoAutonomo" xml:space="preserve">
+  <value>Technical</value>
+</data>
+<data name="lblPrecioTecnicoProductoBolsaHoras" xml:space="preserve">
+  <value>Technical</value>
+</data>
+<data name="lblPrecioTotalProducto" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblPrecioTotalProductoAutonomo" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblPrecioTotalProductoBolsaHoras" xml:space="preserve">
+  <value>Total</value>
+</data>
+<data name="lblProvinciaDS" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblProvinciaEnvFact" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblProvinciaEnvFactP" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblProvinciaFilial" xml:space="preserve">
+  <value></value>
+</data>
+<data name="lblProvinciaNotario1" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblProvinciaNotario2" xml:space="preserve">
+  <value>Province</value>
+</data>
+<data name="lblRAPAnexo" xml:space="preserve">
+  <value>High Risk</value>
+</data>
+<data name="lblRAPCtrt" xml:space="preserve">
+  <value>High Risk</value>
+</data>
+<data name="lblRBPAnexo" xml:space="preserve">
+  <value>Low Risk</value>
+</data>
+<data name="lblRBPCtrt" xml:space="preserve">
+  <value>Low Risk</value>
+</data>
+<data name="lblReconocimientosPrefacturados" xml:space="preserve">
+  <value>Importe Reconocimientos Prefact.</value>
+</data>
+<data name="lblRecosVSI" xml:space="preserve">
+  <value>Reconocimientos</value>
+</data>
+<data name="lblRPFAnexo" xml:space="preserve">
+  <value>Reconocimientos</value>
+</data>
+<data name="lblRPFCtrato" xml:space="preserve">
+  <value>Reconocimientos</value>
+</data>
+<data name="lblRPFIncluidosAnexo" xml:space="preserve">
+  <value>Includes</value>
+</data>
+<data name="lblRPFIncluidosCtrt" xml:space="preserve">
+  <value>Includes</value>
+</data>
+<data name="lblTarifa" xml:space="preserve">
+  <value>Rate</value>
+</data>
+<data name="lblTerminadoToVigente" xml:space="preserve">
+  <value>Pasar a Vigente</value>
+</data>
+<data name="lblTramos" xml:space="preserve">
+  <value>Tramos :</value>
+</data>
+<data name="lblVacio" xml:space="preserve">
+  <value>lblVacio</value>
+</data>
+<data name="lblVacioAutonomo" xml:space="preserve">
+  <value>lblVacio</value>
+</data>
+<data name="lblVacioBolsaHoras" xml:space="preserve">
+  <value>lblVacio</value>
+</data>
+<data name="RFNLabel1" xml:space="preserve">
+  <value>Public Agency Data</value>
+</data>
+<data name="RFNLabel10" xml:space="preserve">
+  <value>El precio de la MT es el sumatorio de la Subscripción a Hospital Digital y la vigilancia de la salud colectiva</value>
+</data>
+<data name="RFNLabel2" xml:space="preserve">
+  <value>Contract Data</value>
+</data>
+<data name="RFNLabel5" xml:space="preserve">
+  <value>Total number of VSI tests in the contract</value>
+</data>
+<data name="RFNLabel6" xml:space="preserve">
+  <value>Download Work Centers</value>
+</data>
+<data name="RFNLabel9" xml:space="preserve">
+  <value>_.</value>
+</data>
+<data name="lblApellido1" xml:space="preserve">
+  <value>First Surname</value>
+</data>
+<data name="lblApellido2" xml:space="preserve">
+  <value>Second Surname</value>
+</data>
+<data name="lblCCC" xml:space="preserve">
+  <value>CCC</value>
+</data>
+<data name="lblccdTarifaAutonomos" xml:space="preserve">
+  <value>Rate</value>
+</data> 
+<data name="lblccdTarifaBolsaHoras" xml:space="preserve">
+  <value>Rate</value>
+</data>
+<data name="lblccdTarifaModalidad" xml:space="preserve">
+  <value>Rate</value>
+</data>
+<data name="lblccdTarifaProductos" xml:space="preserve">
+  <value>Rate</value>
+</data>
+<data name="lblCentros" xml:space="preserve">
+  <value>Work Center Data</value>
+</data>
+<data name="lblCodAnexo" xml:space="preserve">
+  <value>Anexo</value>
+</data>
+<data name="lblCodContrato" xml:space="preserve">
+  <value>Cod. Contrato</value>
+</data>
+<data name="lblCtrCodContratoFirma" xml:space="preserve">
+  <value>Cod. Contrato</value>
+</data>
+<data name="lblCtrCodPresupuestoFirma" xml:space="preserve">
+  <value>Cod. Presupuesto</value>
+</data>
+<data name="lblCtrColaborador" xml:space="preserve">
+  <value>Collaborator</value>
+</data>
+<data name="lblCtrEstadoContratoFirma" xml:space="preserve">
+  <value>Estado Contrato</value>
+</data>
+<data name="lblCtrFecColabDesde" xml:space="preserve">
+  <value>Fecha Desde</value>
+</data>
+<data name="lblCtrFecFirma" xml:space="preserve">
+  <value>Fecha de Firma</value>
+</data>
+<data name="lblCtrFecPoderDirectivo1" xml:space="preserve">
+  <value>Fecha Poder</value>
+</data>
+<data name="lblCtrFecPoderDirectivo2" xml:space="preserve">
+  <value>Fecha Poder</value>
+</data>
+<data name="lblCtrRespRenovacion" xml:space="preserve">
+  <value>Persona QP de Contacto</value>
+</data>
+<data name="lblCtrtSAP" xml:space="preserve">
+  <value>Contrato SAP</value>
+</data>
+<data name="lblDc" xml:space="preserve">
+  <value>DC</value>
+</data>
+<data name="lblEmailFilial" xml:space="preserve">
+  <value>Client's Email</value>
+</data>
+<data name="lblFecAnexoRenovacion" xml:space="preserve">
+  <value>Fecha anexo</value>
+</data>
+<data name="lblFecPoderNotario1" xml:space="preserve">
+  <value>Fecha Poder</value>
+</data>
+<data name="lblFecPoderNotario2" xml:space="preserve">
+  <value>Fecha Poder</value>
+</data>
+<data name="lblfiltro2" xml:space="preserve">
+  <value>Código Centro Ventas</value>
+</data>
+<data name="lblfiltro3" xml:space="preserve">
+  <value>Reference</value>
+</data>
+<data name="lblfiltro4" xml:space="preserve">
+  <value>Código Centro Prestación</value>
+</data>
+<data name="lblIban" xml:space="preserve">
+  <value>IBAN</value>
+</data>
+<data name="lblIdentificador" xml:space="preserve">
+  <value>CIF</value>
+</data>
+<data name="lblImpRPF" xml:space="preserve">
+  <value>IMP. Reco.P.F</value>
+</data>
+<data name="lblImpUndIncl" xml:space="preserve">
+  <value>€/Und Incl.</value>
+</data>
+<data name="lbllineaproducto" xml:space="preserve">
+  <value>Linea Producto</value>
+</data>
+<data name="lblNIncluidos" xml:space="preserve">
+  <value>Nº Incluidos</value>
+</data>
+<data name="lblNomBanco" xml:space="preserve">
+  <value>Banco</value>
+</data>
+<data name="lblNombre" xml:space="preserve">
+  <value>Name</value>
+</data>
+<data name="lblNombreCompleto" xml:space="preserve">
+  <value>Social Name</value>
+</data>
+<data name="lblNumCuenta" xml:space="preserve">
+  <value>Cuenta</value>
+</data>
+<data name="lblPersonaFilial" xml:space="preserve">
+  <value>Contacto del cliente</value>
+</data>
+<data name="lblRazonSocialAnexoRenovacion" xml:space="preserve">
+  <value>Social Name</value>
+</data>
+<data name="lblTelefonoFilial" xml:space="preserve">
+  <value>Client's Phone</value>
+</data>
+<data name="lblTipDocu" xml:space="preserve">
+  <value>Type</value>
+</data>
+<data name="lblTipoAnaliticaCompuesta" xml:space="preserve">
+  <value>Analytical</value>
+</data>
+<data name="lblTipoAnaliticaPerfil" xml:space="preserve">
+  <value>Profile</value>
+</data>
+<data name="lblTipoAnaliticaSimple" xml:space="preserve">
+  <value>Analytical</value>
+</data>
