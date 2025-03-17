@@ -979,11 +979,6 @@ Friend Shared ReadOnly Property lblDescMed() As String
         Return ResourceManager.GetString("lblDescMed", resourceCulture)
     End Get
 End Property
-Friend Shared ReadOnly Property lblDescMed() As String
-    Get
-        Return ResourceManager.GetString("lblDescMed", resourceCulture)
-    End Get
-End Property
 Friend Shared ReadOnly Property lblDescRecoAlta() As String
     Get
         Return ResourceManager.GetString("lblDescRecoAlta", resourceCulture)
@@ -997,16 +992,6 @@ End Property
 Friend Shared ReadOnly Property lblDescTec() As String
     Get
         Return ResourceManager.GetString("lblDescTec", resourceCulture)
-    End Get
-End Property
-Friend Shared ReadOnly Property lblDescTec() As String
-    Get
-        Return ResourceManager.GetString("lblDescTec", resourceCulture)
-    End Get
-End Property
-Friend Shared ReadOnly Property lblDescTecHoras() As String
-    Get
-        Return ResourceManager.GetString("lblDescTecHoras", resourceCulture)
     End Get
 End Property
 Friend Shared ReadOnly Property lblDescTecHoras() As String
@@ -1179,16 +1164,6 @@ Friend Shared ReadOnly Property lblImporteTarifa() As String
         Return ResourceManager.GetString("lblImporteTarifa", resourceCulture)
     End Get
 End Property
-Friend Shared ReadOnly Property lblImporteTarifa() As String
-    Get
-        Return ResourceManager.GetString("lblImporteTarifa", resourceCulture)
-    End Get
-End Property
-Friend Shared ReadOnly Property lblImporteTarifaDescuento() As String
-    Get
-        Return ResourceManager.GetString("lblImporteTarifaDescuento", resourceCulture)
-    End Get
-End Property
 Friend Shared ReadOnly Property lblImporteTarifaDescuento() As String
     Get
         Return ResourceManager.GetString("lblImporteTarifaDescuento", resourceCulture)
@@ -1354,16 +1329,6 @@ Friend Shared ReadOnly Property lblModHorMed() As String
         Return ResourceManager.GetString("lblModHorMed", resourceCulture)
     End Get
 End Property
-Friend Shared ReadOnly Property lblModHorMed() As String
-    Get
-        Return ResourceManager.GetString("lblModHorMed", resourceCulture)
-    End Get
-End Property
-Friend Shared ReadOnly Property lblModHorTec() As String
-    Get
-        Return ResourceManager.GetString("lblModHorTec", resourceCulture)
-    End Get
-End Property
 Friend Shared ReadOnly Property lblModHorTec() As String
     Get
         Return ResourceManager.GetString("lblModHorTec", resourceCulture)
@@ -1404,11 +1369,6 @@ Friend Shared ReadOnly Property lblModTot() As String
         Return ResourceManager.GetString("lblModTot", resourceCulture)
     End Get
 End Property
-Friend Shared ReadOnly Property lblModTot() As String
-    Get
-        Return ResourceManager.GetString("lblModTot", resourceCulture)
-    End Get
-End Property
 Friend Shared ReadOnly Property lblModTOTALAnx() As String
     Get
         Return ResourceManager.GetString("lblModTOTALAnx", resourceCulture)
@@ -1424,24 +1384,9 @@ Friend Shared ReadOnly Property lblMotivoDescuento() As String
         Return ResourceManager.GetString("lblMotivoDescuento", resourceCulture)
     End Get
 End Property
-Friend Shared ReadOnly Property lblMotivoDescuento() As String
-    Get
-        Return ResourceManager.GetString("lblMotivoDescuento", resourceCulture)
-    End Get
-End Property
 Friend Shared ReadOnly Property lblNumpedidoF() As String
     Get
         Return ResourceManager.GetString("lblNumpedidoF", resourceCulture)
-    End Get
-End Property
-Friend Shared ReadOnly Property lblNumpedidoF() As String
-    Get
-        Return ResourceManager.GetString("lblNumpedidoF", resourceCulture)
-    End Get
-End Property
-Friend Shared ReadOnly Property lblNumpedidoV() As String
-    Get
-        Return ResourceManager.GetString("lblNumpedidoV", resourceCulture)
     End Get
 End Property
 Friend Shared ReadOnly Property lblNumpedidoV() As String

@@ -2121,7 +2121,7 @@
                                         <div class="subelementosSeccionPrincipal" id="datospersonaFilial" runat="server" style="display: none">
                                             <fieldset id="fsFilial" class="seccionesPrincipales">
                                                 <legend>
-                                                    <label id="lblPersonaFilial" runat="server" for="txtPersonaFilial" class="lblEtiquetas">Contacto del cliente</label>
+                                                    <label id="datosAsociadosFilial" runat="server" for="txtPersonaFilial" class="lblEtiquetas">Datos de Contacto asociados a filial</label>
                                                 </legend>
                                                 <table>
                                                     <tr>
@@ -2868,7 +2868,7 @@
 
                                                 <fieldset id="fsFiltrosCursos" class="seccionesFieldSetN5" runat="server" style="display: block">
                                                     <legend>
-                                                        <label id="lblfiltro3" runat="server" for="filtro3" class="lblEtiquetas" style="width: 100px">Referencia</label>
+                                                        <label id="lblfiltrosCT" runat="server">Filtros de búsqueda</label>
                                                     </legend>
                                                     <div>
                                                         <table>
@@ -2997,7 +2997,11 @@
                                     <asp:Panel ID="PanelPopDomicilio" runat="server" Style="display: none">
                                         <fieldset id="fsCentro" class="elementosFsSeccionPrincipal">
                                             <legend>
-                                                <label id="lblReferenciaDomi" runat="server" for="txtReferenciaDomi" class="lblEtiquetas">Referencia</label>
+                                                <label id="lblCentros" runat="server">Datos Centro de Trabajo</label>
+                                            </legend>
+                                            <div class="subelementosSeccionPrincipalPadd">
+                                                <div class="elementosSeccionPrincipal">
+                                                    <label id="lblReferenciaDomi" runat="server" for="txtReferenciaDomi" class="lblEtiquetas">Referencia</label>
                                                     <rfn:RFNTextbox ID="txtReferenciaDomi" Width="300px" runat="server" Enabled="True"
                                                         Requerido="False">
                                                     </rfn:RFNTextbox>
@@ -3367,7 +3371,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse;">
-                                                                        <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras" style="width: 110px; pointer-events: none; opacity: 0.6; border-collapse: collapse;">%Desc. Téc. Horas</label>
+                                                                        <label id="lblDescTec" runat="server" for="txtDescTec" style="width: 110px; pointer-events: none; opacity: 0.6; border-collapse: collapse;">%%Desc. Téc.</label>
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="border-collapse: collapse;">
@@ -3389,7 +3393,7 @@
                                                                     <td>&nbsp;
                                                                     </td>
                                                                     <td style="border-collapse: collapse;">
-                                                                        <label id="lblMotivoDescuento" runat="server" for="txtMotivoDescuento" class="lblEtiquetas" style="border-collapse: collapse;">Motivo de Descuento</label>
+                                                                        <label id="lblDescMed" runat="server" for="txtDescMed">%Desc. Méd.</label>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -3413,12 +3417,12 @@
                                                             <div class="elementoDescuento">
                                                                 <rfn:RFNTextbox ID="txtDescTec" Width="80px" runat="server" TipoDato="DecimalPositivo"
                                                                     MaxLength="10" Enabled="False" ViewStateMode="Enabled" MaxValue="100"></rfn:RFNTextbox>
-                                                                <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras" class="elementoDescuento" style="width: 80px; pointer-events: none; opacity: 0.6">%Desc. Téc. Horas</label>
+                                                                <label id="lblDescTec" runat="server" for="txtDescTecHoras" class="elementoDescuento" style="width: 80px; pointer-events: none; opacity: 0.6">%Desc. Téc. Horas</label>
                                                             </div>
                                                             <div class="elementoDescuento">
                                                                 <rfn:RFNTextbox ID="txtDescTecHoras" Width="80px" runat="server" TipoDato="DecimalPositivo"
                                                                     MaxLength="10" Enabled="False" ViewStateMode="Enabled" MaxValue="100"></rfn:RFNTextbox>
-                                                                <label id="lblDescTecHoras" runat="server" for="txtDescTecHoras">%Desc. Téc. Horas</label>
+                                                                <label id="lblDescTecHoras" runat="server" for="txtDescTec">%Desc. Téc. Horas</label>
                                                             </div>
                                                             <div class="elementoDescuento">
                                                                 <rfn:RFNTextbox ID="txtDescMed" Width="80px" runat="server" TipoDato="DecimalPositivo"
@@ -3438,7 +3442,7 @@
                                                             <%--<div class="elementosSeccionPrincipalPadd3">--%>
                                                             <fieldset id="fsModalidades" class="seccionPrincipalModalidad">
                                                                 <legend>
-                                                                    <label id="lblModTot" runat="server" for="txtModTot" class="lblEtiquetasPadd" style="border-collapse: collapse">Total</label>
+                                                                    <label id="lblModalidades" runat="server">Precios/Horas</label>
                                                                 </legend>
                                                                 <%--<div class="subelementosSeccionPrincipal">--%>
                                                                 <table style="border-collapse: collapse;">
@@ -3484,7 +3488,7 @@
                                                                     <tr style="border-collapse: collapse; width: 100%; display: none">
                                                                         <%--Fila de las cajas de texto--%>
                                                                         <td style="border-collapse: collapse;">
-                                                                            <label id="lblImporteTarifaDescuento" runat="server" style="width: 110px; pointer-events: none; opacity: 0.6; border-collapse: collapse;">Importe aplicado:</label>
+                                                                            <label id="lblImporteTarifa" runat="server">Importe según Tarifa:</label>
                                                                         </td>
                                                                         <td style="border-collapse: collapse">
                                                                             <rfn:RFNTextbox ID="txtModST" Width="70px" runat="server" TipoDato="Moneda" Enabled="False">        </rfn:RFNTextbox>
@@ -3576,7 +3580,7 @@
                                                                     <%--<tr style="border-collapse: collapse; width: 100%;">--%>
                                                                     <tr>
                                                                         <td style="border-collapse: collapse">
-                                                                            <label id="lblImporteTarifa" runat="server" class="subelementosSeccionPrincipal" style="width: 70px; pointer-events: none; opacity: 0.6; display: none">Importe según Tarifa:</label>
+                                                                            <label id="lblimporteqshd" runat="server" style="width: 110px;">Importe Hospital Digital: </label>
                                                                         </td>
 
                                                                         <td style="border-collapse: collapse">
@@ -3692,7 +3696,27 @@
                                                             <div id="divLeyendaColore2" class="subelementosSeccionPrincipalPadd2">
                                                                 <div class="elementosSeccionPrincipalCercano">
                                                                     <br />
-                                                                    <label id="lblLegendTarificacionProductos" runat="server" class="seccionesPrincipales3" style="background-color: Red; color: Red; font-weight: bold; width: 100%; display: table; display: none;">Productos</label>
+                                                                    <label id="RFNLabel9" runat="server">_.</label>
+                                                                    <label id="RFNLabel10" runat="server">El precio de la MT es el sumatorio de la Subscripción a Hospital Digital y la vigilancia de la salud colectiva</label>
+                                                                </div>
+                                                            </div>
+                                                            <%--</div>--%>
+                                                            <%--     </div>--%>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </ContentTemplate>
+                                        </asp:UpdatePanel>
+                                    </rfn:RFNPanel>
+                                </div>
+                                <div id="divOcultarapProductos" runat="server" style="display: none;">
+                                    <rfn:RFNPanel ID="apProductos" runat="server" EstiloContenedor="False" Titulo="Productos"
+                                        Visualizacion="Seccion" Collapsable="False" Collapsed="False" Width="100%" Display="table">
+                                        <asp:UpdatePanel ID="upProductos" runat="server" UpdateMode="Conditional" ChildrenAsTriggers="False">
+                                            <ContentTemplate>
+                                                <fieldset id="fsTarificacionProductos" class="seccionesPrincipales3">
+                                                    <legend>
+                                                        <label id="lblLegendTarificacionProductos" runat="server" class="seccionesPrincipales3" style="background-color: Red; color: Red; font-weight: bold; width: 100%; display: table; display: none;">Productos</label>
                                                     </legend>
 
                                                     <div runat="server" id="dvlineaproducto">
@@ -3740,7 +3764,7 @@
                                                                 <div class="subelementosSeccionPrincipalPaddProducto">
                                                                     <div class="elementosSeccionPrincipalProducto">
                                                                         <label id="lblVacio" runat="server" class="lblEtiquetas" style="color: White">lblVacio</label>
-                                                                        <label id="lblPrecioProducto" runat="server" class="lblEtiquetas" style="width: 50px">Precio</label>
+                                                                        <label id="lblPrecioTecnicoProducto" runat="server" class="lblEtiquetas" style="width: 50px">Técnico</label>
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalProducto">
                                                                         <label id="lblPrecioProducto" runat="server" class="lblEtiquetas">Precio</label>
@@ -3748,7 +3772,7 @@
                                                                             Width="75px" Enabled="False" Text="0" />
                                                                     </div>
                                                                     <div class="elementosSeccionPrincipalProducto">
-                                                                        <label id="lblPrecioMedicoProducto" runat="server" class="lblEtiquetas" style="width: 50px; pointer-events: none; opacity: 0.6">Médico</label>
+                                                                        <label id="lblHorasProducto" runat="server" class="lblEtiquetas" style="width: 50px; pointer-events: none; opacity: 0.6">Médico</label>
                                                                         <rfn:RFNTextbox ID="txtHorasTecnicoProducto" runat="server" TipoDato="DecimalPositivo"
                                                                             Width="75px" Enabled="False" Text="0" />
                                                                     </div>
@@ -3848,7 +3872,7 @@
                                                                 <label id="lblPrecioTecnicoProductoAutonomo" runat="server" style="width: 50px">Técnico</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <label id="lblHorasProductoAutonomo" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6">Horas</label>
+                                                                <label id="lblPrecioProductoAutonomo" runat="server" class="lblEtiquetas">Precio</label>
                                                                 <rfn:RFNTextbox ID="txtPrecioTecnicoProductoAutonomo" runat="server" TipoDato="DecimalPositivo"
                                                                     Width="75px" Enabled="False" Text="0" />
                                                             </div>
@@ -3860,7 +3884,7 @@
                                                         </div>
                                                         <div class="subelementosSeccionPrincipalPaddProducto">
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <label id="lblPrecioTotalProductoAutonomo" runat="server" class="elementosSeccionPrincipalProducto" style="font-weight: bold; width: 50px; pointer-events: none; opacity: 0.6">Total</label>
+                                                                <label id="lblPrecioMedicoProductoAutonomo" runat="server" style="width: 50px;">Medico</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
                                                                 <rfn:RFNTextbox ID="txtPrecioMedicoProductoAutonomo" runat="server" TipoDato="DecimalPositivo"
@@ -3949,7 +3973,7 @@
                                                                 <label id="lblPrecioTecnicoProductoBolsaHoras" runat="server" style="width: 50px">Técnico</label>
                                                             </div>
                                                             <div class="elementosSeccionPrincipalProducto">
-                                                                <label id="lblHorasProductoBolsaHoras" runat="server" class="lblEtiquetas" style="width: 75px; pointer-events: none; opacity: 0.6">Horas</label>
+                                                                <label id="lblPrecioProductoBolsaHoras" runat="server" class="lblEtiquetas">Precio</label>
                                                                 <rfn:RFNTextbox ID="txtPrecioTecnicoProductoBolsaHoras" runat="server" TipoDato="DecimalPositivo"
                                                                     Width="75px" Enabled="False" Text="0" />
                                                             </div>
@@ -4025,7 +4049,7 @@
                                         <div class="subelementosSeccionPrincipal">
                                             <div class="elementosSeccionPrincipalCercano">
                                                 <div class="subelementosSeccionPrincipal" style="display: none">
-                                                    <label id="lblImporteTarifaRecoDescuento" runat="server" class="subelementosSeccionPrincipal">Importe aplicado:</label>
+                                                    <label id="lblImporteTarifaReco" runat="server">Importe según Tarifa: </label>
                                                 </div>
                                                 <div class="subelementosSeccionPrincipal">
                                                     <label id="lblImporteTarifaRecoDescuento" runat="server">Importe aplicado:</label>
@@ -4118,7 +4142,7 @@
                                             <div class="subelementosSeccionPrincipalPadd2">
                                                 <fieldset id="fsCtrIndicadores" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <label id="lblRefFact" runat="server" for="txtRefFact" class="lblEtiquetas" style="font-weight: False; width: 75px; pointer-events: none; opacity: 0.6: True; display: none">Ref. Factura</label>
+                                                        <label id="lblLegendCtrIndicadores" runat="server" for="txtRefFact" class="lblEtiquetas" style="font-weight: False; width: 75px; pointer-events: none; opacity: 0.6: True; display: none">Indicadores</label>
                                                     </legend>
                                                     <div class="subelementosSeccionPrincipalPadd">
                                                         <div class="elementosSeccionPrincipalCercano">
@@ -4414,7 +4438,7 @@
                                             <div class="subelementosSeccionPrincipalPadd2">
                                                 <fieldset id="fsCtrDirEnvFact" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <label id="lblProvinciaEnvFact" runat="server" for="cmbProvinciaEnvFact" class="lblEtiquetas">Provincia</label>
+                                                        <label id="lblLegendCtrDirEnvFact" runat="server">Dirección de envío de facturas</label>
                                                     </legend>
                                                     <div id="dirEnvFact" class="mostrarControl">
                                                         <div class="subelementosSeccionPrincipal">
@@ -4554,7 +4578,7 @@
                                             <div class="subelementosSeccionPrincipalPadd2">
                                                 <fieldset id="fsCtDomiBanc" class="seccionesPrincipales3">
                                                     <legend>
-                                                        <label id="lblNombreCompleto" runat="server" for="txtNombre" class="lblEtiquetas">Razón Social</label>
+                                                        <label id="lblLegendCtrDomiBanc" runat="server">Domiciliación Bancaria</label>
                                                     </legend>
                                                     <div class="subelementosSeccionPrincipal">
                                                         <div id="nomColectivo" class="elementosSeccionPrincipal">
@@ -4625,7 +4649,7 @@
                                                                 OnClientChange="cambioCuenta"></rfn:RFNCuentaBancaria>
                                                         </div>
                                                         <div class="elementosSeccionPrincipalDS">
-                                                            <label id="lblFsAnalPerfil" runat="server" class="seccionesPrincipales" style="color: Red; width: 100%; display: table; pointer-events: none; opacity: 0.6; display: none;">Perfiles</label>
+                                                            <label id="lblfact" runat="server" style="color: Red; display: none;">Según los permisos que usted tiene no puede introducir la cuenta bancaria del contrato.</label>
                                                         </div>
                                                     </div>
                                                 </fieldset>
@@ -5110,7 +5134,7 @@
 
                                     <fieldset id="fsPruebasExternas" class="seccionesFieldSetN5">
                                         <legend>
-                                            <label id="RFNLabel5" runat="server" class="seccionesPrincipales">Número total de Pruebas VSI en el contrato</label>
+                                            <label id="lblOtrasPruebasExternas" runat="server">Resto de pruebas VSI</label>
                                         </legend>
 
 
@@ -5321,7 +5345,7 @@
                                             <div class="elementoFila99Por">
                                                 <fieldset id="fsDatosAnexoRenovacion" class="elementoFila99Por" style="margin: 0px 20px 20px 10px; width: 96%;">
                                                     <legend>
-                                                        <label id="RFNLabel2" runat="server" class="seccionesPrincipales_prueba" style="width: 94%;">Datos Contrato</label>
+                                                        <label id="lblLegendHistDocumento" runat="server">Anexo Renovación</label>
                                                     </legend>
                                                     <div class="elementoColumna">
                                                         <fieldset id="fsDatosContrato" class="seccionesPrincipales_prueba" style="width: 94%;">
